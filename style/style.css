@@ -1,0 +1,863 @@
+/*Reset styles*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+/*Header Styles*/
+body {
+  min-height: 100vh;
+  background-color: #ecf3fe;
+}
+.nav__Container {
+  /*position: fixed;*/
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #151c37;
+  align-items: center;
+  justify-content: space-between;
+  /*z-index: 1;*/
+}
+
+.nav__Items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav__logo {
+  background: radial-gradient(#19d3e8, #af2cff);
+  font-family: "Roboto";
+  font-size: 2.5rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+}
+
+.nav__menu {
+  font-family: "Play";
+  color: white;
+  font-size: 1.8rem;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.searchBar {
+  padding-left: 45px;
+  padding-right: 40px;
+}
+
+.searchEngine {
+  background-color: #6d707ec0;
+  font-size: 1.3rem;
+  font-family: "Play";
+  height: 46px;
+  width: 390px;
+  border-bottom-left-radius: 20px;
+}
+
+.searchIcon {
+  position: relative;
+  right: 45px;
+  top: 7px;
+  height: 30px;
+  width: 30px;
+  list-style: none;
+}
+
+.myAccountIcons {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.myAccount {
+  height: 40px;
+  width: 42px;
+}
+
+.navBrands__Container {
+  /*position: fixed;*/
+  width: 100%;
+  top: 11%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 8vh;
+  background-color: #c4c4c4;
+  align-items: center;
+  justify-content: space-around;
+  /*z-index: 1;*/
+}
+
+.navBrands__items:nth-child(2) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 0 190px;
+}
+
+/*Body Styles*/
+.title {
+  font-family: "Open Sans";
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-family: "Open Sans";
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 0 133px 20px;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.bannerText {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 5px;
+  color: white;
+  font-family: "Open Sans";
+  letter-spacing: 2px;
+  font-size: 2rem;
+  font-weight: 800;
+  padding: 5px 400px;
+}
+
+.games2022 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 130px;
+}
+
+.bannerText--desc {
+  position: absolute;
+  color: white;
+  font-family: "Open Sans";
+  letter-spacing: 1.5px;
+  font-size: 1.85rem;
+  font-weight: 300;
+  top: inherit;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  padding: 0 200px;
+}
+
+.favGames__Container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.titlePopular {
+  font-family: "Roboto";
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #151c37;
+  margin-top: 30px;
+  margin-bottom: 45px;
+  margin-left: 15px;
+  padding-left: 15px;
+  border-left: 10px solid #6e3dc8;
+}
+
+.popGames__Container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.popGames__items {
+  background-color: #151c37;
+  border-radius: 15px;
+  width: 168px;
+  height: 355px;
+  transition: height 0.4s;
+}
+
+.popGames__items:hover {
+  height: 410px;
+}
+
+.positionImgs {
+  position: absolute;
+  top: 1372px;
+}
+
+.editionGames {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 600;
+  font-size: 1rem;
+  color: white;
+  padding-top: 240px;
+}
+
+.categorieGames__Container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+
+.categorieGames__items {
+  margin-top: 12px;
+  margin-left: 4px;
+  position: absolute;
+  background-color: #c4c4c452;
+  border-radius: 5px;
+  width: 60px;
+}
+
+.categorieGames__itemsSec {
+  margin-top: 12px;
+  margin-left: 66px;
+  position: absolute;
+  background-color: #c4c4c452;
+  border-radius: 5px;
+  width: 100px;
+}
+
+.categorieText {
+  font-family: "Open Sans";
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.categoriePrice {
+  font-family: "Open Sans";
+  color: white;
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.categorieAnimation {
+  font-family: "Open Sans";
+  color: #ecf3fe;
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-align: center;
+  border: 1.5px solid #ecf3fe;
+  border-radius: 3px;
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 60%;
+  padding: 5px;
+  transition: all 0.5s ease;
+}
+
+.categorieAnimation:hover,
+.categorieAnimation:focus {
+  background-color: #ecf3fe;
+  color: #151c37;
+}
+
+/*Hot News Styles*/
+
+.hotNews__Container {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+  grid-gap: 1rem;
+}
+
+.hotNews__card1 {
+  color: white;
+  background-image: url("../img/xbox-bethesda\ 2.png");
+  background-size: cover;
+  padding: 4rem 95px 0;
+  border-radius: 1rem;
+  min-width: 245px;
+  overflow: hidden;
+  transition: transform 300ms ease;
+  margin-top: 100px;
+  margin-left: 150px;
+  padding-right: 0px;
+  padding-left: 0px;
+  /*object-fit: cover;
+  width: 95%;
+  height: 100%;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;*/
+}
+
+.hotNews__card1:hover,
+.hotNews__card1:focus-within {
+  transform: scale(1.05);
+}
+
+.hotNews-cardContent {
+  padding: 1.8rem;
+  background: linear-gradient(black, rgba(0, 0, 0, 0.5));
+  transform: translateY(65%);
+  transition: transform 300ms ease;
+  font-family: "Open Sans";
+  font-size: 1.5rem;
+  text-align: left;
+  width: 460px;
+}
+
+.hotNews__card1:hover .hotNews-cardContent {
+  transform: translateY(0);
+  transition-delay: 500ms;
+}
+
+.detailsButton {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: #6e4aff;
+  padding: 0.2rem 1rem;
+  border-radius: 0.25rem;
+  transition: all 0.5s ease;
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 333px;
+}
+
+.detailsButton:hover,
+.detailsButton:focus {
+  background-color: white;
+  color: black;
+}
+
+.hotNews__card2 {
+  color: white;
+  background-image: url("../img/playstation-bungie\ 1.png");
+  background-size: cover;
+  padding: 4rem 95px 0;
+  border-radius: 1rem;
+  min-width: 245px;
+  overflow: hidden;
+  transition: transform 300ms ease;
+  margin-top: 100px;
+  margin-left: 280px;
+  padding-right: 0px;
+  padding-left: 0px;
+  /*object-fit: cover;
+  width: 95%;
+  height: 100%;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;*/
+}
+
+.hotNews__card2:hover,
+.hotNews__card2:focus-within {
+  transform: scale(1.05);
+}
+
+.hotNews__card2:hover .hotNews-cardContent {
+  transform: translateY(0);
+  transition-delay: 500ms;
+}
+
+.hotNews__card4 {
+  color: white;
+  background-image: url("../img/News-Netflix\ 1.png");
+  background-size: cover;
+  padding: 4rem 95px 0;
+  border-radius: 1rem;
+  min-width: 245px;
+  overflow: hidden;
+  transition: transform 300ms ease;
+  margin-top: 100px;
+  margin-left: 275px;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: 220px;
+  /*object-fit: cover;
+  width: 95%;
+  height: 100%;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;*/
+}
+
+.hotNews__card4:hover,
+.hotNews__card4:focus-within {
+  transform: scale(1.05);
+}
+
+.hotNews__card4:hover .hotNews-cardContent {
+  transform: translateY(0);
+  transition-delay: 500ms;
+}
+
+.hotNews__card5 {
+  color: white;
+  background-image: url("../img/News-steamdeck\ 1.png");
+  background-size: cover;
+  padding: 4rem 95px 0;
+  border-radius: 1rem;
+  min-width: 245px;
+  overflow: hidden;
+  transition: transform 300ms ease;
+  margin-top: 350px;
+  margin-left: 200px;
+  padding-right: 0px;
+  padding-left: 0px;
+  /*object-fit: cover;
+  width: 95%;
+  height: 100%;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;*/
+}
+
+.hotNews__card5:hover,
+.hotNews__card5:focus-within {
+  transform: scale(1.05);
+}
+
+.hotNews__card5:hover .hotNews-cardContent {
+  transform: translateY(0);
+  transition-delay: 500ms;
+}
+
+/*Newsletter Styles*/
+
+.newsletter__Container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.newsTitle {
+  font-family: "Roboto";
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.5em;
+  width: 25%;
+  padding-top: 25px;
+}
+
+.newsParagraph {
+  font-family: "Roboto";
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  width: 50%;
+}
+
+.newsEmail {
+  position: absolute;
+  top: 242%;
+  left: 43.8%;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1.3rem;
+  border: 1px solid gray;
+  width: 50%;
+  height: 4%;
+  border-radius: 10px;
+}
+
+.newsEmail--aboutUs {
+  position: absolute;
+  top: 323%;
+  left: 43.8%;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1.3rem;
+  border: 1px solid gray;
+  width: 50%;
+  height: 4%;
+  border-radius: 10px;
+}
+
+.imageBackground {
+  background-image: url("/img/Newsletter_Home.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 20vh;
+  margin-top: 130px;
+}
+
+/*Footer Styles*/
+
+.footer__Container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #151c37;
+  height: 20vh;
+}
+
+.footer__title {
+  font-family: "Roboto";
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-self: center;
+}
+
+.footerNav {
+  font-family: "Play";
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: white;
+  padding-top: 10px;
+  padding-right: 50px;
+}
+
+.footerList {
+  font-family: "Play";
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2rem;
+  padding-top: 10px;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+.decorationInformation {
+  color: inherit;
+  text-decoration: none;
+  list-style: none;
+}
+
+.footerIcons {
+  position: absolute;
+  padding-top: 4px;
+}
+
+.footerContact {
+  padding-left: 40px;
+}
+
+.socialFb {
+  position: absolute;
+  width: 2.5%;
+  padding-top: 15px;
+  padding-left: 60px;
+}
+
+.socialInstagram {
+  position: absolute;
+  width: 2.5%;
+  padding-top: 15px;
+  padding-left: 120px;
+}
+
+.socialTwitter {
+  position: absolute;
+  width: 2.5%;
+  padding-top: 15px;
+  padding-left: 180px;
+}
+
+.paymentAmex {
+  position: absolute;
+  left: 0;
+  padding-left: 695px;
+  padding-top: 15px;
+}
+
+.paymentVisa {
+  position: absolute;
+  left: 0;
+  padding-left: 765px;
+  padding-top: 15px;
+}
+
+.paymentMasterC {
+  position: absolute;
+  left: 0;
+  padding-left: 833px;
+  padding-top: 15px;
+}
+
+/*ABOUT US PAGE STYLES*/
+.backgroundImg {
+  margin: auto;
+  display: block;
+}
+
+.titleAboutUs {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 3.5rem;
+  color: rgba(21, 28, 55, 0.8);
+  letter-spacing: 0.1rem;
+  -webkit-text-stroke: 1.5px;
+  -webkit-text-stroke-color: #151c37;
+  position: absolute;
+  left: 565px;
+  bottom: 323px;
+}
+
+.subTitleAboutUs {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 2.6rem;
+  color: #151c37;
+  letter-spacing: 1rem;
+  position: absolute;
+  left: 320px;
+  bottom: 248px;
+}
+
+.weLove {
+  font-family: "Play";
+  font-weight: 700;
+  color: #151c37;
+  font-size: 2.5rem;
+  text-align: left;
+  margin-left: 15px;
+  margin-top: 60px;
+}
+
+.weLove--handpick {
+  font-family: "Play";
+  font-weight: 700;
+  color: #151c37;
+  font-size: 2.5rem;
+  text-align: right;
+  margin-right: 15px;
+  margin-top: 90px;
+}
+
+.weLoveText {
+  font-family: "Play";
+  font-weight: 400;
+  color: #151c37;
+  font-size: 2rem;
+  text-align: left;
+  margin-left: 15px;
+  margin-top: 20px;
+  width: 60%;
+}
+
+.weLoveText--handpick {
+  font-family: "Play";
+  font-weight: 400;
+  color: #151c37;
+  font-size: 2rem;
+  text-align: right;
+  margin-right: 15px;
+  margin-top: 20px;
+  margin-left: 630px;
+}
+
+.chooseUs {
+  font-family: "Play";
+  font-weight: 700;
+  color: #6e3dc8;
+  font-size: 2rem;
+  text-align: center;
+  padding: 60px;
+}
+
+.chooseUs__Container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.chooseUs__ItemsTitles {
+  font-family: "Play";
+  font-weight: 700;
+  color: #151c37;
+  font-size: 2rem;
+  list-style: none;
+  text-align: center;
+}
+
+.chooseUs__ItemsParagraph--goal {
+  font-family: "Play";
+  font-weight: 400;
+  color: #151c37;
+  font-size: 1.8rem;
+  list-style: none;
+  text-align: left;
+  width: 90%;
+  padding-left: 15px;
+  padding-top: 20px;
+  margin: auto;
+}
+
+.chooseUs__ItemsParagraph--gamepad {
+  font-family: "Play";
+  font-weight: 400;
+  color: #151c37;
+  font-size: 1.8rem;
+  list-style: none;
+  text-align: left;
+  width: 90%;
+  padding-left: 30px;
+  padding-top: 20px;
+  margin: auto;
+}
+
+.chooseUs__ItemsParagraph--diamond {
+  font-family: "Play";
+  font-weight: 400;
+  color: #151c37;
+  font-size: 1.8rem;
+  list-style: none;
+  text-align: left;
+  width: 70%;
+  padding-left: 184px;
+  padding-top: 20px;
+  margin: auto;
+}
+
+.chooseUsGoal {
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+.chooseUsGamepad {
+  list-style: none;
+  padding-bottom: 35px;
+}
+
+.chooseUsDiamond {
+  list-style: none;
+  padding-bottom: 21px;
+}
+
+/*Form Styles*/
+.contactUsTitle {
+  font-family: "Play";
+  font-weight: 700;
+  color: #6e3dc8;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.contactUs {
+  font-family: "Play";
+  font-weight: 400;
+  color: #151c37;
+  font-size: 2rem;
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  padding-bottom: 30px;
+}
+
+.form__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.form__containerButtons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  padding-left: 536px;
+}
+
+.form__items {
+  font-family: "Play";
+  font-weight: 400;
+  color: #151c37;
+  font-size: 1.8rem;
+  padding-left: 120px;
+  margin-bottom: 20px;
+}
+
+.form__itemsButtons {
+  font-family: "Play";
+  font-weight: 400;
+  color: #151c37;
+  font-size: 1.8rem;
+  text-align: center;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 20px;
+}
+
+.formStyles {
+  border: 1px solid gray;
+  background-color: white;
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.formStylesComments {
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.form__itemsCheckBox {
+  font-family: "Play";
+  font-weight: 400;
+  color: #151c37;
+  font-size: 1.8rem;
+  padding-left: 565px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+.formStylesCheckbox {
+  border: 1px solid gray;
+  width: 60px;
+  height: 27px;
+  border-radius: 10px;
+}
