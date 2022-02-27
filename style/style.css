@@ -494,7 +494,20 @@ body {
 
 .newsEmail--aboutUs {
   position: absolute;
-  top: 323%;
+  top: 337%;
+  left: 43.8%;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1.3rem;
+  border: 1px solid gray;
+  width: 50%;
+  height: 4%;
+  border-radius: 10px;
+}
+
+.newsEmail--catalog {
+  position: absolute;
+  top: 189%;
   left: 43.8%;
   font-family: "Roboto";
   font-weight: 300;
