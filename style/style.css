@@ -481,7 +481,7 @@ body {
 
 .newsEmail {
   position: absolute;
-  top: 242%;
+  top: 268%;
   left: 43.8%;
   font-family: "Roboto";
   font-weight: 300;
@@ -862,4 +862,9 @@ body {
   margin-left: 15px;
   padding-left: 15px;
   border-left: 10px solid #6e3dc8;
+}
+
+.positionImgs--Catalog {
+  position: absolute;
+  top: 302px;
 }
