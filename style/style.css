@@ -864,7 +864,39 @@ body {
   border-left: 10px solid #6e3dc8;
 }
 
-.positionImgs--Catalog {
+.positionImgs--CatalogR1 {
   position: absolute;
   top: 302px;
+}
+
+.positionImgs--CatalogR2 {
+  position: absolute;
+  top: 682px;
+}
+
+.positionImgs--CatalogR3 {
+  position: absolute;
+  top: 1062px;
+}
+
+.popGames__Container--Catalog {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.popGames__items--Catalog {
+  background-color: #151c37;
+  border-radius: 15px;
+  width: 168px;
+  height: 355px;
+  transition: height 0.4s;
+}
+
+.popGames__items--Catalog {
+  height: 350px;
 }
