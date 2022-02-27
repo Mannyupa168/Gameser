@@ -866,17 +866,17 @@ body {
 
 .positionImgs--CatalogR1 {
   position: absolute;
-  top: 302px;
+  top: 367px;
 }
 
 .positionImgs--CatalogR2 {
   position: absolute;
-  top: 682px;
+  top: 748px;
 }
 
 .positionImgs--CatalogR3 {
   position: absolute;
-  top: 1062px;
+  top: 1127px;
 }
 
 .popGames__Container--Catalog {
@@ -899,4 +899,27 @@ body {
 
 .popGames__items--Catalog {
   height: 350px;
+}
+
+.filters__Container {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filters__items {
+  margin-left: 20px;
+  font-family: "Roboto";
+  font-size: 1.4rem;
+  color: #6e4aff;
+}
+
+.formStyles--catalog {
+  border: 1px solid gray;
+  background-color: #b7a5ff7a;
+  width: 130px;
+  height: 35px;
+  border-radius: 10px;
 }
