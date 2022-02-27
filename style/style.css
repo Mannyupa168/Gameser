@@ -518,12 +518,33 @@ body {
   border-radius: 10px;
 }
 
+.newsEmail--news {
+  position: absolute;
+  top: 661%;
+  left: 43.8%;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1.3rem;
+  border: 1px solid gray;
+  width: 50%;
+  height: 4%;
+  border-radius: 10px;
+}
+
 .imageBackground {
   background-image: url("/img/Newsletter_Home.png");
   background-size: contain;
   background-repeat: no-repeat;
   height: 20vh;
   margin-top: 130px;
+}
+
+.imageBackground--News {
+  background-image: url("/img/Newsletter_Home.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 18vh;
+  margin-top: 20px;
 }
 
 /*Footer Styles*/
@@ -535,6 +556,15 @@ body {
   justify-content: space-between;
   background-color: #151c37;
   height: 20vh;
+}
+
+.footer__Container--News {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #151c37;
+  height: 22vh;
 }
 
 .footer__title {
@@ -623,6 +653,24 @@ body {
   left: 0;
   padding-left: 833px;
   padding-top: 15px;
+}
+
+.paymentAmex--News {
+  position: absolute;
+  left: 0;
+  padding-left: 695px;
+}
+
+.paymentVisa--News {
+  position: absolute;
+  left: 0;
+  padding-left: 765px;
+}
+
+.paymentMasterC--News {
+  position: absolute;
+  left: 0;
+  padding-left: 833px;
 }
 
 /*ABOUT US PAGE STYLES*/
@@ -936,3 +984,5 @@ body {
   height: 35px;
   border-radius: 10px;
 }
+
+/*News Styles*/

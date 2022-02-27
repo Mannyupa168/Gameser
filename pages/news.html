@@ -25,6 +25,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script src="../script/modal.js"></script>
   </head>
   <body>
     <!--Header-->
@@ -102,146 +103,336 @@
       </div>
     </div>
     <!--Body Content-->
+    <!-- Button trigger modal -->
+    <button
+      type="button"
+      class="btn btn-primary position-absolute top-100 start-0 translate-middle"
+      data-bs-toggle="modal"
+      data-bs-target="#staticBackdrop"
+    >
+      Launch static backdrop modal
+    </button>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">...</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Understood</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb p-3">
+        <li class="breadcrumb-item fs-4"><a href="../index.html">Menu</a></li>
+        <li class="breadcrumb-item active fs-4" aria-current="page">News</li>
+      </ol>
+    </nav>
+
     <div class="titlePopular">NEWS</div>
-    <section>
-      <div>
-        <img class="backgroundImg" src="../img/back_img_aboutus.png" alt="" />
-      </div>
-      <div class="titleAboutUs">GAMESER</div>
-      <div class="subTitleAboutUs">YOUR VIDEOGAMES STORE</div>
-      <div class="weLove">We love games and you?</div>
-      <div>
-        <p class="weLoveText">
-          <span style="font-weight: 700">GAMESER</span> is a video game platform
-          with a curated selection of games and utmost care about customers.
-        </p>
-      </div>
-      <div class="weLove--handpick">Hand-picking the best in gaming!</div>
-      <div class="weLoveText--handpick">
-        A selection of great DRM-free games. Modern hits all-time classics of
-        your choice.
-      </div>
-      <div class="chooseUs">WHY CHOOSE US?</div>
-    </section>
-    <section>
-      <div class="chooseUs__Container">
-        <div class="chooseUs__ItemsTitles">
-          <ul class="decorationInformation">
-            <li class="chooseUsGoal">
-              <img src="../img/icons/goal icon.png" alt="" />
-            </li>
-            <li>OWNING THE THINGS YOU BUY</li>
-            <li class="chooseUs__ItemsParagraph--goal">
-              You won’t have any problem accesing the games for which you paid.
-              You won’t have constantly to enter your data to start the game.
-            </li>
-          </ul>
-        </div>
-        <div class="chooseUs__ItemsTitles">
-          <ul class="decorationInformation">
-            <li class="chooseUsGamepad">
-              <img src="../img/icons/gamepad icon.png" alt="" />
-            </li>
-            <li>A UNIQUE SELECTION OF GAMES</li>
-            <li class="chooseUs__ItemsParagraph--gamepad">
-              We pay much attention to pick great games and we do the best to
-              highlight to them. Each release is a celebration.
-            </li>
-          </ul>
+    <div class="titlePopular">NINTENDO</div>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <img
+            src="../img/News/NintendoDirect.png"
+            class="card-img-top img-thumbnail"
+            alt="..."
+          />
+          <div class="card-body">
+            <h4 class="card-title display-6">
+              Nintendo Direct 2022: here's everything that was announced at the
+              event.
+            </h4>
+            <p class="card-text lead">
+              The online home for exclusive Nintendo news — broadcast directly
+              to you, the player.
+            </p>
+          </div>
         </div>
       </div>
-    </section>
-    <div class="chooseUs">WE WANT TO BETTER FOR YOU!</div>
-    <section>
-      <div class="chooseUs__Container">
-        <div class="chooseUs__ItemsTitles">
-          <ul class="decorationInformation">
-            <li class="chooseUsGoal">
-              <img src="../img/icons/headphone icon.png" alt="" />
-            </li>
-            <li>DIRECT CONTACT WITH OUR TEAM</li>
-            <li class="chooseUs__ItemsParagraph--goal">
-              If you have a question, need help or want to talk, reach out to
-              our team on social networks.
-            </li>
-          </ul>
-        </div>
-        <div class="chooseUs__ItemsTitles">
-          <ul class="decorationInformation">
-            <li class="chooseUsDiamond">
-              <img src="../img/icons/diamond icon.png" alt="" />
-            </li>
-            <li>EVERY GAME DESERVES TO SHINE</li>
-            <li class="chooseUs__ItemsParagraph--diamond">
-              We pay much attention to pick great games and we do the best to
-              highlight to them. Each release is a celebration.
-            </li>
-          </ul>
+      <div class="col">
+        <div class="card">
+          <img
+            src="../img/News/MarioKart8.png"
+            class="card-img-top img-thumbnail"
+            alt="..."
+          />
+          <div class="card-body">
+            <h4 class="card-title display-6">
+              Mario Kart 8 Deluxe Is Getting 48 New Courses With a Paid DLC
+              Bundle
+            </h4>
+            <p class="card-text lead">
+              A total of 48 remastered courses from throughout the Mario Kart™
+              series are racing to the Mario Kart 8 Deluxe game as paid DLC!
+            </p>
+          </div>
         </div>
       </div>
-    </section>
-    <!--Contact Us Form-->
-    <div class="contactUsTitle">DIDN'T FIND THE GAME YOU WERE LOOKING FOR?</div>
-    <div class="contactUs">
-      Contact us by filling out the form below to continue offering you the best
-      gaming experience.
+      <div class="col">
+        <div class="card">
+          <img
+            src="../img/News/MarioStrikers.png"
+            class="card-img-top img-thumbnail"
+            alt="..."
+          />
+          <div class="card-body">
+            <h4 class="card-title display-6">
+              Mario Strikers: Battle League Announced for Nintendo Switch
+            </h4>
+            <p class="card-text lead">
+              Band together with up to 20 strikers online* and compete against
+              other clubs for points. Find the right club for you, team up with
+              friends, and bring your own striker style to the table. Strive to
+              become the world’s top club each season!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="../img/News/Pokemon Arceus.png"
+            class="card-img-top img-thumbnail"
+            alt="..."
+          />
+          <div class="card-body">
+            <h4 class="card-title display-6">
+              Explore a new frontier in Pokémon Legends: Arceus, available now!
+            </h4>
+            <p class="card-text lead">
+              The original story has been faithfully reproduced, and these
+              remakes include easy-to-understand, player-friendly conveniences
+              of the modern Pokémon series, plus up-close-and-personal Pokémon
+              battle scenes.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    <section class="form__container">
-      <div class="form__items">
-        Name:
-        <input class="formStyles" type="text" name="NameUser" id="NameUser" />
+    <div class="titlePopular">PLAYSTATION</div>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <img
+            src="../img/News/Evil dead.png"
+            class="card-img-top img-thumbnail"
+            alt="..."
+          />
+          <div class="card-body">
+            <h4 class="card-title display-6">
+              Evil Dead: The Game – Adapting on-screen horror into the game
+            </h4>
+            <p class="card-text lead">
+              A look at the iconic characters and enemies Saber and Boss Team
+              are bringing to PS5 and PS4 May 13.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="form__items">
-        Game Name:
-        <input class="formStyles" type="text" name="NameGame" id="NameGame" />
+      <div class="col">
+        <div class="card">
+          <img
+            src="../img/News/Ghostwire.png"
+            class="card-img-top img-thumbnail"
+            alt="..."
+          />
+          <div class="card-body">
+            <h4 class="card-title display-6">
+              Ghostwire: Tokyo launches March 25 on PS5, new gameplay details
+              from Tango Gameworks
+            </h4>
+            <p class="card-text lead">
+              Director Kenji Kimura walks us through the supernatural world
+              awaiting players next month.
+            </p>
+          </div>
+        </div>
       </div>
-    </section>
-    <section class="form__container">
-      <div class="form__items">
-        <label for="">Country: </label>
-        <select class="formStyles" name="country" id="country">
-          <option value="AD">Andorra</option>
-          <option value="AR">Argentina</option>
-          <option value="AF">Afganistán</option>
-          <option value="BE">Bélgica</option>
-          <option value="BO">Bolivia</option>
-          <option value="BR">Brasil</option>
-          <option value="CL">Chile</option>
-          <option value="CR">Costa Rica</option>
-          <option value="CU">Cuba</option>
-        </select>
+      <div class="col">
+        <div class="card">
+          <img
+            src="../img/News/COD Warzone.png"
+            class="card-img-top img-thumbnail"
+            alt="..."
+          />
+          <div class="card-body">
+            <h4 class="card-title display-6">
+              Call of Duty: Vanguard and Warzone Season 2 bring new elements of
+              warfare
+            </h4>
+            <p class="card-text lead">
+              Ready for a massive free content drop? Join Captain Butcher and
+              Task Force Yeti in discovering the greatest threat to the world:
+              Nebula V.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="form__items">
-        Comments:
-        <textarea
-          class="formStylesComments"
-          name="mensaje"
-          id="mensaje"
-          cols="50"
-          rows="10"
-        ></textarea>
+      <div class="col">
+        <div class="card">
+          <img
+            src="../img/News/Horizon.png"
+            class="card-img-top img-thumbnail"
+            alt="..."
+          />
+          <div class="card-body">
+            <h4 class="card-title display-6">
+              A sneak peek at the many things to do in Horizon Forbidden West.
+            </h4>
+            <p class="card-text lead">
+              New video shows gear, upgrades, activities, and much more for you
+              to discover on February 18.
+            </p>
+          </div>
+        </div>
       </div>
-    </section>
-    <div class="form__itemsCheckBox">
-      <input
-        class="formStylesCheckbox"
-        type="checkbox"
-        name="PrivacyTerms"
-        id="PrivacyTerms"
-      />
-      I accept privacy terms.
     </div>
-    <div class="form__containerButtons">
-      <div>
-        <input class="form__itemsButtons" type="submit" value="Send" />
+    <div class="titlePopular">XBOX</div>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <img
+            src="../img/News/WolfAmongUs.png"
+            class="card-img-top img-thumbnail"
+            alt="..."
+          />
+          <div class="card-body">
+            <h4 class="card-title display-6">
+              Get Your First Look at The Wolf Among Us 2.
+            </h4>
+            <p class="card-text lead">
+              Right now, you can watch the first full trailer from The Wolf
+              Among Us 2 – and it’s all taken straight from inside the new game
+              engine.
+            </p>
+          </div>
+        </div>
       </div>
-      <div>
-        <input class="form__itemsButtons" type="reset" value="Clear" />
+      <div class="col">
+        <div class="card">
+          <img
+            src="../img/News/MinecraftDungeons.png"
+            class="card-img-top img-thumbnail"
+            alt="..."
+          />
+          <div class="card-body">
+            <h4 class="card-title display-6">
+              Join Minecraft Dungeons’ Festival of Frost.
+            </h4>
+            <p class="card-text lead">
+              Brrrrr!! Cold weather is the worst! Or is it the best? It’s hard
+              to tell when February delivers not just sub-zero degrees, but
+              fantaliciously freezing festivities! “Festivities you say?” Piqued
+              your curiosity, didn’t I? Then stop gluing yourself to your
+              radiator and bask in the glow of this heart-warming video!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="../img/News/FlightSimulator.png"
+            class="card-img-top img-thumbnail"
+            alt="..."
+          />
+          <div class="card-body">
+            <h4 class="card-title display-6">
+              Microsoft Flight Simulator Introduces World Update VII: Australia.
+            </h4>
+            <p class="card-text lead">
+              Soar over the renowned Great Barrier Reef, visit the vast regions
+              of Western Australia, and marvel at the natural beauty of Mount
+              Wellington. From the dusty red outback to shimmering coastlines
+              and sugar white sand beaches, explore the country’s most
+              spectacular sights .
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="../img/News/PumaMinecraft.png"
+            class="card-img-top img-thumbnail"
+            alt="..."
+          />
+          <div class="card-body">
+            <h4 class="card-title display-6">
+              The Puma x Minecraft Collection is Here.
+            </h4>
+            <p class="card-text lead">
+              This is one I bet you didn’t see coming – just like ocelots never
+              see me before I ambush them with treats and affection! Unlike
+              real-life cats, who are sadly (and rightfully) always put off by
+              my exuberant displays of adulation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="titlePopular">LATEST GAMES</div>
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="../img/elden-ring.jpg"
+            class="d-block w-50 rounded mx-auto d-block"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../img/destiny2.jpg"
+            class="d-block w-50 rounded mx-auto d-block"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../img/fortnite-uncharted.jpg"
+            class="d-block w-50 rounded mx-auto d-block"
+            alt="..."
+          />
+        </div>
       </div>
     </div>
 
     <!--Newsletter-->
-    <section class="imageBackground">
+    <section class="imageBackground--News">
       <div class="newsletter__Container">
         <div class="newsTitle">DISCOVER INTERESTING NEWSLETTER</div>
         <div class="newsParagraph">
@@ -249,7 +440,7 @@
           of the gaming world and out promotions.
         </div>
         <input
-          class="newsEmail--aboutUs"
+          class="newsEmail--news"
           type="text"
           name="email"
           id="email"
@@ -259,7 +450,7 @@
     </section>
 
     <!--Footer-->
-    <footer class="footer__Container">
+    <footer class="footer__Container--News">
       <div class="footer__title">GAMESER</div>
       <div class="footerNav">
         Information
@@ -324,21 +515,21 @@
           </li>
           <li>
             <img
-              class="paymentAmex"
+              class="paymentAmex--News"
               src="../img/icons/american-express.png"
               alt="logotipo tarjeta American Expres"
             />
           </li>
           <li>
             <img
-              class="paymentVisa"
+              class="paymentVisa--News"
               src="../img/icons/visa.png"
               alt="logotipo tarjeta Visa"
             />
           </li>
           <li>
             <img
-              class="paymentMasterC"
+              class="paymentMasterC--News"
               src="../img/icons/mastercard.png"
               alt="logotipo tarjeta MasterCard"
             />
