@@ -1,9 +1,10 @@
-header {
+.main-nav {
   background-color: $main-color;
   width: 100%;
-  height: 12vh;
+  height: $nav-height;
 
-  &__container {
+  &__list {
     display: flex;
+    flex-wrap: wrap;
   }
 }
