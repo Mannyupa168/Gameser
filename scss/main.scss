@@ -1,15 +1,8 @@
-//---PAGES---//
-@use "variables";
-@use "home";
+@import "./utilities/variables";
 
-//---FONT STYLES---//
-@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+@import "./base/fonts";
+@import "./base/base";
 
-//---RESET STYLES---//
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
+@import "./layout/header";
+
+@import "./views/home";

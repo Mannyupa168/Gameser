@@ -1,0 +1,9 @@
+header {
+  background-color: $main-color;
+  width: 100%;
+  height: 12vh;
+
+  &__container {
+    display: flex;
+  }
+}
