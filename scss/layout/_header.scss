@@ -8,11 +8,10 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    list-style: none;
+    justify-content: space-evenly;
+    list-style: $no-decorations;
     color: inherit;
-  }
-
-  &__item {
+    text-decoration: $no-decorations;
   }
 
   &__logo {
@@ -25,13 +24,19 @@
     font-weight: $logo-header-weight;
     letter-spacing: 2px;
     padding: 0 30px 0 30px;
-    list-style: none;
+    list-style: $no-decorations;
+    color: inherit;
+    text-decoration: $no-decorations;
   }
 
   &__link {
-    $font-header: "Play", sans-serif;
-    $items-header-size: 1.8rem;
-    $items-header-weight: 400;
-    $items-header-color: #ffff;
+    font-family: $font-header;
+    font-size: $items-header-size;
+    font-weight: $items-header-weight;
+    padding: 0 30px 0 30px;
+    list-style: $no-decorations;
+    color: inherit;
+    text-decoration: $no-decorations;
+    color: $items-header-color;
   }
 }
