@@ -18,6 +18,10 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/cc899e1596.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Welcome to Gameser</title>
   </head>
 
@@ -25,226 +29,272 @@
     <!--Header-->
     <nav class="main-nav" aria-label="Main">
       <ul class="main-nav__list">
-        <li>
+        <li class="main-nav__item">
           <a href="index.html" class="main-nav__logo">GAMESER</a>
         </li>
-        <li>
+        <li class="main-nav__item">
           <a href="./index.html" class="main-nav__link">Menu</a>
         </li>
-        <li>
+        <li class="main-nav__item">
           <a href="./catalog/index.html" class="main-nav__link">Catalog</a>
         </li>
-        <li>
+        <li class="main-nav__item">
           <a href="./news/index.html" class="main-nav__link">News</a>
+        </li>
+        <li class="main-nav__item">
+          <input type="text" class="main-nav__searchBar" />
+          <img
+            class="main-nav__header-icons--searchIcon"
+            src="./img/icons/search-normal.png"
+            alt="ícono de busqueda"
+          />
+        </li>
+        <li class="main-nav__item">
+          <img
+            class="main-nav__header-icons"
+            src="./img/icons/profile.png"
+            alt="ícono de busqueda"
+          />
+        </li>
+        <li class="main-nav__item">
+          <img
+            class="main-nav__header-icons"
+            src="./img/icons/heart-search.png"
+            alt="ícono de busqueda"
+          />
+        </li>
+        <li class="main-nav__item">
+          <img
+            class="main-nav__header-icons"
+            src="./img/icons/bag.png"
+            alt="ícono de busqueda"
+          />
+        </li>
+        <li class="main-nav__item">
+          <img
+            class="main-nav__header-icons--profile"
+            src="./img/icons/profile mobile.png"
+            alt="ícono de busqueda"
+          />
+        </li>
+        <li class="main-nav__item">
+          <img
+            class="main-nav__header-icons--menu"
+            src="./img/icons/menu.png"
+            alt="ícono de busqueda"
+          />
         </li>
       </ul>
     </nav>
-    <!--
-    <nav class="main-nav">
-      <ul class=".main-nav__list">
-        <div>
-          <li>
-            <a class="nav__logo" href="index.html">GAMESER</a>
-          </li>
-        </div>
-        <li>
-          <a class="nav__menu" href="index.html">Menu</a>
+
+    <!-- Brands container -->
+    <div class="sec-nav">
+      <ul class="sec-nav__list">
+        <li class="sec-nav__item">
+          <a href="./playstation/index.html">
+            <img
+              src="img/icons/playstation-logotype.png"
+              alt="Logotipo PLaystation"
+            />
+          </a>
         </li>
-        <li>
-          <a class="nav__menu" href="./catalog/index.html">Catalog</a>
+        <li class="sec-nav__item--separation">
+          <a href="./xbox/index.html">
+            <img src="img/icons/xbox-logo.png" alt="Logotipo Xbox" />
+          </a>
         </li>
-        <li>
-          <a class="nav__menu" href="./news/index.html">Hot News</a>
+        <li class="sec-nav__item">
+          <a href="./nintendo/index.html">
+            <img src="img/icons/nintendo.png" alt="Logotipo Nintendo" />
+          </a>
         </li>
-        <div class="searchBar">
-          <li>
-            <input class="searchEngine" type="text" />
-            <img
-              class="searchIcon"
-              src="./img/icons/search-normal.png"
-              alt="ícono de busqueda"
-            />
-          </li>
-        </div>
-        <div class="myAccountIcons">
-          <li>
-            <img
-              class="myAccount"
-              src="./img/icons/profile.png"
-              alt="ícono de login"
-            />
-          </li>
-          <li>
-            <img
-              class="myAccount"
-              src="./img/icons/heart-search.png"
-              alt="ícono de wishlist"
-            />
-          </li>
-          <li>
-            <img
-              class="myAccount"
-              src="./img/icons/bag.png"
-              alt="ícono de minicart"
-            />
-          </li>
-        </div>
       </ul>
-    </nav>-->
-    <div class="navBrands__Container">
-      <div class="navBrands__items">
-        <a href="./playstation/index.html">
-          <img
-            src="img/icons/playstation-logotype.png"
-            alt="Logotipo PLaystation"
-          />
-        </a>
-      </div>
-      <div class="navBrands__items">
-        <a href="./xbox/index.html">
-          <img src="img/icons/xbox-logo.png" alt="Logotipo Xbox" />
-        </a>
-      </div>
-      <div class="navBrands__items">
-        <a href="./nintendo/index.html">
-          <img src="img/icons/nintendo.png" alt="Logotipo Nintendo" />
-        </a>
-      </div>
     </div>
 
     <!--Body page-->
     <section>
       <div>
-        <h1 class="title">Discover Gameser</h1>
+        <h1 class="welcome-title">Discover Gameser</h1>
         <br />
-        <p class="subtitle">
+        <p class="welcome-title__sub">
           A site where in addition to buying video games, you can learn about
           the main brands in the gaming industry.
         </p>
       </div>
+
       <div class="container">
         <img
           class="bannerBackgroundImage"
           src="img/background_banner.jpg"
-          alt=""
+          alt="background image news games"
         />
-        <p class="bannerText">Upcoming games to look forward to in 2022</p>
-        <div class="games2022">
-          <img src="img/2022-games.png" alt="" />
+
+        <img
+          class="banner-image-mobile"
+          src="img/background_banner-mobile.jpg"
+          alt="background image news games"
+        />
+
+        <p class="title-banner">Upcoming games to look forward to in 2022</p>
+        <div>
+          <img class="games-banner" src="img/2022-games.png" alt="" />
         </div>
-        <p class="bannerText--desc">
+        <p class="welcome-title__sub--banner">
           From indie games designed to move you to blockbusters that will dazzle
           your senses, here are some of the biggest games to be released this
           2022.
         </p>
       </div>
     </section>
-    <section>
-      <div class="favGames__Container">
+
+    <!-- FAVORITE GAMES -->
+    <section class="favorite-games">
+      <div class="favorite-games__container">
         <div>
-          <img src="img/Control game.png" alt="" />
+          <img
+            class="favorite-games__game1"
+            src="img/Control game.png"
+            alt=""
+          />
+          <img
+            class="favorite-games__arrow-left"
+            src="img/icons/arrow-left.png"
+            alt=""
+          />
+          <img
+            class="favorite-games__arrow-right"
+            src="img/icons/arrow-right.png"
+            alt=""
+          />
         </div>
         <div>
-          <img src="img/Horizon-forbiddenwest 1.png" alt="" />
+          <img
+            class="favorite-games__game2"
+            src="img/Horizon-forbiddenwest 1.png"
+            alt=""
+          />
         </div>
         <div>
-          <img src="img/farcry6_img.png" alt="" />
+          <img class="favorite-games__game3" src="img/farcry6_img.png" alt="" />
         </div>
         <div>
-          <img src="img/reddeadr_img.png" alt="" />
+          <img
+            class="favorite-games__game4"
+            src="img/reddeadr_img.png"
+            alt=""
+          />
         </div>
       </div>
     </section>
-    <div class="titlePopular">POPULAR</div>
-    <section>
-      <div class="popGames__Container">
-        <div class="popGames__items">
-          <p class="editionGames">STANDART EDITION</p>
-          <div class="categoriesGames__Container">
-            <div class="categorieGames__items">
-              <p class="categorieText">Action</p>
-            </div>
-            <div class="categorieGames__itemsSec">
-              <p class="categorieText">Open World</p>
+
+    <div class="sections-titles">POPULAR</div>
+
+    <!-- POPULAR GAMES -->
+    <section class="popular-games">
+      <div class="popular-games__container">
+        <div class="popular-games__items">
+          <p class="popular-games__edition">STANDART EDITION</p>
+          <div class="popular-games__categories">
+            <div class="popular-games__categories-items">Action</div>
+            <div class="popular-games__categories-items--secondary">
+              Open World
             </div>
           </div>
-          <div class="categoriePrice">37,49 USD</div>
-          <div class="categorieAnimation">Buy</div>
-          <img class="positionImgs" src="img/daysgone_img.png" alt="" />
+          <div class="popular-games__price">37,49 USD</div>
+          <div class="popular-games__detailsBtn">Details</div>
+          <img
+            class="popular-games__images"
+            src="img/daysgone_img.png"
+            alt=""
+          />
         </div>
-        <div class="popGames__items">
-          <p class="editionGames">STANDART EDITION</p>
-          <div class="categoriesGames__Container">
-            <div class="categorieGames__items">
-              <p class="categorieText">Action</p>
-            </div>
-            <div class="categorieGames__itemsSec">
-              <p class="categorieText">Open World</p>
+
+        <div class="popular-games__items">
+          <p class="popular-games__edition">STANDART EDITION</p>
+          <div class="popular-games__categories">
+            <div class="popular-games__categories-items">Action</div>
+            <div class="popular-games__categories-items--secondary">
+              Open World
             </div>
           </div>
-          <div class="categoriePrice">29,25 USD</div>
-          <div class="categorieAnimation">Buy</div>
-          <img class="positionImgs" src="img/deathstranding_img.png" alt="" />
+          <div class="popular-games__price">29,25 USD</div>
+          <div class="popular-games__detailsBtn">Details</div>
+          <img
+            class="popular-games__images"
+            src="img/deathstranding_img.png"
+            alt=""
+          />
         </div>
-        <div class="popGames__items">
-          <p class="editionGames">STANDART EDITION</p>
-          <div class="categoriesGames__Container">
-            <div class="categorieGames__items">
-              <p class="categorieText">Action</p>
-            </div>
-            <div class="categorieGames__itemsSec">
-              <p class="categorieText">Shooter</p>
+
+        <div class="popular-games__items">
+          <p class="popular-games__edition">STANDART EDITION</p>
+          <div class="popular-games__categories">
+            <div class="popular-games__categories-items">Action</div>
+            <div class="popular-games__categories-items--secondary">
+              Shooter
             </div>
           </div>
-          <div class="categoriePrice">44,53 USD</div>
-          <div class="categorieAnimation">Buy</div>
-          <img class="positionImgs" src="img/battlefield_img.png" alt="" />
+          <div class="popular-games__price">44,53 USD</div>
+          <div class="popular-games__detailsBtn">Details</div>
+          <img
+            class="popular-games__images"
+            src="img/battlefield_img.png"
+            alt=""
+          />
         </div>
-        <div class="popGames__items">
-          <p class="editionGames">STANDART EDITION</p>
-          <div class="categoriesGames__Container">
-            <div class="categorieGames__items">
-              <p class="categorieText">Action</p>
-            </div>
-            <div class="categorieGames__itemsSec">
-              <p class="categorieText">Open World</p>
+
+        <div class="popular-games__items">
+          <p class="popular-games__edition">STANDART EDITION</p>
+          <div class="popular-games__categories">
+            <div class="popular-games__categories-items">Action</div>
+            <div class="popular-games__categories-items--secondary">
+              Open World
             </div>
           </div>
-          <div class="categoriePrice">29,30 USD</div>
-          <div class="categorieAnimation">Buy</div>
-          <img class="positionImgs" src="img/asscreed_img.png" alt="" />
+          <div class="popular-games__price">29,30 USD</div>
+          <div class="popular-games__detailsBtn">Details</div>
+          <img
+            class="popular-games__images"
+            src="img/asscreed_img.png"
+            alt=""
+          />
         </div>
-        <div class="popGames__items">
-          <p class="editionGames">STANDART EDITION</p>
-          <div class="categoriesGames__Container">
-            <div class="categorieGames__items">
-              <p class="categorieText">Action</p>
-            </div>
-            <div class="categorieGames__itemsSec">
-              <p class="categorieText">Adventure</p>
+
+        <div class="popular-games__items">
+          <p class="popular-games__edition">STANDART EDITION</p>
+          <div class="popular-games__categories">
+            <div class="popular-games__categories-items">Action</div>
+            <div class="popular-games__categories-items--secondary">
+              Adventure
             </div>
           </div>
-          <div class="categoriePrice">28,91 USD</div>
-          <div class="categorieAnimation">Buy</div>
-          <img class="positionImgs" src="img/kena_img.png" alt="" />
+          <div class="popular-games__price">28,91 USD</div>
+          <div class="popular-games__detailsBtn">Details</div>
+          <img class="popular-games__images" src="img/kena_img.png" alt="" />
         </div>
-        <div class="popGames__items">
-          <p class="editionGames">STANDART EDITION</p>
-          <div class="categoriesGames__Container">
-            <div class="categorieGames__items">
-              <p class="categorieText">Action</p>
-            </div>
-            <div class="categorieGames__itemsSec">
-              <p class="categorieText">Adventure</p>
+
+        <div class="popular-games__items">
+          <p class="popular-games__edition">STANDART EDITION</p>
+          <div class="popular-games__categories">
+            <div class="popular-games__categories-items">Action</div>
+            <div class="popular-games__categories-items--secondary">
+              Adventure
             </div>
           </div>
-          <div class="categoriePrice">36,29 USD</div>
-          <div class="categorieAnimation">Buy</div>
-          <img class="positionImgs" src="img/cyberpunk_img.png" alt="" />
+          <div class="popular-games__price">36,29 USD</div>
+          <div class="popular-games__detailsBtn">Details</div>
+          <img
+            class="popular-games__images"
+            src="img/cyberpunk_img.png"
+            alt=""
+          />
         </div>
       </div>
     </section>
-    <div class="titlePopular">HOT NEWS</div>
+
+    <!-- HOT NEWS -->
+    <div class="sections-titles">HOT NEWS</div>
+
     <section class="hotNews__Container">
       <div class="hotNews__card1">
         <div class="hotNews-cardContent">
@@ -269,15 +319,15 @@
     </section>
 
     <!--Newsletter-->
-    <section class="imageBackground">
-      <div class="newsletter__Container">
-        <div class="newsTitle">DISCOVER INTERESTING NEWSLETTER</div>
-        <div class="newsParagraph">
+    <section class="newsletter__image">
+      <div class="newsletter__container">
+        <div class="newsletter__title">DISCOVER INTERESTING NEWSLETTER</div>
+        <div class="newsletter__text">
           Subscribe to our newsletter and keep up to date with the latest events
           of the gaming world and out promotions.
         </div>
         <input
-          class="newsEmail"
+          class="newsletter__email"
           type="text"
           name="email"
           id="email"
@@ -370,9 +420,5 @@
         </ul>
       </div>
     </footer>
-    <script
-      src="https://kit.fontawesome.com/cc899e1596.js"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>

@@ -1,12 +1,42 @@
 //---HEADER VARIABLES---//
 $nav-height: 12vh;
+$nav-height-mob: 10vh;
 $font-header: "Play", sans-serif;
-$logo-header-size: 2.5rem;
+$logo-header-size: 2.5rem; //--DESKTOP--
 $logo-header-weight: 900;
-$items-header-size: 1.8rem;
+$items-header-size: 1.8rem; //--DESKTOP--
 $items-header-weight: 400;
 $items-header-color: #ffff;
 $no-decorations: none;
+
+//---BODY PAGE VARIABLES---//
+$titles-weight: 600;
+$titles-letter-spacing: 1px;
+$titles-size: 3rem;
+
+$subtitles-weight: 400;
+$subtitles-size: 1.5rem;
+
+$texts-size: 1.85rem;
+$texts-weight: 300;
+
+$section-titles-font: "Roboto", sans-serif;
+$section-titles-size: 2.5rem;
+$section-titles-weight: 900;
+$section-titles-color: #151c37;
+
+$info-games-font: "Roboto", sans-serif;
+$info-games-size: 1rem;
+$info-games-price-size: 1.6rem;
+$info-games-weight: 600;
+$info-games-color: #ffff;
+
+$newsletter-title-font: "Roboto", sans-serif;
+$newsletter-title-size: 1.8rem;
+$newsletter-title-weight: 700;
+$newsletter-text-size: 1.5rem;
+$newsletter-text-weight: 400;
+$newsletter-title-color: #0000;
 
 //---COLORS PAGES---//
 $main-color: #151c37;
@@ -14,3 +44,13 @@ $background-pages: #ecf3fe;
 
 //---FONTS USE---///
 $font-family-base: "Roboto", sans-serif;
+$font-family-titles: "Open Sans", sans-serif;
+
+//---BREAKPOINTS--//
+$xs: 1px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+$hg: 1920px;

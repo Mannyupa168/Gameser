@@ -5,6 +5,9 @@
   margin: 0;
   padding: 0;
   border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
 
 body {
@@ -36,7 +39,6 @@ body {
   font-size: 2.5rem;
   font-weight: 900;
   letter-spacing: 2px;
-  padding: 0 30px 0 30px;
   list-style: none;
   color: inherit;
   text-decoration: none;
@@ -45,11 +47,623 @@ body {
   font-family: "Play", sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
-  padding: 0 30px 0 30px;
   list-style: none;
   color: inherit;
   text-decoration: none;
   color: #ffff;
+}
+.main-nav__link:hover {
+  font-weight: 700;
+}
+.main-nav__searchBar {
+  background-color: #6d707ec0;
+  font-size: 1.5rem;
+  font-family: "Play";
+  height: 46px;
+  width: 390px;
+  border-bottom-left-radius: 15px;
+}
+.main-nav__header-icons {
+  padding-top: 5px;
+}
+.main-nav__header-icons--searchIcon {
+  position: absolute;
+  top: 30px;
+  right: 392px;
+}
+
+.sec-nav {
+  background-color: #c4c4c4;
+  width: 100%;
+  height: 8vh;
+}
+.sec-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.sec-nav__item--separation {
+  padding-left: 200px;
+  padding-right: 200px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+@media (max-width: 576px) {
+  .main-nav {
+    height: 10vh;
+    text-align: center;
+  }
+  .main-nav__list {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .main-nav__logo {
+    font-size: 1.5rem;
+  }
+  .main-nav__link {
+    display: none;
+  }
+  .main-nav__searchBar {
+    height: 25px;
+    width: 125%;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  .main-nav__header-icons {
+    display: none;
+  }
+  .main-nav__header-icons--profile {
+    position: absolute;
+    top: 48px;
+    left: 18px;
+    width: 7%;
+  }
+  .main-nav__header-icons--searchIcon {
+    width: 5%;
+    top: 6.4%;
+    right: 11%;
+  }
+  .main-nav__header-icons--menu {
+    position: absolute;
+    width: 6.2%;
+    top: 7px;
+    right: 13px;
+  }
+
+  .sec-nav {
+    display: none;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+  .main-nav {
+    height: 10vh;
+    text-align: center;
+  }
+  .main-nav__list {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .main-nav__logo {
+    font-size: 1.8rem;
+  }
+  .main-nav__link {
+    display: none;
+  }
+  .main-nav__searchBar {
+    height: 25px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding-right: 225px;
+  }
+  .main-nav__header-icons {
+    display: none;
+  }
+  .main-nav__header-icons--profile {
+    position: absolute;
+    top: 48px;
+    left: 25px;
+    width: 5%;
+  }
+  .main-nav__header-icons--searchIcon {
+    width: 4%;
+    top: 6.4%;
+    right: 14%;
+  }
+  .main-nav__header-icons--menu {
+    position: absolute;
+    width: 5.5%;
+    top: 5px;
+    right: 13px;
+  }
+
+  .sec-nav {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .main-nav__header-icons--menu {
+    display: none;
+  }
+  .main-nav__header-icons--profile {
+    display: none;
+  }
+}
+.welcome-title {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.welcome-title__sub {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 0 133px 20px;
+}
+.welcome-title__sub--banner {
+  position: absolute;
+  top: 920px;
+  color: #ffff;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.85rem;
+  font-weight: 300;
+  padding: 0 200px;
+}
+
+.title-banner {
+  position: absolute;
+  top: 350px;
+  left: 45px;
+  text-align: center;
+  color: #ffff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  padding: 0 255px;
+}
+
+.games-banner {
+  position: absolute;
+  top: 500px;
+  left: 470px;
+}
+
+.favorite-games__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.sections-titles {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #151c37;
+  margin-top: 30px;
+  margin-bottom: 45px;
+  margin-left: 15px;
+  padding-left: 15px;
+  border-left: 10px solid #6e3dc8;
+}
+
+.popular-games__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+.popular-games__images {
+  position: absolute;
+  top: 1355px;
+}
+.popular-games__items {
+  background-color: #151c37;
+  border-radius: 15px;
+  width: 168px;
+  height: 355px;
+  transition: height 0.4s;
+}
+.popular-games__items:hover {
+  height: 410px;
+}
+.popular-games__edition {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #ffff;
+  padding-top: 240px;
+}
+.popular-games__categories {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+.popular-games__categories-items {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 4px;
+  background-color: #c4c4c452;
+  border-radius: 5px;
+  width: 60px;
+  font-family: "Roboto", sans-serif;
+  color: #ffff;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.popular-games__categories-items--secondary {
+  margin-top: 40px;
+  margin-left: 66px;
+  position: absolute;
+  background-color: #c4c4c452;
+  border-radius: 5px;
+  width: 100px;
+  font-family: "Roboto", sans-serif;
+  color: #ffff;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.popular-games__price {
+  font-family: "Roboto", sans-serif;
+  color: #ffff;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-align: center;
+  padding-top: 50px;
+}
+.popular-games__detailsBtn {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  color: #ecf3fe;
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-align: center;
+  border: 1.5px solid #ecf3fe;
+  border-radius: 3px;
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 60%;
+  padding: 5px;
+  transition: all 0.5s ease;
+}
+.popular-games__detailsBtn:hover, .popular-games__detailsBtn:focus {
+  background-color: #ecf3fe;
+  color: #151c37;
+}
+
+.newsletter__image {
+  background-image: url("/img/Newsletter_Home.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 20vh;
+  width: 100%;
+  margin-top: 100px;
+}
+.newsletter__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.newsletter__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.5em;
+  width: 25%;
+  padding-top: 25px;
+}
+.newsletter__text {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  width: 60%;
+}
+.newsletter__email {
+  position: absolute;
+  top: 264%;
+  left: 43.8%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  border: 1px solid gray;
+  width: 50%;
+  height: 4%;
+  border-radius: 5px;
+}
+
+@media (max-width: 576px) {
+  .bannerBackgroundImage {
+    display: none;
+  }
+
+  .banner-image-mobile {
+    width: 100%;
+  }
+
+  .welcome-title {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+  .welcome-title__sub {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 0 15px 25px;
+  }
+  .welcome-title__sub--banner {
+    position: absolute;
+    top: 700px;
+    color: #ffff;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 0 50px;
+  }
+
+  .title-banner {
+    position: absolute;
+    top: 295px;
+    left: 0;
+    text-align: center;
+    color: #ffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0 30px;
+  }
+
+  .games-banner {
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    width: 95%;
+  }
+
+  .favorite-games__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+  }
+  .favorite-games__arrow-left {
+    position: absolute;
+    top: 1060px;
+    left: 0;
+  }
+  .favorite-games__arrow-right {
+    position: absolute;
+    top: 1060px;
+    right: 0;
+  }
+  .favorite-games__game1 {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .favorite-games__game2 {
+    display: none;
+  }
+  .favorite-games__game3 {
+    display: none;
+  }
+  .favorite-games__game4 {
+    display: none;
+  }
+
+  .sections-titles {
+    font-family: "Roboto", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #151c37;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    margin-left: 15px;
+    padding-left: 15px;
+    border-left: 10px solid #6e3dc8;
+  }
+
+  .popular-games__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+  }
+  .popular-games__images {
+    position: absolute;
+    top: 1355px;
+  }
+  .popular-games__items {
+    background-color: #151c37;
+    border-radius: 15px;
+    width: 168px;
+    height: 355px;
+    transition: height 0.4s;
+  }
+  .popular-games__items:hover {
+    height: 410px;
+  }
+  .popular-games__edition {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #ffff;
+    padding-top: 240px;
+  }
+  .popular-games__categories {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+  }
+  .popular-games__categories-items {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 4px;
+    background-color: #c4c4c452;
+    border-radius: 5px;
+    width: 60px;
+    font-family: "Roboto", sans-serif;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  .popular-games__categories-items--secondary {
+    margin-top: 40px;
+    margin-left: 66px;
+    position: absolute;
+    background-color: #c4c4c452;
+    border-radius: 5px;
+    width: 100px;
+    font-family: "Roboto", sans-serif;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  .popular-games__price {
+    font-family: "Roboto", sans-serif;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .popular-games__detailsBtn {
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    color: #ecf3fe;
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-align: center;
+    border: 1.5px solid #ecf3fe;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 60%;
+    padding: 5px;
+    transition: all 0.5s ease;
+  }
+  .popular-games__detailsBtn:hover, .popular-games__detailsBtn:focus {
+    background-color: #ecf3fe;
+    color: #151c37;
+  }
+
+  .newsletter__image {
+    background-image: url("/img/Newsletter_Home.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20vh;
+    width: 100%;
+    margin-top: 100px;
+  }
+  .newsletter__container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .newsletter__title {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.5em;
+    width: 25%;
+    padding-top: 25px;
+  }
+  .newsletter__text {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    width: 60%;
+  }
+  .newsletter__email {
+    position: absolute;
+    top: 264%;
+    left: 43.8%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+    border: 1px solid gray;
+    width: 50%;
+    height: 4%;
+    border-radius: 5px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+  .main-nav {
+    height: 10vh;
+    text-align: center;
+  }
+  .main-nav__list {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .main-nav__logo {
+    font-size: 1.8rem;
+  }
+  .main-nav__link {
+    display: none;
+  }
+  .main-nav__searchBar {
+    height: 25px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding-right: 225px;
+  }
+  .main-nav__header-icons {
+    display: none;
+  }
+  .main-nav__header-icons--profile {
+    position: absolute;
+    top: 48px;
+    left: 25px;
+    width: 5%;
+  }
+  .main-nav__header-icons--searchIcon {
+    width: 4%;
+    top: 6.4%;
+    right: 14%;
+  }
+  .main-nav__header-icons--menu {
+    position: absolute;
+    width: 5.5%;
+    top: 5px;
+    right: 13px;
+  }
+
+  .sec-nav {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
