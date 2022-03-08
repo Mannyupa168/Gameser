@@ -265,14 +265,64 @@ body {
   position: absolute;
   top: 1355px;
 }
-.popular-games__items {
+.popular-games__items-card1 {
   background-color: #151c37;
   border-radius: 15px;
   width: 168px;
   height: 355px;
   transition: height 0.4s;
 }
-.popular-games__items:hover {
+.popular-games__items-card1:hover {
+  height: 410px;
+}
+.popular-games__items-card2 {
+  background-color: #151c37;
+  border-radius: 15px;
+  width: 168px;
+  height: 355px;
+  transition: height 0.4s;
+}
+.popular-games__items-card2:hover {
+  height: 410px;
+}
+.popular-games__items-card3 {
+  background-color: #151c37;
+  border-radius: 15px;
+  width: 168px;
+  height: 355px;
+  transition: height 0.4s;
+}
+.popular-games__items-card3:hover {
+  height: 410px;
+}
+.popular-games__items-card4 {
+  background-color: #151c37;
+  border-radius: 15px;
+  width: 168px;
+  height: 355px;
+  transition: height 0.4s;
+}
+.popular-games__items-card4:hover {
+  height: 410px;
+}
+.popular-games__items-card5 {
+  background-color: #151c37;
+  border-radius: 15px;
+  width: 168px;
+  height: 355px;
+  transition: height 0.4s;
+}
+.popular-games__items-card5:hover {
+  height: 410px;
+}
+.popular-games__items-card6 {
+  background-color: #151c37;
+  border-radius: 15px;
+  width: 168px;
+  height: 355px;
+  transition: height 0.4s;
+}
+.popular-games__items-card6:hover {
   height: 410px;
 }
 .popular-games__edition {
@@ -457,6 +507,16 @@ body {
     top: 1060px;
     right: 0;
   }
+  .favorite-games__arrow-left--popular {
+    position: absolute;
+    top: 1445px;
+    left: 0;
+  }
+  .favorite-games__arrow-right--popular {
+    position: absolute;
+    top: 1445px;
+    right: 0;
+  }
   .favorite-games__game1 {
     width: 100%;
     padding-left: 30px;
@@ -474,43 +534,80 @@ body {
 
   .sections-titles {
     font-family: "Roboto", sans-serif;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-weight: 900;
     color: #151c37;
     margin-top: 30px;
     margin-bottom: 45px;
     margin-left: 15px;
-    padding-left: 15px;
-    border-left: 10px solid #6e3dc8;
+    padding-left: 10px;
+    border-left: 8px solid #6e3dc8;
   }
 
   .popular-games__container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-content: center;
   }
   .popular-games__images {
     position: absolute;
-    top: 1355px;
+    width: 40%;
+    top: 1267px;
   }
-  .popular-games__items {
+  .popular-games__icons-card1 {
+    position: absolute;
+    top: 1575px;
+    left: 56px;
+  }
+  .popular-games__icons--bag-card1 {
+    position: absolute;
+    top: 1575px;
+    left: 105px;
+  }
+  .popular-games__icons-card2 {
+    position: absolute;
+    top: 1575px;
+    left: 220px;
+  }
+  .popular-games__icons--bag-card2 {
+    position: absolute;
+    top: 1575px;
+    left: 273px;
+  }
+  .popular-games__items-card1 {
     background-color: #151c37;
     border-radius: 15px;
-    width: 168px;
+    width: 144px;
     height: 355px;
     transition: height 0.4s;
   }
-  .popular-games__items:hover {
-    height: 410px;
+  .popular-games__items-card2 {
+    background-color: #151c37;
+    border-radius: 15px;
+    width: 144px;
+    height: 355px;
+    transition: height 0.4s;
+  }
+  .popular-games__items-card3 {
+    display: none;
+  }
+  .popular-games__items-card4 {
+    display: none;
+  }
+  .popular-games__items-card5 {
+    display: none;
+  }
+  .popular-games__items-card6 {
+    display: none;
   }
   .popular-games__edition {
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #ffff;
-    padding-top: 240px;
+    padding-top: 203px;
   }
   .popular-games__categories {
     display: flex;
@@ -528,21 +625,21 @@ body {
     font-family: "Roboto", sans-serif;
     color: #ffff;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 0.75rem;
     text-align: center;
     letter-spacing: 1px;
   }
   .popular-games__categories-items--secondary {
-    margin-top: 40px;
-    margin-left: 66px;
+    margin-top: 52px;
+    margin-left: 71px;
     position: absolute;
     background-color: #c4c4c452;
     border-radius: 5px;
-    width: 100px;
+    width: 18%;
     font-family: "Roboto", sans-serif;
     color: #ffff;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 0.75rem;
     text-align: center;
     letter-spacing: 1px;
   }
@@ -550,70 +647,57 @@ body {
     font-family: "Roboto", sans-serif;
     color: #ffff;
     font-weight: 600;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     text-align: center;
     padding-top: 50px;
+    letter-spacing: 2px;
   }
   .popular-games__detailsBtn {
-    cursor: pointer;
-    font-family: "Roboto", sans-serif;
-    color: #ecf3fe;
-    font-weight: 600;
-    font-size: 1.3rem;
-    text-align: center;
-    border: 1.5px solid #ecf3fe;
-    border-radius: 3px;
-    margin-top: 20px;
-    margin-left: 30px;
-    width: 60%;
-    padding: 5px;
-    transition: all 0.5s ease;
-  }
-  .popular-games__detailsBtn:hover, .popular-games__detailsBtn:focus {
-    background-color: #ecf3fe;
-    color: #151c37;
+    display: none;
   }
 
   .newsletter__image {
-    background-image: url("/img/Newsletter_Home.png");
+    background-image: url("/img/Newsletter'mobile.png");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 20vh;
+    height: 22vh;
     width: 100%;
     margin-top: 100px;
   }
   .newsletter__container {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
   }
   .newsletter__title {
     font-family: "Roboto", sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.15rem;
     font-weight: 700;
     text-align: center;
-    line-height: 1.5em;
-    width: 25%;
-    padding-top: 25px;
+    line-height: 25px;
+    width: 91%;
+    padding-top: 0px;
+    padding-bottom: 5px;
   }
   .newsletter__text {
     font-family: "Roboto", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
-    text-align: center;
-    width: 60%;
+    text-align: left;
+    width: 91%;
   }
   .newsletter__email {
     position: absolute;
-    top: 264%;
-    left: 43.8%;
+    top: 257%;
+    left: 4.8%;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    font-size: 1.3rem;
+    font-size: 1rem;
     border: 1px solid gray;
-    width: 50%;
-    height: 4%;
+    width: 90%;
+    height: 3%;
     border-radius: 5px;
   }
 }

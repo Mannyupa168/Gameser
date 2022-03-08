@@ -76,7 +76,7 @@
     top: 1355px;
   }
 
-  &__items {
+  &__items-card1 {
     background-color: $main-color;
     border-radius: 15px;
     width: 168px;
@@ -84,7 +84,67 @@
     transition: height 0.4s;
   }
 
-  &__items:hover {
+  &__items-card1:hover {
+    height: 410px;
+  }
+
+  &__items-card2 {
+    background-color: $main-color;
+    border-radius: 15px;
+    width: 168px;
+    height: 355px;
+    transition: height 0.4s;
+  }
+
+  &__items-card2:hover {
+    height: 410px;
+  }
+
+  &__items-card3 {
+    background-color: $main-color;
+    border-radius: 15px;
+    width: 168px;
+    height: 355px;
+    transition: height 0.4s;
+  }
+
+  &__items-card3:hover {
+    height: 410px;
+  }
+
+  &__items-card4 {
+    background-color: $main-color;
+    border-radius: 15px;
+    width: 168px;
+    height: 355px;
+    transition: height 0.4s;
+  }
+
+  &__items-card4:hover {
+    height: 410px;
+  }
+
+  &__items-card5 {
+    background-color: $main-color;
+    border-radius: 15px;
+    width: 168px;
+    height: 355px;
+    transition: height 0.4s;
+  }
+
+  &__items-card5:hover {
+    height: 410px;
+  }
+
+  &__items-card6 {
+    background-color: $main-color;
+    border-radius: 15px;
+    width: 168px;
+    height: 355px;
+    transition: height 0.4s;
+  }
+
+  &__items-card6:hover {
     height: 410px;
   }
 
@@ -289,6 +349,18 @@
       right: 0;
     }
 
+    &__arrow-left--popular {
+      position: absolute;
+      top: 1445px;
+      left: 0;
+    }
+
+    &__arrow-right--popular {
+      position: absolute;
+      top: 1445px;
+      right: 0;
+    }
+
     &__game1 {
       width: 100%;
       padding-left: 30px;
@@ -310,48 +382,93 @@
 
   .sections-titles {
     font-family: $section-titles-font;
-    font-size: $section-titles-size;
+    font-size: 1.8rem;
     font-weight: $section-titles-weight;
     color: $section-titles-color;
     margin-top: 30px;
     margin-bottom: 45px;
     margin-left: 15px;
-    padding-left: 15px;
-    border-left: 10px solid #6e3dc8;
+    padding-left: 10px;
+    border-left: 8px solid #6e3dc8;
   }
 
   .popular-games {
     &__container {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-around;
+      justify-content: space-evenly;
       align-content: center;
     }
 
     &__images {
       position: absolute;
-      top: 1355px;
+      width: 40%;
+      top: 1267px;
     }
 
-    &__items {
+    &__icons-card1 {
+      position: absolute;
+      top: 1575px;
+      left: 56px;
+    }
+
+    &__icons--bag-card1 {
+      position: absolute;
+      top: 1575px;
+      left: 105px;
+    }
+
+    &__icons-card2 {
+      position: absolute;
+      top: 1575px;
+      left: 220px;
+    }
+
+    &__icons--bag-card2 {
+      position: absolute;
+      top: 1575px;
+      left: 273px;
+    }
+
+    &__items-card1 {
       background-color: $main-color;
       border-radius: 15px;
-      width: 168px;
+      width: 144px;
       height: 355px;
       transition: height 0.4s;
     }
 
-    &__items:hover {
-      height: 410px;
+    &__items-card2 {
+      background-color: $main-color;
+      border-radius: 15px;
+      width: 144px;
+      height: 355px;
+      transition: height 0.4s;
+    }
+
+    &__items-card3 {
+      display: none;
+    }
+
+    &__items-card4 {
+      display: none;
+    }
+
+    &__items-card5 {
+      display: none;
+    }
+
+    &__items-card6 {
+      display: none;
     }
 
     &__edition {
       text-align: center;
       font-family: $info-games-font;
       font-weight: $info-games-weight;
-      font-size: $info-games-size;
+      font-size: 0.9rem;
       color: $info-games-color;
-      padding-top: 240px;
+      padding-top: 203px;
     }
 
     &__categories {
@@ -371,22 +488,22 @@
       font-family: $info-games-font;
       color: $info-games-color;
       font-weight: $info-games-weight;
-      font-size: $info-games-size;
+      font-size: 0.75rem;
       text-align: center;
       letter-spacing: 1px;
     }
 
     &__categories-items--secondary {
-      margin-top: 40px;
-      margin-left: 66px;
+      margin-top: 52px;
+      margin-left: 71px;
       position: absolute;
       background-color: #c4c4c452;
       border-radius: 5px;
-      width: 100px;
+      width: 18%;
       font-family: $info-games-font;
       color: $info-games-color;
       font-weight: $info-games-weight;
-      font-size: $info-games-size;
+      font-size: 0.75rem;
       text-align: center;
       letter-spacing: 1px;
     }
@@ -395,79 +512,64 @@
       font-family: $info-games-font;
       color: $info-games-color;
       font-weight: $info-games-weight;
-      font-size: $info-games-price-size;
+      font-size: 1.2rem;
       text-align: center;
       padding-top: 50px;
+      letter-spacing: 2px;
     }
 
     &__detailsBtn {
-      cursor: pointer;
-      font-family: $info-games-font;
-      color: $background-pages;
-      font-weight: $info-games-weight;
-      font-size: 1.3rem;
-      text-align: center;
-      border: 1.5px solid $background-pages;
-      border-radius: 3px;
-      margin-top: 20px;
-      margin-left: 30px;
-      width: 60%;
-      padding: 5px;
-      transition: all 0.5s ease;
-    }
-
-    &__detailsBtn:hover,
-    &__detailsBtn:focus {
-      background-color: $background-pages;
-      color: $main-color;
+      display: none;
     }
   }
 
   .newsletter {
     &__image {
-      background-image: url("/img/Newsletter_Home.png");
+      background-image: url("/img/Newsletter'mobile.png");
       background-size: contain;
       background-repeat: no-repeat;
-      height: 20vh;
+      height: 22vh;
       width: 100%;
       margin-top: 100px;
     }
 
     &__container {
       display: flex;
+      flex-direction: column;
       flex-wrap: wrap;
       align-items: center;
-      justify-content: space-around;
+      justify-content: flex-start;
     }
 
     &__title {
       font-family: $newsletter-title-font;
-      font-size: $newsletter-title-size;
+      font-size: 1.15rem;
       font-weight: $newsletter-title-weight;
       text-align: center;
-      line-height: 1.5em;
-      width: 25%;
-      padding-top: 25px;
+      line-height: 25px;
+      width: 91%;
+      padding-top: 0px;
+      padding-bottom: 5px;
     }
 
     &__text {
       font-family: $newsletter-title-font;
-      font-size: $newsletter-text-size;
+      font-size: 1rem;
       font-weight: $newsletter-text-weight;
-      text-align: center;
-      width: 60%;
+      text-align: left;
+      width: 91%;
     }
 
     &__email {
       position: absolute;
-      top: 264%;
-      left: 43.8%;
+      top: 257%;
+      left: 4.8%;
       font-family: $newsletter-title-font;
       font-weight: 300;
-      font-size: 1.3rem;
+      font-size: 1rem;
       border: 1px solid gray;
-      width: 50%;
-      height: 4%;
+      width: 90%;
+      height: 3%;
       border-radius: 5px;
     }
   }
