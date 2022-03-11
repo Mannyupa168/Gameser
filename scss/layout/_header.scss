@@ -53,6 +53,7 @@
   }
   &__header-icons {
     padding-top: 5px;
+    width: 100%;
   }
   &__header-icons--searchIcon {
     position: absolute;
@@ -140,7 +141,7 @@
 //--RESPONSIVE TABLET--//
 @media only screen and (min-width: $sm) and (max-width: $lg) {
   .main-nav {
-    height: $nav-height-mob;
+    height: 12vh;
     text-align: center;
 
     &__list {
@@ -158,11 +159,11 @@
     }
 
     &__searchBar {
-      height: 25px;
+      height: 30px;
       width: 100%;
       border-radius: 5px;
       font-size: 1rem;
-      padding-right: 225px;
+      padding-right: 265px;
     }
 
     &__header-icons {
@@ -177,16 +178,16 @@
     }
 
     &__header-icons--searchIcon {
-      width: 4%;
-      top: 6.4%;
-      right: 14%;
+      width: 3%;
+      top: 6.5%;
+      right: 21%;
     }
 
     &__header-icons--menu {
       position: absolute;
-      width: 5.5%;
-      top: 5px;
-      right: 13px;
+      width: 4.5%;
+      top: 8px;
+      right: 15px;
     }
   }
 
@@ -203,5 +204,47 @@
     &__header-icons--profile {
       display: none;
     }
+  }
+}
+
+@media (min-width: $hd) {
+  .main-nav {
+    &__searchBar {
+      background-color: #6d707ec0;
+      font-size: 1.5rem;
+      font-family: "Play";
+      height: 46px;
+      width: 630px;
+      border-bottom-left-radius: 15px;
+    }
+
+    &__header-icons--searchIcon {
+      position: absolute;
+      top: 45px;
+      right: 520px;
+    }
+
+    &__header-icons--menu {
+      display: none;
+    }
+    &__header-icons--profile {
+      display: none;
+    }
+  }
+
+  .sec-nav {
+    background-color: #c4c4c4;
+    width: 100%;
+    height: 6vh;
+  }
+
+  .container {
+    &__image-hd {
+      width: 100%;
+    }
+  }
+
+  .bannerBackgroundImage {
+    display: none;
   }
 }

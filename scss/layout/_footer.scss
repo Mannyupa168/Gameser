@@ -1,0 +1,290 @@
+.footer {
+  background-color: $main-color;
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 22vh;
+  }
+
+  &__title {
+    font-family: $section-titles-font;
+    color: $background-pages;
+    font-size: $section-titles-size;
+    font-weight: $section-titles-weight;
+    letter-spacing: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-self: center;
+  }
+
+  &__nav {
+    font-family: $font-header;
+    font-size: $info-games-price-size;
+    font-weight: $items-header-weight;
+    color: $background-pages;
+    padding-top: 10px;
+    padding-right: 50px;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  &__list {
+    font-family: $font-header;
+    font-size: 1.2rem;
+    font-weight: $items-header-weight;
+    line-height: 2rem;
+    padding-top: 10px;
+    color: $background-pages;
+  }
+
+  &__decoration-info {
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  &__icons {
+    position: absolute;
+    padding-top: 4px;
+  }
+
+  &__contact {
+    padding-left: 50px;
+  }
+
+  &__social-fb {
+    position: absolute;
+    width: 7%;
+    padding-top: 15px;
+    padding-left: 60px;
+  }
+
+  &__social-insta {
+    position: absolute;
+    width: 11.3%;
+    padding-top: 15px;
+    padding-left: 120px;
+  }
+
+  &__social-twitter {
+    position: absolute;
+    width: 15.3%;
+    padding-top: 15px;
+    padding-left: 180px;
+  }
+
+  &__payment-amex {
+    position: absolute;
+    left: 0;
+    padding-left: 695px;
+    padding-top: 15px;
+  }
+
+  &__payment-visa {
+    position: absolute;
+    left: 0;
+    padding-left: 765px;
+    padding-top: 15px;
+  }
+
+  &__payment-masterC {
+    position: absolute;
+    left: 0;
+    padding-left: 833px;
+    padding-top: 15px;
+  }
+}
+
+//--RESPONSIVE MOBILE--//
+@media (max-width: $sm) {
+  .footer {
+    &__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      height: 52vh;
+    }
+
+    &__title {
+      display: none;
+    }
+
+    &__nav {
+      font-family: $font-header;
+      font-size: 1.5rem;
+      font-weight: $items-header-weight;
+      color: $background-pages;
+      padding-top: 10px;
+      padding-right: 50px;
+      list-style: none;
+      text-decoration: none;
+      padding-left: 11px;
+    }
+
+    &__list {
+      font-family: $font-header;
+      font-size: 1.2rem;
+      font-weight: $items-header-weight;
+      line-height: 2rem;
+      padding-top: 10px;
+      color: $background-pages;
+    }
+
+    &__decoration-info {
+      color: inherit;
+      text-decoration: none;
+      list-style: none;
+    }
+
+    &__icons {
+      position: absolute;
+      padding-top: 4px;
+    }
+
+    &__contact {
+      padding-left: 50px;
+    }
+
+    &__social-fb {
+      position: absolute;
+      width: 25%;
+      bottom: -1935px;
+      left: 150px;
+    }
+
+    &__social-insta {
+      position: absolute;
+      width: 42%;
+      bottom: -1935px;
+      left: 140px;
+    }
+
+    &__social-twitter {
+      position: absolute;
+      width: 58.3%;
+      bottom: -1935px;
+      left: 135px;
+    }
+
+    &__payment-amex {
+      display: none;
+    }
+
+    &__payment-visa {
+      display: none;
+    }
+
+    &__payment-masterC {
+      display: none;
+    }
+  }
+}
+
+//--RESPONSIVE TABLET--//
+@media only screen and (min-width: $sm) and (max-width: $lg) {
+  .footer {
+    &__container {
+      display: flex;
+      justify-content: space-between;
+      height: 35vh;
+      width: 100%;
+    }
+
+    &__title {
+      display: none;
+    }
+
+    &__nav {
+      font-family: $font-header;
+      font-size: 1.5rem;
+      font-weight: $items-header-weight;
+      color: $background-pages;
+      padding-top: 10px;
+      padding-right: 50px;
+      list-style: none;
+      text-decoration: none;
+      padding-left: 11px;
+    }
+
+    &__list {
+      font-family: $font-header;
+      font-size: 1.2rem;
+      font-weight: $items-header-weight;
+      line-height: 2rem;
+      padding-top: 10px;
+      color: $background-pages;
+    }
+
+    &__decoration-info {
+      color: inherit;
+      text-decoration: none;
+      list-style: none;
+    }
+
+    &__icons {
+      position: absolute;
+      padding-top: 4px;
+    }
+
+    &__contact {
+      padding-left: 50px;
+    }
+
+    &__social-fb {
+      position: absolute;
+      width: 12%;
+      bottom: -1930px;
+      left: 440px;
+    }
+
+    &__social-insta {
+      position: absolute;
+      width: 19.8%;
+      bottom: -1930px;
+      left: 465px;
+    }
+
+    &__social-twitter {
+      position: absolute;
+      width: 27.6%;
+      bottom: -1930px;
+      left: 495px;
+    }
+
+    &__payment-amex {
+      display: none;
+    }
+
+    &__payment-visa {
+      display: none;
+    }
+
+    &__payment-masterC {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: $hd) {
+  .footer {
+    &__social-fb {
+      position: absolute;
+      width: 6%;
+      left: 240px;
+    }
+
+    &__social-insta {
+      position: absolute;
+      width: 9%;
+      right: 138px;
+    }
+
+    &__social-twitter {
+      position: absolute;
+      width: 12.2%;
+      right: 45px;
+    }
+  }
+}
