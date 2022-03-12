@@ -16,7 +16,7 @@
   &-title {
     &__sub--banner {
       position: absolute;
-      top: 970px;
+      top: 940px;
       color: #ffff;
       text-align: center;
       font-family: $font-family-titles;
@@ -35,7 +35,7 @@
   }
   &__sub--banner {
     position: absolute;
-    top: 920px;
+    top: 945px;
     color: #ffff;
     text-align: center;
     font-family: $font-family-titles;
@@ -47,7 +47,7 @@
 
 .title-banner {
   position: absolute;
-  top: 390px;
+  top: 355px;
   left: 45px;
   text-align: center;
   color: #ffff;
@@ -59,7 +59,7 @@
 
 .games-banner {
   position: absolute;
-  top: 535px;
+  top: 515px;
   left: 470px;
 }
 
@@ -94,7 +94,7 @@
 
   &__images {
     position: absolute;
-    top: 1408px;
+    top: 1372px;
   }
 
   &__items-card1 {
@@ -316,7 +316,7 @@
     background-image: url("/img/Newsletter_Home.png");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 15vh;
+    height: 18vh;
     width: 100%;
     margin-top: 30px;
   }
