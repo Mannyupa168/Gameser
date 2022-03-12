@@ -2234,5 +2234,222 @@ body {
     border-radius: 5px;
   }
 }
+.sections-titles {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #151c37;
+  margin-top: 30px;
+  margin-bottom: 45px;
+  margin-left: 15px;
+  padding-left: 15px;
+  border-left: 10px solid #6e3dc8;
+}
+
+.img-background {
+  margin: auto;
+  display: block;
+}
+
+.title-aboutus {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  color: rgba(21, 28, 55, 0.8);
+  letter-spacing: 0.1rem;
+  -webkit-text-stroke: 1.5px;
+  -webkit-text-stroke-color: #151c37;
+  position: absolute;
+  left: 565px;
+  bottom: 323px;
+}
+
+.subtitle-aboutus {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 2.6rem;
+  color: #151c37;
+  letter-spacing: 1rem;
+  position: absolute;
+  left: 320px;
+  bottom: 248px;
+}
+
+.welove {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  color: #151c37;
+  font-size: 2.5rem;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 60px;
+}
+.welove__text {
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  color: #151c37;
+  font-size: 2rem;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 60%;
+}
+.welove__handpick {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  color: #151c37;
+  font-size: 2.5rem;
+  text-align: right;
+  margin-right: 15px;
+  margin-top: 20px;
+  margin-left: 630px;
+}
+.welove__text--handpick {
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  color: #151c37;
+  font-size: 2rem;
+  text-align: right;
+  margin-left: 15px;
+  margin-top: 20px;
+  width: 98%;
+  padding-left: 590px;
+}
+
+.titles-about-us {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  color: #6e4aff;
+  font-size: 2rem;
+  text-align: center;
+  padding: 60px;
+}
+
+.choose-us {
+  font-family: "Play", sans-serif;
+  color: #151c37;
+}
+.choose-us__container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.choose-us__items-titles {
+  font-weight: 700;
+  font-size: 2rem;
+  list-style: none;
+  text-align: center;
+}
+.choose-us__goal {
+  list-style: none;
+  padding-bottom: 20px;
+}
+.choose-us__item-goal {
+  font-weight: 400;
+  font-size: 1.8rem;
+  list-style: none;
+  text-align: left;
+  width: 90%;
+  padding-left: 10px;
+  padding-top: 20px;
+  margin: auto;
+}
+.choose-us__gamepad {
+  list-style: none;
+  padding-bottom: 35px;
+}
+.choose-us__item-gamepad {
+  font-weight: 400;
+  font-size: 1.8rem;
+  list-style: none;
+  text-align: left;
+  width: 90%;
+  padding-left: 30px;
+  padding-top: 20px;
+  margin: auto;
+}
+.choose-us__diamond {
+  list-style: none;
+  padding-bottom: 21px;
+}
+.choose-us__item-diamond {
+  font-weight: 400;
+  font-size: 1.8rem;
+  list-style: none;
+  text-align: left;
+  width: 80%;
+  padding-left: 145px;
+  padding-top: 20px;
+  margin: auto;
+}
+
+.contact-us {
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  color: #151c37;
+  font-size: 2rem;
+  text-align: center;
+  padding: 0 275px;
+}
+
+.form {
+  font-family: "Play", sans-serif;
+  color: #151c37;
+}
+.form__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.form__items {
+  font-weight: 400;
+  font-size: 1.8rem;
+  padding-left: 120px;
+  margin-bottom: 20px;
+}
+.form__styles {
+  border: 1px solid gray;
+  background-color: white;
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+}
+.form__styles-comments {
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.form__items-privacy {
+  font-weight: 400;
+  font-size: 1.8rem;
+  padding-left: 565px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+.form__styles-privacy {
+  border: 1px solid gray;
+  width: 60px;
+  height: 27px;
+  border-radius: 10px;
+}
+.form__container-btns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+  padding-left: 536px;
+}
+.form__items-btns {
+  font-family: "Play";
+  font-weight: 400;
+  color: #151c37;
+  font-size: 1.8rem;
+  text-align: center;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
 /*# sourceMappingURL=main.css.map */
