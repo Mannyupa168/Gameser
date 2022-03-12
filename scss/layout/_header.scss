@@ -48,7 +48,7 @@
     font-size: 1.5rem;
     font-family: "Play";
     height: 46px;
-    width: 390px;
+    width: 550px;
     border-bottom-left-radius: 15px;
   }
   &__header-icons {
@@ -57,8 +57,12 @@
   }
   &__header-icons--searchIcon {
     position: absolute;
-    top: 30px;
-    right: 392px;
+    top: 5px;
+    right: 10px;
+  }
+
+  &__search {
+    position: relative;
   }
 }
 
@@ -115,24 +119,29 @@
 
     &__header-icons--profile {
       position: absolute;
-      top: 48px;
-      left: 18px;
-      width: 7%;
+      top: 53px;
+      left: 24px;
+      width: 1.5rem;
     }
 
     &__header-icons--searchIcon {
-      width: 5%;
-      top: 6.4%;
-      right: 11%;
+      width: 1.25rem;
+      top: 2px;
+      left: 221px;
+    }
+
+    &__menu {
+      position: relative;
     }
 
     &__header-icons--menu {
       position: absolute;
-      width: 6.2%;
-      top: 7px;
-      right: 13px;
+      width: 22px;
+      top: -95px;
+      right: -170px;
     }
   }
+
   .sec-nav {
     display: none;
   }
@@ -151,7 +160,7 @@
     }
 
     &__logo {
-      font-size: 1.8rem;
+      font-size: 2rem;
     }
 
     &__link {
@@ -159,11 +168,10 @@
     }
 
     &__searchBar {
-      height: 30px;
-      width: 100%;
+      height: 31px;
+      width: 360px;
       border-radius: 5px;
       font-size: 1rem;
-      padding-right: 265px;
     }
 
     &__header-icons {
@@ -172,22 +180,26 @@
 
     &__header-icons--profile {
       position: absolute;
-      top: 48px;
-      left: 25px;
-      width: 5%;
+      top: 53px;
+      left: 55px;
+      width: 2rem;
     }
 
     &__header-icons--searchIcon {
-      width: 3%;
-      top: 6.5%;
-      right: 21%;
+      width: 1.4rem;
+      top: 3px;
+      left: 331px;
+    }
+
+    &__menu {
+      position: relative;
     }
 
     &__header-icons--menu {
       position: absolute;
-      width: 4.5%;
-      top: 8px;
-      right: 15px;
+      width: 30px;
+      top: -95px;
+      right: -290px;
     }
   }
 
@@ -220,8 +232,8 @@
 
     &__header-icons--searchIcon {
       position: absolute;
-      top: 45px;
-      right: 520px;
+      top: 4px;
+      right: 8px;
     }
 
     &__header-icons--menu {

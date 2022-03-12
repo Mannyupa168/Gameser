@@ -1,5 +1,6 @@
 .footer {
   background-color: $main-color;
+  width: 100%;
 
   &__container {
     display: flex;
@@ -28,6 +29,7 @@
     padding-right: 50px;
     list-style: none;
     text-decoration: none;
+    position: relative;
   }
 
   &__list {
@@ -54,46 +56,42 @@
     padding-left: 50px;
   }
 
-  &__social-fb {
-    position: absolute;
-    width: 7%;
-    padding-top: 15px;
-    padding-left: 60px;
+  .social-icons {
+    position: relative;
+    bottom: -19px;
+    left: 1px;
+
+    &__instagram {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
   }
 
-  &__social-insta {
-    position: absolute;
-    width: 11.3%;
-    padding-top: 15px;
-    padding-left: 120px;
-  }
+  .payment-icons {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
 
-  &__social-twitter {
-    position: absolute;
-    width: 15.3%;
-    padding-top: 15px;
-    padding-left: 180px;
-  }
+    &__amex {
+      position: absolute;
+      width: 60px;
+      left: 0px;
+      bottom: -60px;
+    }
 
-  &__payment-amex {
-    position: absolute;
-    left: 0;
-    padding-left: 695px;
-    padding-top: 15px;
-  }
+    &__visa {
+      position: absolute;
+      width: 60px;
+      left: 85px;
+      bottom: -60px;
+    }
 
-  &__payment-visa {
-    position: absolute;
-    left: 0;
-    padding-left: 765px;
-    padding-top: 15px;
-  }
-
-  &__payment-masterC {
-    position: absolute;
-    left: 0;
-    padding-left: 833px;
-    padding-top: 15px;
+    &__masterC {
+      position: absolute;
+      width: 75px;
+      left: 163px;
+      bottom: -53px;
+    }
   }
 }
 
@@ -146,39 +144,21 @@
     &__contact {
       padding-left: 50px;
     }
+  }
 
-    &__social-fb {
-      position: absolute;
-      width: 25%;
-      bottom: -1935px;
-      left: 150px;
-    }
+  .social-icons {
+    position: relative;
+    bottom: -19px;
+    left: 1px;
 
-    &__social-insta {
-      position: absolute;
-      width: 42%;
-      bottom: -1935px;
-      left: 140px;
+    &__instagram {
+      padding-left: 10px;
+      padding-right: 10px;
     }
+  }
 
-    &__social-twitter {
-      position: absolute;
-      width: 58.3%;
-      bottom: -1935px;
-      left: 135px;
-    }
-
-    &__payment-amex {
-      display: none;
-    }
-
-    &__payment-visa {
-      display: none;
-    }
-
-    &__payment-masterC {
-      display: none;
-    }
+  .payment-icons {
+    display: none;
   }
 }
 
@@ -232,59 +212,59 @@
       padding-left: 50px;
     }
 
-    &__social-fb {
-      position: absolute;
-      width: 12%;
-      bottom: -1930px;
-      left: 440px;
+    .social-icons {
+      position: relative;
+      bottom: 150px;
+      left: 493px;
+
+      &__instagram {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
     }
 
-    &__social-insta {
-      position: absolute;
-      width: 19.8%;
-      bottom: -1930px;
-      left: 465px;
-    }
-
-    &__social-twitter {
-      position: absolute;
-      width: 27.6%;
-      bottom: -1930px;
-      left: 495px;
-    }
-
-    &__payment-amex {
-      display: none;
-    }
-
-    &__payment-visa {
-      display: none;
-    }
-
-    &__payment-masterC {
+    .payment-icons {
       display: none;
     }
   }
 }
 
 @media (min-width: $hd) {
-  .footer {
-    &__social-fb {
+  .social-icons {
+    position: relative;
+    bottom: -25px;
+    left: 1px;
+
+    &__instagram {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+  .payment-icons {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+
+    &__amex {
       position: absolute;
-      width: 6%;
-      left: 240px;
+      width: 60px;
+      left: -567px;
+      bottom: -19px;
     }
 
-    &__social-insta {
+    &__visa {
       position: absolute;
-      width: 9%;
-      right: 138px;
+      width: 60px;
+      left: -480px;
+      bottom: -19px;
     }
 
-    &__social-twitter {
+    &__masterC {
       position: absolute;
-      width: 12.2%;
-      right: 45px;
+      width: 75px;
+      left: -402px;
+      bottom: -13px;
     }
   }
 }

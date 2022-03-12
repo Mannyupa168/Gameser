@@ -30,7 +30,9 @@
     <nav class="main-nav" aria-label="Main">
       <ul class="main-nav__list">
         <li class="main-nav__item">
-          <a href="index.html" class="main-nav__logo">GAMESER</a>
+          <div>
+            <a href="index.html" class="main-nav__logo">GAMESER</a>
+          </div>
         </li>
         <li class="main-nav__item">
           <a href="./index.html" class="main-nav__link">Menu</a>
@@ -41,13 +43,15 @@
         <li class="main-nav__item">
           <a href="./news/index.html" class="main-nav__link">News</a>
         </li>
-        <li class="main-nav__item">
-          <input type="text" class="main-nav__searchBar" />
-          <img
-            class="main-nav__header-icons--searchIcon"
-            src="./img/icons/search-normal.png"
-            alt="ícono de busqueda"
-          />
+        <li>
+          <div class="main-nav__search">
+            <input type="text" class="main-nav__searchBar" />
+            <img
+              class="main-nav__header-icons--searchIcon"
+              src="./img/icons/search-normal.png"
+              alt="ícono de busqueda"
+            />
+          </div>
         </li>
         <li class="main-nav__item">
           <img
@@ -77,12 +81,14 @@
             alt="ícono de busqueda"
           />
         </li>
-        <li class="main-nav__item">
-          <img
-            class="main-nav__header-icons--menu"
-            src="./img/icons/menu.png"
-            alt="ícono de busqueda"
-          />
+        <li>
+          <div class="main-nav__menu">
+            <img
+              class="main-nav__header-icons--menu"
+              src="./img/icons/menu.png"
+              alt="ícono de busqueda"
+            />
+          </div>
         </li>
       </ul>
     </nav>
@@ -113,10 +119,10 @@
 
     <!--Body page-->
     <section>
-      <div>
-        <h1 class="welcome-title">Discover Gameser</h1>
+      <div class="welcome">
+        <h1 class="welcome__title">Discover Gameser</h1>
         <br />
-        <p class="welcome-title__sub">
+        <p class="welcome__title-sub">
           A site where in addition to buying video games, you can learn about
           the main brands in the gaming industry.
         </p>
@@ -425,6 +431,31 @@
           <ul class="footer__list">
             <li>Payment</li>
             <li>Games activation</li>
+            <li>
+              <div class="payment-icons">
+                <div>
+                  <img
+                    class="payment-icons__amex"
+                    src="img/icons/american-express.png"
+                    alt="logotipo tarjeta American Expres"
+                  />
+                </div>
+                <div>
+                  <img
+                    class="payment-icons__visa"
+                    src="img/icons/visa.png"
+                    alt="logotipo tarjeta Visa"
+                  />
+                </div>
+                <div>
+                  <img
+                    class="payment-icons__masterC"
+                    src="img/icons/mastercard.png"
+                    alt="logotipo tarjeta MasterCard"
+                  />
+                </div>
+              </div>
+            </li>
           </ul>
         </div>
         <div class="footer__nav">
@@ -447,46 +478,23 @@
               <p class="footer__contact">supportgameser@gmail.com</p>
             </li>
             <li>
-              <img
-                class="footer__social-fb"
-                src="img/icons/facebook (1).png"
-                alt="Logotipo red social Facebook"
-              />
-            </li>
-            <li>
-              <img
-                class="footer__social-insta"
-                src="img/icons/instagram.png"
-                alt="logotipo red social Instagram"
-              />
-            </li>
-            <li>
-              <img
-                class="footer__social-twitter"
-                src="img/icons/gorjeo.png"
-                alt="logotipo red social Twitter"
-              />
-            </li>
-            <li>
-              <img
-                class="footer__payment-amex"
-                src="img/icons/american-express.png"
-                alt="logotipo tarjeta American Expres"
-              />
-            </li>
-            <li>
-              <img
-                class="footer__payment-visa"
-                src="img/icons/visa.png"
-                alt="logotipo tarjeta Visa"
-              />
-            </li>
-            <li>
-              <img
-                class="footer__payment-masterC"
-                src="img/icons/mastercard.png"
-                alt="logotipo tarjeta MasterCard"
-              />
+              <div class="social-icons">
+                <img
+                  src="img/icons/facebook.png"
+                  alt="Logotipo red social Facebook"
+                />
+
+                <img
+                  class="social-icons__instagram"
+                  src="img/icons/instagram.png"
+                  alt="logotipo red social Instagram"
+                />
+
+                <img
+                  src="img/icons/gorjeo.png"
+                  alt="logotipo red social Twitter"
+                />
+              </div>
             </li>
           </ul>
         </div>

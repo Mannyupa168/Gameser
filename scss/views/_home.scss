@@ -4,14 +4,29 @@
   }
 }
 
-.welcome-title {
-  text-align: center;
-  font-family: $font-family-titles;
-  font-size: $titles-size;
-  letter-spacing: $titles-letter-spacing;
-  font-weight: $titles-weight;
+.welcome {
+  &__title {
+    text-align: center;
+    font-family: $font-family-titles;
+    font-size: $titles-size;
+    letter-spacing: $titles-letter-spacing;
+    font-weight: $titles-weight;
+  }
 
-  &__sub {
+  &-title {
+    &__sub--banner {
+      position: absolute;
+      top: 970px;
+      color: #ffff;
+      text-align: center;
+      font-family: $font-family-titles;
+      font-size: $texts-size;
+      font-weight: $texts-weight;
+      padding: 0 200px;
+    }
+  }
+
+  &__title-sub {
     text-align: center;
     font-family: $font-family-titles;
     font-size: $subtitles-size;
@@ -32,7 +47,7 @@
 
 .title-banner {
   position: absolute;
-  top: 350px;
+  top: 390px;
   left: 45px;
   text-align: center;
   color: #ffff;
@@ -44,7 +59,7 @@
 
 .games-banner {
   position: absolute;
-  top: 500px;
+  top: 535px;
   left: 470px;
 }
 
@@ -79,7 +94,7 @@
 
   &__images {
     position: absolute;
-    top: 1355px;
+    top: 1408px;
   }
 
   &__items-card1 {
@@ -301,7 +316,7 @@
     background-image: url("/img/Newsletter_Home.png");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 20vh;
+    height: 15vh;
     width: 100%;
     margin-top: 30px;
   }
@@ -311,6 +326,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    position: relative;
   }
 
   &__title {
@@ -333,14 +349,14 @@
 
   &__email {
     position: absolute;
-    top: 253%;
+    top: 103px;
     left: 43.8%;
     font-family: $newsletter-title-font;
     font-weight: 300;
     font-size: 1.3rem;
     border: 1px solid gray;
-    width: 50%;
-    height: 4%;
+    width: 685px;
+    height: 37px;
     border-radius: 5px;
   }
 }
@@ -358,23 +374,32 @@
     width: 100%;
   }
 
-  .welcome-title {
-    text-align: center;
-    font-family: $font-family-titles;
-    font-size: 1.8rem;
-    letter-spacing: $titles-letter-spacing;
-    font-weight: $titles-weight;
+  .welcome {
+    &__title {
+      text-align: center;
+      font-family: $font-family-titles;
+      font-size: 1.8rem;
+      letter-spacing: $titles-letter-spacing;
+      font-weight: $titles-weight;
+    }
 
-    &__sub {
+    &__title-sub {
       text-align: center;
       font-family: $font-family-titles;
       font-size: 1.2rem;
       font-weight: $subtitles-weight;
-      padding: 0 15px 25px;
+      padding: 0 10px 10px;
     }
+  }
+
+  .container {
+    position: relative;
+  }
+
+  .welcome-title {
     &__sub--banner {
       position: absolute;
-      top: 700px;
+      top: 440px;
       color: #ffff;
       text-align: center;
       font-family: $font-family-titles;
@@ -386,7 +411,7 @@
 
   .title-banner {
     position: absolute;
-    top: 295px;
+    top: 15px;
     left: 0;
     text-align: center;
     color: #ffff;
@@ -398,7 +423,7 @@
 
   .games-banner {
     position: absolute;
-    top: 400px;
+    top: 130px;
     left: 10px;
     width: 95%;
   }
@@ -409,29 +434,30 @@
       flex-wrap: wrap;
       justify-content: space-around;
       align-content: center;
+      position: relative;
     }
 
     &__arrow-left {
       position: absolute;
-      top: 1060px;
+      top: 70px;
       left: 0;
     }
 
     &__arrow-right {
       position: absolute;
-      top: 1060px;
+      top: 70px;
       right: 0;
     }
 
     &__arrow-left--popular {
       position: absolute;
-      top: 1445px;
+      top: 180px;
       left: 0;
     }
 
     &__arrow-right--popular {
       position: absolute;
-      top: 1445px;
+      top: 180px;
       right: 0;
     }
 
@@ -472,35 +498,36 @@
       flex-wrap: wrap;
       justify-content: space-evenly;
       align-content: center;
+      position: relative;
     }
 
     &__images {
       position: absolute;
-      width: 40%;
-      top: 1267px;
+      width: 144px;
+      top: 0;
     }
 
     &__icons-card1 {
       position: absolute;
-      top: 1575px;
+      top: 310px;
       left: 56px;
     }
 
     &__icons--bag-card1 {
       position: absolute;
-      top: 1575px;
+      top: 310px;
       left: 105px;
     }
 
     &__icons-card2 {
       position: absolute;
-      top: 1575px;
+      top: 310px;
       left: 220px;
     }
 
     &__icons--bag-card2 {
       position: absolute;
-      top: 1575px;
+      top: 310px;
       left: 273px;
     }
 
@@ -602,7 +629,7 @@
       background-image: url("/img/Newsletter'mobile.png");
       background-size: contain;
       background-repeat: no-repeat;
-      height: 21vh;
+      height: 16vh;
       width: 100%;
     }
 
@@ -612,6 +639,7 @@
       flex-wrap: wrap;
       align-items: center;
       justify-content: flex-start;
+      position: relative;
     }
 
     &__title {
@@ -621,7 +649,7 @@
       text-align: center;
       line-height: 25px;
       width: 91%;
-      padding-top: 0px;
+      padding-top: 8px;
       padding-bottom: 5px;
     }
 
@@ -635,14 +663,14 @@
 
     &__email {
       position: absolute;
-      top: 257%;
+      top: 130px;
       left: 4.8%;
       font-family: $newsletter-title-font;
       font-weight: 300;
       font-size: 1rem;
       border: 1px solid gray;
-      width: 90%;
-      height: 3%;
+      width: 320px;
+      height: 22px;
       border-radius: 5px;
     }
   }
@@ -663,83 +691,96 @@
     height: 860px;
   }
 
-  .welcome-title {
-    text-align: center;
-    font-family: $font-family-titles;
-    font-size: $titles-size;
-    letter-spacing: $titles-letter-spacing;
-    font-weight: $titles-weight;
-
-    &__sub {
+  .welcome {
+    &__title {
       text-align: center;
       font-family: $font-family-titles;
-      font-size: $subtitles-size;
-      font-weight: $subtitles-weight;
-      padding: 0 133px 20px;
+      font-size: 1.8rem;
+      letter-spacing: $titles-letter-spacing;
+      font-weight: $titles-weight;
     }
+
+    &__title-sub {
+      text-align: center;
+      font-family: $font-family-titles;
+      font-size: 1.2rem;
+      font-weight: $subtitles-weight;
+      padding: 0 10px 10px;
+    }
+  }
+
+  .container {
+    position: relative;
+  }
+
+  .welcome-title {
     &__sub--banner {
       position: absolute;
-      top: 900px;
+      top: 634px;
       color: #ffff;
       text-align: center;
       font-family: $font-family-titles;
-      font-size: 1.6rem;
+      font-size: 2rem;
       font-weight: $texts-weight;
-      padding: 0 100px;
+      padding: 0 50px;
     }
   }
 
   .title-banner {
     position: absolute;
-    top: 290px;
-    left: 30px;
+    top: 5px;
+    left: 0;
+    right: 0;
     text-align: center;
     color: #ffff;
     font-family: $font-family-titles;
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: $titles-weight;
-    padding: 0 170px;
+    padding: 5px 115px;
   }
 
   .games-banner {
     position: absolute;
-    top: 435px;
+    top: 170px;
     left: 135px;
   }
 
   .favorite-games {
     &__container {
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-around;
+      align-content: center;
+      position: relative;
     }
 
     &__arrow-left {
       position: absolute;
-      top: 1220px;
+      top: 70px;
       left: 0;
     }
 
     &__arrow-right {
       position: absolute;
-      top: 1220px;
+      top: 70px;
       right: 0;
     }
 
     &__arrow-left--popular {
       position: absolute;
-      top: 1630px;
-      left: 20px;
+      top: 180px;
+      left: 0;
     }
 
     &__arrow-right--popular {
       position: absolute;
-      top: 1630px;
-      right: 20px;
+      top: 180px;
+      right: 0;
     }
 
     &__game1 {
       width: 100%;
-      padding-left: 18px;
+      padding-left: 22px;
     }
 
     &__game2 {
@@ -761,7 +802,7 @@
     font-weight: $section-titles-weight;
     color: $section-titles-color;
     margin-top: 30px;
-    margin-bottom: 45px;
+    margin-bottom: 35px;
     margin-left: 15px;
     padding-left: 15px;
     border-left: 10px solid #6e3dc8;
@@ -773,69 +814,70 @@
       flex-wrap: wrap;
       justify-content: space-evenly;
       align-content: center;
+      position: relative;
     }
 
     &__images {
       position: absolute;
-      width: 18.7%;
-      top: 1458px;
+      width: 144px;
+      top: 0;
     }
 
     &__icons-card1 {
       position: absolute;
-      top: 1752px;
-      left: 105px;
+      top: 310px;
+      left: 110px;
     }
 
     &__icons--bag-card1 {
       position: absolute;
-      top: 1752px;
-      left: 175px;
+      top: 310px;
+      left: 172px;
     }
 
     &__icons-card2 {
       position: absolute;
-      top: 1752px;
-      left: 331px;
+      top: 310px;
+      left: 336px;
     }
 
     &__icons--bag-card2 {
       position: absolute;
-      top: 1752px;
-      left: 400px;
+      top: 310px;
+      left: 395px;
     }
 
     &__icons-card3 {
       position: absolute;
-      top: 1752px;
-      left: 558px;
+      top: 310px;
+      left: 565px;
     }
 
     &__icons--bag-card3 {
       position: absolute;
-      top: 1752px;
-      left: 630px;
+      top: 310px;
+      left: 623px;
     }
 
     &__items-card1 {
       background-color: $main-color;
       border-radius: 15px;
       width: 144px;
-      height: 375px;
+      height: 355px;
     }
 
     &__items-card2 {
       background-color: $main-color;
       border-radius: 15px;
       width: 144px;
-      height: 375px;
+      height: 355px;
     }
 
     &__items-card3 {
       background-color: $main-color;
       border-radius: 15px;
       width: 144px;
-      height: 375px;
+      height: 355px;
     }
 
     &__items-card4 {
@@ -856,8 +898,8 @@
       font-weight: $info-games-weight;
       font-size: 0.9rem;
       color: $info-games-color;
-      padding-top: 210px;
-      padding-bottom: 10px;
+      padding-top: 203px;
+      padding-bottom: 8px;
     }
 
     &__categories {
@@ -888,7 +930,7 @@
       position: absolute;
       background-color: #c4c4c452;
       border-radius: 5px;
-      width: 9%;
+      width: 67px;
       font-family: $info-games-font;
       color: $info-games-color;
       font-weight: $info-games-weight;
@@ -903,7 +945,7 @@
       font-weight: $info-games-weight;
       font-size: 1.2rem;
       text-align: center;
-      padding-top: 105px;
+      padding-top: 50px;
       letter-spacing: 2px;
     }
 
@@ -925,6 +967,7 @@
       flex-wrap: wrap;
       align-items: center;
       justify-content: space-around;
+      position: relative;
     }
 
     &__title {
@@ -946,14 +989,14 @@
 
     &__email {
       position: absolute;
-      top: 304%;
-      left: 38.8%;
+      top: 120px;
+      left: 292px;
       font-family: $newsletter-title-font;
       font-weight: 300;
       font-size: 1.3rem;
       border: 1px solid gray;
       width: 53%;
-      height: 3%;
+      height: 33px;
       border-radius: 5px;
     }
   }
@@ -1017,37 +1060,40 @@
     }
   }
 
-  .welcome-title {
-    text-align: center;
-    font-family: $font-family-titles;
-    font-size: 4rem;
-    letter-spacing: $titles-letter-spacing;
-    font-weight: $titles-weight;
-
-    &__sub {
+  .welcome {
+    &__title {
       text-align: center;
       font-family: $font-family-titles;
-      font-size: 2.2rem;
-      font-weight: $subtitles-weight;
-      padding: 0 300px 20px;
+      font-size: 4rem;
+      letter-spacing: $titles-letter-spacing;
+      font-weight: $titles-weight;
     }
-    &__sub--banner {
-      position: absolute;
-      top: 1150px;
-      left: 0;
-      right: 0;
-      color: #ffff;
+
+    &-title {
+      &__sub--banner {
+        position: absolute;
+        top: 1180px;
+        color: #ffff;
+        text-align: center;
+        font-family: $font-family-titles;
+        font-size: 2.8rem;
+        font-weight: $texts-weight;
+        padding: 0 200px;
+      }
+    }
+
+    &__title-sub {
       text-align: center;
       font-family: $font-family-titles;
-      font-size: 2.85rem;
-      font-weight: $texts-weight;
-      padding: 0 200px;
+      font-size: 2.5rem;
+      font-weight: $subtitles-weight;
+      padding: 0 133px 20px;
     }
   }
 
   .title-banner {
     position: absolute;
-    top: 440px;
+    top: 425px;
     left: 0;
     right: 0;
     text-align: center;
@@ -1060,9 +1106,10 @@
 
   .games-banner {
     position: absolute;
-    top: 680px;
-    left: 660px;
+    top: 610px;
+    left: 620px;
     right: 0;
+    width: 700px;
   }
 
   .favorite-games {
@@ -1113,7 +1160,7 @@
 
     &__images {
       position: absolute;
-      top: 1714px;
+      top: 1725px;
     }
 
     &__items-card1 {
@@ -1281,6 +1328,7 @@
       flex-wrap: wrap;
       align-items: center;
       justify-content: space-around;
+      position: relative;
     }
 
     &__title {
@@ -1301,14 +1349,14 @@
 
     &__email {
       position: absolute;
-      top: 241%;
-      left: 43.8%;
+      margin-top: 30px;
+      left: 785px;
       font-family: $newsletter-title-font;
       font-weight: 300;
       font-size: 1.3rem;
       border: 1px solid gray;
       width: 50%;
-      height: 4%;
+      height: 45px;
       border-radius: 5px;
     }
   }
