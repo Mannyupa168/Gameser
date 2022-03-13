@@ -2303,7 +2303,6 @@ body {
   text-align: right;
   margin-right: 15px;
   margin-top: 20px;
-  margin-left: 630px;
 }
 .welove__text--handpick {
   font-family: "Play", sans-serif;
@@ -2314,7 +2313,6 @@ body {
   margin-left: 15px;
   margin-top: 20px;
   width: 98%;
-  padding-left: 590px;
 }
 
 .titles-about-us {
@@ -2379,9 +2377,7 @@ body {
   list-style: none;
   text-align: left;
   width: 80%;
-  padding-left: 145px;
   padding-top: 20px;
-  margin: auto;
 }
 
 .contact-us {
@@ -2390,7 +2386,7 @@ body {
   color: #151c37;
   font-size: 2rem;
   text-align: center;
-  padding: 0 275px;
+  margin-bottom: 45px;
 }
 
 .form {
@@ -2403,9 +2399,10 @@ body {
   align-items: center;
 }
 .form__items {
+  font-family: "Play", sans-serif;
   font-weight: 400;
   font-size: 1.8rem;
-  padding-left: 120px;
+  padding-left: 80px;
   margin-bottom: 20px;
 }
 .form__styles {
@@ -2420,9 +2417,9 @@ body {
   border-radius: 10px;
 }
 .form__items-privacy {
+  font-family: "Play", sans-serif;
   font-weight: 400;
   font-size: 1.8rem;
-  padding-left: 565px;
   margin-top: 35px;
   margin-bottom: 30px;
 }
@@ -2431,16 +2428,17 @@ body {
   width: 60px;
   height: 27px;
   border-radius: 10px;
+  text-align: center;
 }
 .form__container-btns {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 30%;
-  padding-left: 536px;
+  padding-left: 750px;
 }
 .form__items-btns {
-  font-family: "Play";
+  font-family: "Play", sans-serif;
   font-weight: 400;
   color: #151c37;
   font-size: 1.8rem;
@@ -2450,6 +2448,226 @@ body {
   border-radius: 10px;
   padding-left: 30px;
   padding-right: 30px;
+  margin-left: 40px;
+}
+
+@media (max-width: 576px) {
+  .sections-titles {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #151c37;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    padding-left: 10px;
+    border-left: 8px solid #6e3dc8;
+    width: 95% !important;
+  }
+
+  .img-background {
+    width: 360px;
+    margin: auto;
+    display: block;
+  }
+
+  .title-aboutus {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: rgba(21, 28, 55, 0.8);
+    letter-spacing: 0.1rem;
+    -webkit-text-stroke: 1.5px;
+    -webkit-text-stroke-color: #151c37;
+    position: absolute;
+    left: 110px;
+    bottom: 635px;
+  }
+
+  .subtitle-aboutus {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #151c37;
+    position: absolute;
+    left: 35px;
+    bottom: 555px;
+    text-align: center;
+    width: 325px;
+  }
+
+  .welove {
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    color: #151c37;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .welove__text {
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    color: #151c37;
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 100%;
+  }
+  .welove__handpick {
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    color: #151c37;
+    font-size: 1.5rem;
+    text-align: right;
+    width: 100%;
+  }
+  .welove__text--handpick {
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    color: #151c37;
+    font-size: 1rem;
+    text-align: right;
+    padding: 0 9px;
+  }
+
+  .titles-about-us {
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    color: #6e4aff;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .choose-us {
+    font-family: "Play", sans-serif;
+    color: #151c37;
+  }
+  .choose-us__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 700px;
+  }
+  .choose-us__items-titles {
+    font-weight: 700;
+    font-size: 1.8rem;
+    list-style: none;
+    text-align: center;
+  }
+  .choose-us__goal {
+    list-style: none;
+    padding-bottom: 20px;
+  }
+  .choose-us__item-goal {
+    font-weight: 400;
+    font-size: 1.4rem;
+    list-style: none;
+    text-align: left;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin: auto;
+  }
+  .choose-us__gamepad {
+    list-style: none;
+    padding-bottom: 35px;
+  }
+  .choose-us__item-gamepad {
+    font-weight: 400;
+    font-size: 1.4rem;
+    list-style: none;
+    text-align: left;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin: auto;
+  }
+  .choose-us__diamond {
+    list-style: none;
+    padding-bottom: 21px;
+  }
+  .choose-us__item-diamond {
+    font-weight: 400;
+    font-size: 1.4rem;
+    list-style: none;
+    text-align: left;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+
+  .contact-us {
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    color: #151c37;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+
+  .form {
+    font-family: "Play", sans-serif;
+    color: #151c37;
+  }
+  .form__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .form__items {
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+  .form__styles {
+    border: 1px solid gray;
+    background-color: white;
+    width: 335px;
+    height: 30px;
+    border-radius: 10px;
+  }
+  .form__styles-comments {
+    border: 1px solid gray;
+    border-radius: 10px;
+  }
+  .form__items-privacy {
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+  }
+  .form__styles-privacy {
+    border: 1px solid gray;
+    width: 60px;
+    height: 27px;
+    border-radius: 10px;
+  }
+  .form__container-btns {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 85%;
+  }
+  .form__items-btns {
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    color: #151c37;
+    font-size: 1.4rem;
+    text-align: center;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 40px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
