@@ -5,18 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index,follow" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
+    <link rel="stylesheet" href="../css/style.css" />
+    <meta
+      name="description"
+      content="At Gameser you will be able to find what you need at competitive costs and keep up to date with all the events and news."
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
+    <meta
+      name="keywords"
+      content="catalog, genres, platforms, games, editions, action, open world, multiplayer, singleplayer"
     />
     <script
       src="https://kit.fontawesome.com/cc899e1596.js"
@@ -31,24 +27,24 @@
       <ul class="main-nav__list">
         <li class="main-nav__item">
           <div>
-            <a href="index.html" class="main-nav__logo">GAMESER</a>
+            <a href="/index.html" class="main-nav__logo">GAMESER</a>
           </div>
         </li>
         <li class="main-nav__item">
-          <a href="./index.html" class="main-nav__link">Menu</a>
+          <a href="/index.html" class="main-nav__link">Menu</a>
         </li>
         <li class="main-nav__item">
-          <a href="./catalog/index.html" class="main-nav__link">Catalog</a>
+          <a href="/catalog/index.html" class="main-nav__link">Catalog</a>
         </li>
         <li class="main-nav__item">
-          <a href="./news/index.html" class="main-nav__link">News</a>
+          <a href="/news/index.html" class="main-nav__link">News</a>
         </li>
         <li>
           <div class="main-nav__search">
             <input type="text" class="main-nav__searchBar" />
             <img
               class="main-nav__header-icons--searchIcon"
-              src="./img/icons/search-normal.png"
+              src="/img/icons/search-normal.png"
               alt="ícono de busqueda"
             />
           </div>
@@ -56,28 +52,28 @@
         <li class="main-nav__item">
           <img
             class="main-nav__header-icons"
-            src="./img/icons/profile.png"
+            src="/img/icons/profile.png"
             alt="ícono de busqueda"
           />
         </li>
         <li class="main-nav__item">
           <img
             class="main-nav__header-icons"
-            src="./img/icons/heart-search.png"
+            src="/img/icons/heart-search.png"
             alt="ícono de busqueda"
           />
         </li>
         <li class="main-nav__item">
           <img
             class="main-nav__header-icons"
-            src="./img/icons/bag.png"
+            src="/img/icons/bag.png"
             alt="ícono de busqueda"
           />
         </li>
         <li class="main-nav__item">
           <img
             class="main-nav__header-icons--profile"
-            src="./img/icons/profile mobile.png"
+            src="/img/icons/profile mobile.png"
             alt="ícono de busqueda"
           />
         </li>
@@ -85,7 +81,7 @@
           <div class="main-nav__menu">
             <img
               class="main-nav__header-icons--menu"
-              src="./img/icons/menu.png"
+              src="/img/icons/menu.png"
               alt="ícono de busqueda"
             />
           </div>
@@ -97,270 +93,375 @@
     <div class="sec-nav">
       <ul class="sec-nav__list">
         <li class="sec-nav__item">
-          <a href="./playstation/index.html">
+          <a href="/playstation/index.html">
             <img
-              src="img/icons/playstation-logotype.png"
+              src="/img/icons/playstation-logotype.png"
               alt="Logotipo PLaystation"
             />
           </a>
         </li>
         <li class="sec-nav__item--separation">
-          <a href="./xbox/index.html">
-            <img src="img/icons/xbox-logo.png" alt="Logotipo Xbox" />
+          <a href="/xbox/index.html">
+            <img src="/img/icons/xbox-logo.png" alt="Logotipo Xbox" />
           </a>
         </li>
         <li class="sec-nav__item">
-          <a href="./nintendo/index.html">
-            <img src="img/icons/nintendo.png" alt="Logotipo Nintendo" />
+          <a href="/nintendo/index.html">
+            <img src="/img/icons/nintendo.png" alt="Logotipo Nintendo" />
           </a>
         </li>
       </ul>
     </div>
 
     <!--Body page-->
-    <section>
-      <div class="welcome">
-        <h1 class="welcome__title">Discover Gameser</h1>
-        <br />
-        <p class="welcome__title-sub">
-          A site where in addition to buying video games, you can learn about
-          the main brands in the gaming industry.
-        </p>
-      </div>
-
-      <div class="container">
-        <img
-          class="container__image-hd"
-          src="img/background_banner-hd.jpg"
-          alt="background image news games"
-        />
-
-        <img
-          class="bannerBackgroundImage"
-          src="img/background_banner.jpg"
-          alt="background image news games"
-        />
-
-        <img
-          class="banner-image-mobile"
-          src="img/background_banner-mobile.jpg"
-          alt="background image news games"
-        />
-
-        <p class="title-banner">Upcoming games to look forward to in 2022</p>
-        <div>
-          <img class="games-banner" src="img/2022-games.png" alt="" />
+    <div class="catalog-title">XBOX</div>
+    <div>
+      <h1 class="welcome__title-sub">
+        Find the latest and greatest games in our catalog.
+      </h1>
+    </div>
+    <section class="filters">
+      <div class="filters__container">
+        <div class="filters__items">
+          <label for="">Filter </label>
+          <select
+            class="filters__form-styles"
+            name="filterYear"
+            id="filterYear"
+          >
+            <option value="LP">Lowest Price</option>
+            <option value="HP">Highest Price</option>
+            <option value="POP">Popular</option>
+            <option value="DSC">Discounts</option>
+          </select>
         </div>
-        <p class="welcome-title__sub--banner">
-          From indie games designed to move you to blockbusters that will dazzle
-          your senses, here are some of the biggest games to be released this
-          2022.
-        </p>
-      </div>
-    </section>
-
-    <!-- FAVORITE GAMES -->
-    <section class="favorite-games">
-      <div class="favorite-games__container">
-        <div>
-          <img
-            class="favorite-games__game1"
-            src="img/Control game.png"
-            alt=""
-          />
-          <img
-            class="favorite-games__arrow-left"
-            src="img/icons/arrow-left.png"
-            alt=""
-          />
-          <img
-            class="favorite-games__arrow-right"
-            src="img/icons/arrow-right.png"
-            alt=""
-          />
+        <div class="filters__items">
+          <label for="">Platform </label>
+          <select
+            class="filters__form-styles"
+            name="filterPlatform"
+            id="filterPlatform"
+          >
+            <option value="PC">PC</option>
+            <option value="PS">Playstation</option>
+            <option value="XB">Xbox</option>
+            <option value="NT">Nintendo</option>
+          </select>
         </div>
-        <div>
-          <img
-            class="favorite-games__game2"
-            src="img/Horizon-forbiddenwest 1.png"
-            alt=""
-          />
-        </div>
-        <div>
-          <img class="favorite-games__game3" src="img/farcry6_img.png" alt="" />
-        </div>
-        <div>
-          <img
-            class="favorite-games__game4"
-            src="img/reddeadr_img.png"
-            alt=""
-          />
+        <div class="filters__items">
+          <label for="">Genres </label>
+          <select
+            class="filters__form-styles"
+            name="filterGenre"
+            id="filterGenre"
+          >
+            <option value="Act">Action</option>
+            <option value="Adv">Adventure</option>
+            <option value="Sht">Shooter</option>
+            <option value="Opw">Open World</option>
+            <option value="Arc">Arcade</option>
+            <option value="Str">Strategy</option>
+            <option value="Srv">Survival</option>
+            <option value="Rpg">RPG</option>
+            <option value="Ind">Indie</option>
+          </select>
         </div>
       </div>
     </section>
 
-    <div class="sections-titles">POPULAR</div>
-
-    <!-- POPULAR GAMES -->
-    <section class="popular-games">
-      <div class="popular-games__container">
-        <div class="popular-games__items-card1">
-          <p class="popular-games__edition">STANDART EDITION</p>
-          <div class="popular-games__categories">
-            <div class="popular-games__categories-items">Action</div>
-            <div class="popular-games__categories-items--secondary">
-              Open World
+    <section class="catalog-games">
+      <div class="catalog-games__container">
+        <div class="catalog-games__items-card1">
+          <p class="catalog-games__edition">STANDART EDITION</p>
+          <div class="catalog-games__categories">
+            <div class="catalog-games__categories-items">Horror</div>
+            <div class="catalog-games__categories-items--secondary">
+              Survival
             </div>
           </div>
-          <div class="popular-games__price">37,49 USD</div>
-          <div class="popular-games__detailsBtn">Details</div>
+          <div class="catalog-games__price">29,91 USD</div>
           <img
-            class="popular-games__images"
-            src="img/daysgone_img.png"
-            alt=""
-          />
-          <img
-            class="favorite-games__arrow-left--popular"
-            src="img/icons/arrow-left.png"
-            alt=""
-          />
-          <img
-            class="popular-games__icons-card1"
-            src="img/icons/heart.png"
-            alt=""
-          />
-          <img
-            class="popular-games__icons--bag-card1"
-            src="img/icons/bag-happy.png"
+            class="catalog-games__images catalog-games__images-mob1"
+            src="../img/Catalog/Dying Light2.png"
             alt=""
           />
         </div>
 
-        <div class="popular-games__items-card2">
-          <p class="popular-games__edition">STANDART EDITION</p>
-          <div class="popular-games__categories">
-            <div class="popular-games__categories-items">Action</div>
-            <div class="popular-games__categories-items--secondary">
-              Open World
+        <div class="catalog-games__items-card2">
+          <p class="catalog-games__edition">STANDART EDITION</p>
+          <div class="catalog-games__categories">
+            <div class="catalog-games__categories-items">Action</div>
+            <div class="catalog-games__categories-items--secondary">
+              Adventure
             </div>
           </div>
-          <div class="popular-games__price">29,25 USD</div>
-          <div class="popular-games__detailsBtn">Details</div>
+          <div class="catalog-games__price">40,74 USD</div>
           <img
-            class="popular-games__images"
-            src="img/deathstranding_img.png"
-            alt=""
-          />
-          <img
-            class="favorite-games__arrow-right--popular"
-            src="img/icons/arrow-right.png"
-            alt=""
-          />
-          <img
-            class="popular-games__icons-card2"
-            src="img/icons/heart.png"
-            alt=""
-          />
-          <img
-            class="popular-games__icons--bag-card2"
-            src="img/icons/bag-happy.png"
+            class="catalog-games__images catalog-games__images-mob2"
+            src="../img/Catalog/GodOfWar.png"
             alt=""
           />
         </div>
 
-        <div class="popular-games__items-card3">
-          <p class="popular-games__edition">STANDART EDITION</p>
-          <div class="popular-games__categories">
-            <div class="popular-games__categories-items">Action</div>
-            <div class="popular-games__categories-items--secondary">
+        <div class="catalog-games__items-card3">
+          <p class="catalog-games__edition">STANDART EDITION</p>
+          <div class="catalog-games__categories">
+            <div class="catalog-games__categories-items">Racing</div>
+            <div class="catalog-games__categories-items--secondary">
+              Multiplayer
+            </div>
+          </div>
+          <div class="catalog-games__price">34,40 USD</div>
+          <img
+            class="catalog-games__images catalog-games__images-mob3"
+            src="../img/Catalog/HotWheels.png"
+            alt=""
+          />
+        </div>
+
+        <div class="catalog-games__items-card4">
+          <p class="catalog-games__edition">FREE GAME</p>
+          <div class="catalog-games__categories">
+            <div class="catalog-games__categories-items">RPG</div>
+            <div class="catalog-games__categories-items--secondary">
+              Strategy
+            </div>
+          </div>
+          <img
+            class="catalog-games__images"
+            src="../img/Catalog/LOL.png"
+            alt=""
+          />
+        </div>
+
+        <div class="catalog-games__items-card5">
+          <p class="catalog-games__edition">STANDART EDITION</p>
+          <div class="catalog-games__categories">
+            <div class="catalog-games__categories-items">Indie</div>
+            <div class="catalog-games__categories-items--secondary">
+              Simulation
+            </div>
+          </div>
+          <div class="catalog-games__price">11,50 USD</div>
+          <img
+            class="catalog-games__images"
+            src="../img/Catalog/HouseFlipper.png"
+            alt=""
+          />
+        </div>
+
+        <div class="catalog-games__items-card6">
+          <p class="catalog-games__edition">FREE GAME</p>
+          <div class="catalog-games__categories">
+            <div class="catalog-games__categories-items">Single Player</div>
+            <div class="catalog-games__categories-items--secondary">
+              Strategy
+            </div>
+          </div>
+          <img
+            class="catalog-games__images"
+            src="../img/Catalog/TeamFight.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!--Row 2-->
+    <section class="catalog-games">
+      <div class="catalog-games__container">
+        <div class="catalog-games__items-card1">
+          <p class="catalog-games__edition">STANDART EDITION</p>
+          <div class="catalog-games__categories">
+            <div class="catalog-games__categories-items">Single</div>
+            <div class="catalog-games__categories-items--secondary">
+              Simulation
+            </div>
+          </div>
+          <div class="catalog-games__price">13,76 USD</div>
+          <img
+            class="catalog-games__images-r2 catalog-games__images-r2-mob1"
+            src="../img/Catalog/TrainSimWorld2.png"
+            alt=""
+          />
+        </div>
+
+        <div class="catalog-games__items-card2">
+          <p class="catalog-games__edition">FREE GAME</p>
+          <div class="catalog-games__categories">
+            <div class="catalog-games__categories-items">Action</div>
+            <div class="catalog-games__categories-items--secondary">
+              Multiplayer
+            </div>
+          </div>
+          <img
+            class="catalog-games__images-r2 catalog-games__images-r2-mob2"
+            src="../img/Catalog/Century.png"
+            alt=""
+          />
+        </div>
+
+        <div class="catalog-games__items-card3">
+          <p class="catalog-games__edition">FREE GAME</p>
+          <div class="catalog-games__categories">
+            <div class="catalog-games__categories-items">Card game</div>
+            <div class="catalog-games__categories-items--secondary">
+              Strategy
+            </div>
+          </div>
+          <img
+            class="catalog-games__images-r2 catalog-games__images-r2-mob3"
+            src="../img/Catalog/LegendsOfRuneterra.png"
+            alt=""
+          />
+        </div>
+
+        <div class="catalog-games__items-card4">
+          <p class="catalog-games__edition">STANDART EDITION</p>
+          <div class="catalog-games__categories">
+            <div class="catalog-games__categories-items">Indie</div>
+            <div class="catalog-games__categories-items--secondary">
+              Simulation
+            </div>
+          </div>
+          <div class="catalog-games__price">29,30 USD</div>
+          <img
+            class="catalog-games__images-r2"
+            src="../img/Catalog/BusSimulator21.png"
+            alt=""
+          />
+        </div>
+
+        <div class="catalog-games__items-card5">
+          <p class="catalog-games__edition">FREE GAME</p>
+          <div class="catalog-games__categories">
+            <div class="catalog-games__categories-items">Card game</div>
+            <div class="catalog-games__categories-items--secondary">
+              Adventure
+            </div>
+          </div>
+          <div class="catalog-games__price">11,50 USD</div>
+          <img
+            class="catalog-games__images-r2 catalog-games__images-r2-mob3"
+            src="../img/Catalog/AnimationThrowdown.png"
+            alt=""
+          />
+        </div>
+
+        <div class="catalog-games__items-card6">
+          <p class="catalog-games__edition">FREE GAME</p>
+          <div class="catalog-games__categories">
+            <div class="catalog-games__categories-items">RPG</div>
+            <div class="catalog-games__categories-items--secondary">
+              Adventure
+            </div>
+          </div>
+          <img
+            class="catalog-games__images-r2"
+            src="../img/Catalog/GenshinImpact.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!--Row 3-->
+    <section class="catalog-games">
+      <div class="catalog-games__container">
+        <div class="catalog-games__items-card1">
+          <p class="catalog-games__edition">STANDART EDITION</p>
+          <div class="catalog-games__categories">
+            <div class="catalog-games__categories-items">Action</div>
+            <div class="catalog-games__categories-items--secondary">
+              Adventure
+            </div>
+          </div>
+          <div class="catalog-games__price">44,23 USD</div>
+          <img
+            class="catalog-games__images-r3 catalog-games__images-r3-mob1"
+            src="../img/Catalog/BattlefrontII.png"
+            alt=""
+          />
+        </div>
+
+        <div class="catalog-games__items-card2">
+          <p class="catalog-games__edition">STANDART GAME</p>
+          <div class="catalog-games__categories">
+            <div class="catalog-games__categories-items">Action</div>
+            <div class="catalog-games__categories-items--secondary">
+              Adventure
+            </div>
+          </div>
+          <div class="catalog-games__price">44,25 USD</div>
+          <img
+            class="catalog-games__images-r3 catalog-games__images-r3-mob2"
+            src="../img/Catalog/StarWarsJedi.png"
+            alt=""
+          />
+        </div>
+
+        <div class="catalog-games__items-card3">
+          <p class="catalog-games__edition">STANDART GAME</p>
+          <div class="catalog-games__categories">
+            <div class="catalog-games__categories-items">Action</div>
+            <div class="catalog-games__categories-items--secondary">
+              Adventure
+            </div>
+          </div>
+          <div class="catalog-games__price">45,30 USD</div>
+          <img
+            class="catalog-games__images-r3 catalog-games__images-r3-mob3"
+            src="../img/Catalog/ACValhallaDE.png"
+            alt=""
+          />
+        </div>
+
+        <div class="catalog-games__items-card4">
+          <p class="catalog-games__edition">STANDART EDITION</p>
+          <div class="catalog-games__categories">
+            <div class="catalog-games__categories-items">Action</div>
+            <div class="catalog-games__categories-items--secondary">
               Shooter
             </div>
           </div>
-          <div class="popular-games__price">44,53 USD</div>
-          <div class="popular-games__detailsBtn">Details</div>
+          <div class="catalog-games__price">44,53 USD</div>
           <img
-            class="popular-games__images"
-            src="img/battlefield_img.png"
-            alt=""
-          />
-          <img
-            class="popular-games__icons-card3"
-            src="img/icons/heart.png"
-            alt=""
-          />
-          <img
-            class="popular-games__icons--bag-card3"
-            src="img/icons/bag-happy.png"
+            class="catalog-games__images-r3"
+            src="../img/Catalog/StarWarsSquadrons.png"
             alt=""
           />
         </div>
 
-        <div class="popular-games__items-card4">
-          <p class="popular-games__edition">STANDART EDITION</p>
-          <div class="popular-games__categories">
-            <div class="popular-games__categories-items">Action</div>
-            <div class="popular-games__categories-items--secondary">
-              Open World
+        <div class="catalog-games__items-card5">
+          <p class="catalog-games__edition">STANDART EDITION</p>
+          <div class="catalog-games__categories">
+            <div class="catalog-games__categories-items">Action</div>
+            <div class="catalog-games__categories-items--secondary">
+              Shooter
             </div>
           </div>
-          <div class="popular-games__price">29,30 USD</div>
-          <div class="popular-games__detailsBtn">Details</div>
+          <div class="catalog-games__price">21,57 USD</div>
           <img
-            class="popular-games__images"
-            src="img/asscreed_img.png"
+            class="catalog-games__images-r3"
+            src="../img/Catalog/Battlefront.png"
             alt=""
           />
         </div>
 
-        <div class="popular-games__items-card5">
-          <p class="popular-games__edition">STANDART EDITION</p>
-          <div class="popular-games__categories">
-            <div class="popular-games__categories-items">Action</div>
-            <div class="popular-games__categories-items--secondary">
-              Adventure
+        <div class="catalog-games__items-card6">
+          <p class="catalog-games__edition">STANDART EDITION</p>
+          <div class="catalog-games__categories">
+            <div class="catalog-games__categories-items">Indie</div>
+            <div class="catalog-games__categories-items--secondary">
+              Fighting
             </div>
           </div>
-          <div class="popular-games__price">28,91 USD</div>
-          <div class="popular-games__detailsBtn">Details</div>
-          <img class="popular-games__images" src="img/kena_img.png" alt="" />
-        </div>
-
-        <div class="popular-games__items-card6">
-          <p class="popular-games__edition">STANDART EDITION</p>
-          <div class="popular-games__categories">
-            <div class="popular-games__categories-items">Action</div>
-            <div class="popular-games__categories-items--secondary">
-              Adventure
-            </div>
-          </div>
-          <div class="popular-games__price">36,29 USD</div>
-          <div class="popular-games__detailsBtn">Details</div>
+          <div class="catalog-games__price">15,92 USD</div>
           <img
-            class="popular-games__images"
-            src="img/cyberpunk_img.png"
+            class="catalog-games__images-r3"
+            src="../img/Catalog/SIFU.png"
             alt=""
           />
-        </div>
-      </div>
-    </section>
-
-    <!-- HOT NEWS -->
-    <div class="sections-titles">HOT NEWS</div>
-
-    <section class="hot-news">
-      <div class="hot-news__card1">
-        <div class="hot-news__card-content">
-          <h2 class="hot-news__content-title">
-            Bethesda announced we’re joining the Microsoft family
-          </h2>
-
-          <p class="hot-news__content-body">
-            The critically acclaimed creators of The Elder Scrolls, Fallout,
-            Wolfenstein, DOOM, Dishonored, Quake, Starfield, and more join the
-            Xbox team.
-          </p>
-
-          <a href="#" class="hot-news__button">More Details</a>
         </div>
       </div>
     </section>
@@ -391,12 +492,12 @@
           Information
           <ul class="footer__list">
             <li>
-              <a class="footer__decoration-info" href="./about/index.html"
+              <a class="footer__decoration-info" href="/about/index.html"
                 >About us</a
               >
             </li>
             <li>
-              <a class="footer__decoration-info" href="./news/index.html"
+              <a class="footer__decoration-info" href="/news/index.html"
                 >News</a
               >
             </li>
@@ -413,21 +514,21 @@
                 <div>
                   <img
                     class="payment-icons__amex"
-                    src="img/icons/american-express.png"
+                    src="/img/icons/american-express.png"
                     alt="logotipo tarjeta American Expres"
                   />
                 </div>
                 <div>
                   <img
                     class="payment-icons__visa"
-                    src="img/icons/visa.png"
+                    src="/img/icons/visa.png"
                     alt="logotipo tarjeta Visa"
                   />
                 </div>
                 <div>
                   <img
                     class="payment-icons__masterC"
-                    src="img/icons/mastercard.png"
+                    src="/img/icons/mastercard.png"
                     alt="logotipo tarjeta MasterCard"
                   />
                 </div>
@@ -441,7 +542,7 @@
             <li>
               <img
                 class="footer__icons"
-                src="img/icons/call.png"
+                src="/img/icons/call.png"
                 alt="icono telefono"
               />
               <p class="footer__contact">(508) 746 - 0033</p>
@@ -449,7 +550,7 @@
             <li>
               <img
                 class="footer__icons"
-                src="img/icons/sms.png"
+                src="/img/icons/sms.png"
                 alt="icono mail"
               />
               <p class="footer__contact">supportgameser@gmail.com</p>
@@ -457,18 +558,18 @@
             <li>
               <div class="social-icons">
                 <img
-                  src="img/icons/facebook.png"
+                  src="/img/icons/facebook.png"
                   alt="Logotipo red social Facebook"
                 />
 
                 <img
                   class="social-icons__instagram"
-                  src="img/icons/instagram.png"
+                  src="/img/icons/instagram.png"
                   alt="logotipo red social Instagram"
                 />
 
                 <img
-                  src="img/icons/gorjeo.png"
+                  src="/img/icons/gorjeo.png"
                   alt="logotipo red social Twitter"
                 />
               </div>
