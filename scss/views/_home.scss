@@ -248,60 +248,101 @@
 }
 
 .hot-news {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  &__container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+  }
   &__card1 {
     color: white;
     background: url("/img/xbox-bethesda\ 2.png") center / cover no-repeat;
     padding: 10rem 1rem 0;
-    width: 35%;
+    width: 30%;
     border-radius: 1rem;
-    overflow: hidden;
-    transition: transform 500ms ease;
+    position: relative;
   }
 
-  &:hover,
-  &:focus-within {
-    transform: scale(1.05);
+  &__card2 {
+    color: white;
+    background: url("/img/News-Pokemon-arceus\ 1.png") center / cover no-repeat;
+    padding: 10rem 1rem 0;
+    width: 30%;
+    border-radius: 1rem;
+    position: relative;
   }
 
-  &__content {
-    padding: 1.5rem;
-    background: linear-gradient(black, rgba(0, 0, 0, 0.5));
+  &__card3 {
+    color: white;
+    background: url("/img/playstation-bungie\ 1.png") center / cover no-repeat;
+    padding: 10rem 1rem 0;
+    width: 30%;
+    border-radius: 1rem;
+    position: relative;
+  }
+
+  &__content-card {
+    display: flex;
+    flex-direction: column;
+    height: 75px;
   }
 
   &__content-title {
-    text-decoration: underline;
-    text-decoration-color: lightgray;
+    text-align: left;
+    font-family: $info-games-font;
+    font-weight: $info-games-weight;
+    font-size: 1.4rem;
+    color: #ffff;
+    position: absolute;
+    bottom: 174px;
+    padding: 0 1px;
+  }
+
+  &__content-title--card2 {
+    text-align: left;
+    font-family: $info-games-font;
+    font-weight: $info-games-weight;
+    font-size: 1.4rem;
+    color: $section-titles-color;
+    position: absolute;
+    bottom: 174px;
+    padding: 0 1px;
   }
 
   &__content-body {
-    color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    font-family: $info-games-font;
+    font-weight: $info-games-weight;
+    font-size: 1rem;
+    color: #ffff;
+    position: absolute;
+    bottom: 30px;
   }
 
-  @media (hover) {
-    .hot-news {
-      &__card-content {
-        transform: translateY(65%);
-        transition: transform 500ms ease;
-      }
-    }
-    .card:hover .card-content {
-      transform: translateY(0);
-      transition-delay: 500ms;
-    }
+  &__content-body--card2 {
+    text-align: left;
+    font-family: $info-games-font;
+    font-weight: $info-games-weight;
+    font-size: 1rem;
+    color: $section-titles-color;
+    position: absolute;
+    bottom: 30px;
   }
 
-  &__button {
+  &__buttons {
+    font-family: $info-games-font;
+    font-size: 0.9rem;
     cursor: pointer;
     display: inline-block;
     text-decoration: none;
     color: white;
-    background-color: black;
-    padding: 0.2rem 1rem;
+    background-color: #6e4aff;
+    padding: 0.5rem 1rem;
     border-radius: 0.25rem;
     transition: all 0.5s ease;
+    width: 113px;
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
 
     &:hover,
     &:focus {
@@ -620,6 +661,68 @@
     }
 
     &__detailsBtn {
+      display: none;
+    }
+  }
+
+  .hot-news {
+    &__card1 {
+      color: white;
+      background: url("/img/xbox-bethesda\ 2.png") center / cover no-repeat;
+      padding: 10rem 1rem 0;
+      width: 86%;
+      border-radius: 1rem;
+      position: relative;
+    }
+
+    &__content-card {
+      display: flex;
+      flex-direction: column;
+      height: 75px;
+    }
+
+    &__content-title {
+      text-align: center;
+      font-family: $info-games-font;
+      font-weight: $info-games-weight;
+      font-size: 1.2rem;
+      color: #ffff;
+      position: absolute;
+      bottom: 180px;
+    }
+
+    &__content-body {
+      display: none;
+    }
+
+    &__buttons {
+      font-family: $info-games-font;
+      font-size: 0.9rem;
+      cursor: pointer;
+      display: inline-block;
+      text-decoration: none;
+      color: white;
+      background-color: #6e4aff;
+      padding: 0.5rem 1rem;
+      border-radius: 0.25rem;
+      transition: all 0.5s ease;
+      width: 113px;
+      position: absolute;
+      bottom: 15px;
+      right: 90px;
+
+      &:hover,
+      &:focus {
+        background-color: white;
+        color: black;
+      }
+    }
+
+    &__card2 {
+      display: none;
+    }
+
+    &__card3 {
       display: none;
     }
   }
@@ -954,6 +1057,75 @@
     }
   }
 
+  .hot-news {
+    &__card1 {
+      color: white;
+      background: url("/img/xbox-bethesda\ 2.png") center / cover no-repeat;
+      padding: 10rem 1rem 0;
+      width: 30%;
+      border-radius: 1rem;
+      position: relative;
+    }
+
+    &__content-card {
+      display: flex;
+      flex-direction: column;
+      height: 75px;
+    }
+
+    &__content-title {
+      text-align: center;
+      font-family: $info-games-font;
+      font-weight: $info-games-weight;
+      font-size: 1.2rem;
+      color: #ffff;
+      position: absolute;
+      bottom: 160px;
+    }
+
+    &__content-body {
+      display: none;
+    }
+
+    &__content-title--card2 {
+      text-align: center;
+      font-family: $info-games-font;
+      font-weight: $info-games-weight;
+      font-size: 1.2rem;
+      color: $section-titles-color;
+      position: absolute;
+      bottom: 160px;
+      padding: 0 1px;
+    }
+
+    &__content-body--card2 {
+      display: none;
+    }
+
+    &__buttons {
+      font-family: $info-games-font;
+      font-size: 0.9rem;
+      cursor: pointer;
+      display: inline-block;
+      text-decoration: none;
+      color: white;
+      background-color: #6e4aff;
+      padding: 0.5rem 1rem;
+      border-radius: 0.25rem;
+      transition: all 0.5s ease;
+      width: 113px;
+      position: absolute;
+      bottom: 15px;
+      right: 55px;
+
+      &:hover,
+      &:focus {
+        background-color: white;
+        color: black;
+      }
+    }
+  }
+
   .newsletter {
     &__image {
       background: url("/img/Newsletter_Home.png") center / cover no-repeat;
@@ -1160,7 +1332,7 @@
 
     &__images {
       position: absolute;
-      top: 1920px;
+      top: 1723px;
     }
 
     &__items-card1 {
@@ -1310,6 +1482,86 @@
     &__detailsBtn:focus {
       background-color: $background-pages;
       color: $main-color;
+    }
+  }
+
+  .hot-news {
+    &__card1 {
+      color: white;
+      background: url("/img/xbox-bethesda\ 2.png") center / cover no-repeat;
+      padding: 10rem 1rem 0;
+      width: 30%;
+      border-radius: 1rem;
+      position: relative;
+    }
+
+    &__content-card {
+      display: flex;
+      flex-direction: column;
+      height: 75px;
+    }
+
+    &__content-title {
+      text-align: center;
+      font-family: $info-games-font;
+      font-weight: $info-games-weight;
+      font-size: 1.4rem;
+      color: #ffff;
+      position: absolute;
+      bottom: 190px;
+    }
+
+    &__content-body {
+      text-align: left;
+      font-family: "Roboto", sans-serif;
+      font-weight: 600;
+      font-size: 1.2rem;
+      color: #ffff;
+      position: absolute;
+      bottom: 25px;
+    }
+
+    &__content-title--card2 {
+      text-align: center;
+      font-family: $info-games-font;
+      font-weight: $info-games-weight;
+      font-size: 1.4rem;
+      color: $section-titles-color;
+      position: absolute;
+      bottom: 190px;
+    }
+
+    &__content-body--card2 {
+      text-align: left;
+      font-family: $info-games-font;
+      font-weight: $info-games-weight;
+      font-size: 1.2rem;
+      color: $section-titles-color;
+      position: absolute;
+      bottom: 30px;
+    }
+
+    &__buttons {
+      font-family: $info-games-font;
+      font-size: 0.9rem;
+      cursor: pointer;
+      display: inline-block;
+      text-decoration: none;
+      color: white;
+      background-color: #6e4aff;
+      padding: 0.5rem 1rem;
+      border-radius: 0.25rem;
+      transition: all 0.5s ease;
+      width: 113px;
+      position: absolute;
+      bottom: 5px;
+      right: 20px;
+
+      &:hover,
+      &:focus {
+        background-color: white;
+        color: black;
+      }
     }
   }
 
