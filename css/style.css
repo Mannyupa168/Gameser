@@ -1669,8 +1669,6 @@ body {
   color: #151c37;
   margin-top: 30px;
   margin-bottom: 45px;
-  margin-left: 15px;
-  padding-left: 15px;
   text-align: center;
 }
 
@@ -2688,11 +2686,19 @@ body {
   color: #151c37;
   margin-top: 30px;
   margin-bottom: 45px;
-  margin-left: 15px;
-  padding-left: 15px;
   text-align: center;
 }
 
+@media (max-width: 576px) {
+  .catalog-subtitle-news {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: #151c37;
+    margin-top: 30px;
+    text-align: center;
+  }
+}
 .catalog-title-play {
   font-family: "Roboto", sans-serif;
   font-size: 2.5rem;
@@ -2712,8 +2718,6 @@ body {
   color: #2d64e6;
   margin-top: 30px;
   margin-bottom: 45px;
-  margin-left: 15px;
-  padding-left: 15px;
   text-align: center;
 }
 
@@ -2909,6 +2913,28 @@ body {
 }
 
 @media (max-width: 576px) {
+  .catalog-title-play {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #151c37;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    margin-left: 15px;
+    padding-left: 10px;
+    border-left: 8px solid #2d64e6;
+  }
+
+  .catalog-subtitle-play {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: #2d64e6;
+    margin-top: 30px;
+    padding: 0 27px;
+    text-align: center;
+  }
+
   .catalog-games-play__container {
     display: flex;
     flex-direction: column;
@@ -3107,18 +3133,6 @@ body {
     border-radius: 5px;
   }
 
-  .catalog-title-play {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.8rem;
-    font-weight: 900;
-    color: #151c37;
-    margin-top: 30px;
-    margin-bottom: 45px;
-    margin-left: 15px;
-    padding-left: 10px;
-    border-left: 8px solid #6e3dc8;
-  }
-
   .filters-play__container {
     margin-top: 10px;
     margin-bottom: 30px;
@@ -3308,8 +3322,6 @@ body {
   color: #107c10;
   margin-top: 30px;
   margin-bottom: 45px;
-  margin-left: 15px;
-  padding-left: 15px;
   text-align: center;
 }
 
@@ -3505,6 +3517,28 @@ body {
 }
 
 @media (max-width: 576px) {
+  .catalog-title-xbox {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #151c37;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    margin-left: 15px;
+    padding-left: 10px;
+    border-left: 8px solid #107c10;
+  }
+
+  .catalog-subtitle-xbox {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: #107c10;
+    margin-top: 30px;
+    padding: 0 27px;
+    text-align: center;
+  }
+
   .catalog-games-xbox__container {
     display: flex;
     flex-direction: column;
@@ -3703,18 +3737,6 @@ body {
     border-radius: 5px;
   }
 
-  .catalog-title-xbox {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.8rem;
-    font-weight: 900;
-    color: #151c37;
-    margin-top: 30px;
-    margin-bottom: 45px;
-    margin-left: 15px;
-    padding-left: 10px;
-    border-left: 8px solid #6e3dc8;
-  }
-
   .filters-xbox__container {
     margin-top: 10px;
     margin-bottom: 30px;
@@ -3904,8 +3926,6 @@ body {
   color: #e60012;
   margin-top: 30px;
   margin-bottom: 45px;
-  margin-left: 15px;
-  padding-left: 15px;
   text-align: center;
 }
 
@@ -4101,6 +4121,28 @@ body {
 }
 
 @media (max-width: 576px) {
+  .catalog-title-nintendo {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #151c37;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    margin-left: 15px;
+    padding-left: 10px;
+    border-left: 8px solid #e60012;
+  }
+
+  .catalog-subtitle-nintendo {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: #e60012;
+    margin-top: 30px;
+    padding: 0 27px;
+    text-align: center;
+  }
+
   .catalog-games-nintendo__container {
     display: flex;
     flex-direction: column;
@@ -4297,18 +4339,6 @@ body {
     width: 320px;
     height: 22px;
     border-radius: 5px;
-  }
-
-  .catalog-title-nintendo {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.8rem;
-    font-weight: 900;
-    color: #151c37;
-    margin-top: 30px;
-    margin-bottom: 45px;
-    margin-left: 15px;
-    padding-left: 10px;
-    border-left: 8px solid #6e3dc8;
   }
 
   .filters-nintendo__container {

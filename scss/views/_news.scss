@@ -5,7 +5,17 @@
   color: $section-titles-color;
   margin-top: 30px;
   margin-bottom: 45px;
-  margin-left: 15px;
-  padding-left: 15px;
   text-align: center;
+}
+
+//--RESPONSIVE MOBILE--//
+@media (max-width: $sm) {
+  .catalog-subtitle-news {
+    font-family: $section-titles-font;
+    font-size: 1.4rem;
+    font-weight: $section-titles-weight;
+    color: $section-titles-color;
+    margin-top: 30px;
+    text-align: center;
+  }
 }

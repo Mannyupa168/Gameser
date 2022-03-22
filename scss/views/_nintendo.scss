@@ -16,8 +16,6 @@
   color: #e60012;
   margin-top: 30px;
   margin-bottom: 45px;
-  margin-left: 15px;
-  padding-left: 15px;
   text-align: center;
 }
 
@@ -242,6 +240,27 @@
 
 //--RESPONSIVE MOBILE--//
 @media (max-width: $sm) {
+  .catalog-title-nintendo {
+    font-family: $section-titles-font;
+    font-size: 1.8rem;
+    font-weight: $section-titles-weight;
+    color: $section-titles-color;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    margin-left: 15px;
+    padding-left: 10px;
+    border-left: 8px solid #e60012;
+  }
+
+  .catalog-subtitle-nintendo {
+    font-family: $section-titles-font;
+    font-size: 1.4rem;
+    font-weight: $section-titles-weight;
+    color: #e60012;
+    margin-top: 30px;
+    padding: 0 27px;
+    text-align: center;
+  }
   .catalog-games-nintendo {
     &__container {
       display: flex;
@@ -468,18 +487,6 @@
       height: 22px;
       border-radius: 5px;
     }
-  }
-
-  .catalog-title-nintendo {
-    font-family: $section-titles-font;
-    font-size: 1.8rem;
-    font-weight: $section-titles-weight;
-    color: $section-titles-color;
-    margin-top: 30px;
-    margin-bottom: 45px;
-    margin-left: 15px;
-    padding-left: 10px;
-    border-left: 8px solid #6e3dc8;
   }
 
   .filters-nintendo {
