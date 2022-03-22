@@ -10,6 +10,18 @@
   border-left: 10px solid #6e3dc8;
 }
 
+.catalog-subtitle {
+  font-family: $section-titles-font;
+  font-size: $section-titles-size;
+  font-weight: $section-titles-weight;
+  color: $section-titles-color;
+  margin-top: 30px;
+  margin-bottom: 45px;
+  margin-left: 15px;
+  padding-left: 15px;
+  text-align: center;
+}
+
 .filters {
   &__container {
     margin-top: 10px;
@@ -46,17 +58,17 @@
 
   &__images {
     position: absolute;
-    top: 368px;
+    top: 460px;
   }
 
   &__images-r2 {
     position: absolute;
-    top: 743px;
+    top: 836px;
   }
 
   &__images-r3 {
     position: absolute;
-    top: 1118px;
+    top: 1210px;
   }
 
   &__items {

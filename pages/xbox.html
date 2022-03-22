@@ -93,7 +93,7 @@
     <div class="sec-nav">
       <ul class="sec-nav__list">
         <li class="sec-nav__item">
-          <a href="/playstation/index.html">
+          <a href="playstation.html">
             <img
               src="/img/icons/playstation-logotype.png"
               alt="Logotipo PLaystation"
@@ -101,12 +101,12 @@
           </a>
         </li>
         <li class="sec-nav__item--separation">
-          <a href="/xbox/index.html">
+          <a href="xbox.html">
             <img src="/img/icons/xbox-logo.png" alt="Logotipo Xbox" />
           </a>
         </li>
         <li class="sec-nav__item">
-          <a href="/nintendo/index.html">
+          <a href="nintendo.html">
             <img src="/img/icons/nintendo.png" alt="Logotipo Nintendo" />
           </a>
         </li>
@@ -114,18 +114,18 @@
     </div>
 
     <!--Body page-->
-    <div class="catalog-title">XBOX</div>
+    <div class="catalog-title-xbox">XBOX</div>
     <div>
-      <h1 class="welcome__title-sub">
-        Find the latest and greatest games in our catalog.
+      <h1 class="catalog-subtitle-xbox">
+        Browse the full catalog of all Xbox console games.
       </h1>
     </div>
-    <section class="filters">
-      <div class="filters__container">
-        <div class="filters__items">
+    <section class="filters-xbox">
+      <div class="filters-xbox__container">
+        <div class="filters-xbox__items">
           <label for="">Filter </label>
           <select
-            class="filters__form-styles"
+            class="filters-xbox__form-styles"
             name="filterYear"
             id="filterYear"
           >
@@ -135,23 +135,11 @@
             <option value="DSC">Discounts</option>
           </select>
         </div>
-        <div class="filters__items">
-          <label for="">Platform </label>
-          <select
-            class="filters__form-styles"
-            name="filterPlatform"
-            id="filterPlatform"
-          >
-            <option value="PC">PC</option>
-            <option value="PS">Playstation</option>
-            <option value="XB">Xbox</option>
-            <option value="NT">Nintendo</option>
-          </select>
-        </div>
-        <div class="filters__items">
+
+        <div class="filters-xbox__items">
           <label for="">Genres </label>
           <select
-            class="filters__form-styles"
+            class="filters-xbox__form-styles"
             name="filterGenre"
             id="filterGenre"
           >
@@ -169,298 +157,303 @@
       </div>
     </section>
 
-    <section class="catalog-games">
-      <div class="catalog-games__container">
-        <div class="catalog-games__items-card1">
-          <p class="catalog-games__edition">STANDART EDITION</p>
-          <div class="catalog-games__categories">
-            <div class="catalog-games__categories-items">Horror</div>
-            <div class="catalog-games__categories-items--secondary">
+    <section class="catalog-games-xbox">
+      <div class="catalog-games-xbox__container">
+        <div class="catalog-games-xbox__items-card1">
+          <p class="catalog-games-xbox__edition">STANDART EDITION</p>
+          <div class="catalog-games-xbox__categories">
+            <div class="catalog-games-xbox__categories-items">Action</div>
+            <div class="catalog-games-xbox__categories-items--secondary">
+              General
+            </div>
+          </div>
+          <div class="catalog-games-xbox__price">25,99 USD</div>
+          <img
+            class="catalog-games-xbox__images catalog-games-xbox__images-mob1"
+            src="../img/xbox/game 1.png"
+            alt="Quantum break game"
+          />
+        </div>
+
+        <div class="catalog-games-xbox__items-card2">
+          <p class="catalog-games-xbox__edition">STANDART EDITION</p>
+          <div class="catalog-games-xbox__categories">
+            <div class="catalog-games-xbox__categories-items">Action</div>
+            <div class="catalog-games-xbox__categories-items--secondary">
               Survival
             </div>
           </div>
-          <div class="catalog-games__price">29,91 USD</div>
+          <div class="catalog-games-xbox__price">47,00 USD</div>
           <img
-            class="catalog-games__images catalog-games__images-mob1"
-            src="../img/Catalog/Dying Light2.png"
-            alt=""
+            class="catalog-games-xbox__images catalog-games-xbox__images-mob2"
+            src="../img/xbox/game 2.png"
+            alt="state of decay game"
           />
         </div>
 
-        <div class="catalog-games__items-card2">
-          <p class="catalog-games__edition">STANDART EDITION</p>
-          <div class="catalog-games__categories">
-            <div class="catalog-games__categories-items">Action</div>
-            <div class="catalog-games__categories-items--secondary">
-              Adventure
+        <div class="catalog-games-xbox__items-card3">
+          <p class="catalog-games-xbox__edition">STANDART EDITION</p>
+          <div class="catalog-games-xbox__categories">
+            <div class="catalog-games-xbox__categories-items">Sci-Fi</div>
+            <div class="catalog-games-xbox__categories-items--secondary">
+              Arcade
             </div>
           </div>
-          <div class="catalog-games__price">40,74 USD</div>
+          <div class="catalog-games-xbox__price">18,42 USD</div>
           <img
-            class="catalog-games__images catalog-games__images-mob2"
-            src="../img/Catalog/GodOfWar.png"
-            alt=""
+            class="catalog-games-xbox__images catalog-games-xbox__images-mob3"
+            src="../img/xbox/game 3.png"
+            alt="halo 5 game"
           />
         </div>
 
-        <div class="catalog-games__items-card3">
-          <p class="catalog-games__edition">STANDART EDITION</p>
-          <div class="catalog-games__categories">
-            <div class="catalog-games__categories-items">Racing</div>
-            <div class="catalog-games__categories-items--secondary">
-              Multiplayer
-            </div>
-          </div>
-          <div class="catalog-games__price">34,40 USD</div>
-          <img
-            class="catalog-games__images catalog-games__images-mob3"
-            src="../img/Catalog/HotWheels.png"
-            alt=""
-          />
-        </div>
-
-        <div class="catalog-games__items-card4">
-          <p class="catalog-games__edition">FREE GAME</p>
-          <div class="catalog-games__categories">
-            <div class="catalog-games__categories-items">RPG</div>
-            <div class="catalog-games__categories-items--secondary">
+        <div class="catalog-games-xbox__items-card4">
+          <p class="catalog-games-xbox__edition">STANDART EDITION</p>
+          <div class="catalog-games-xbox__categories">
+            <div class="catalog-games-xbox__categories-items">General</div>
+            <div class="catalog-games-xbox__categories-items--secondary">
               Strategy
             </div>
           </div>
+          <div class="catalog-games-xbox__price">22,49 USD</div>
           <img
-            class="catalog-games__images"
-            src="../img/Catalog/LOL.png"
-            alt=""
+            class="catalog-games-xbox__images"
+            src="../img/xbox/game 4.png"
+            alt="Halo wars 2 name"
           />
         </div>
 
-        <div class="catalog-games__items-card5">
-          <p class="catalog-games__edition">STANDART EDITION</p>
-          <div class="catalog-games__categories">
-            <div class="catalog-games__categories-items">Indie</div>
-            <div class="catalog-games__categories-items--secondary">
-              Simulation
+        <div class="catalog-games-xbox__items-card5">
+          <p class="catalog-games-xbox__edition">STANDART EDITION</p>
+          <div class="catalog-games-xbox__categories">
+            <div class="catalog-games-xbox__categories-items">Action</div>
+            <div class="catalog-games-xbox__categories-items--secondary">
+              Shooter
             </div>
           </div>
-          <div class="catalog-games__price">11,50 USD</div>
+          <div class="catalog-games-xbox__price">23,90 USD</div>
           <img
-            class="catalog-games__images"
-            src="../img/Catalog/HouseFlipper.png"
-            alt=""
+            class="catalog-games-xbox__images"
+            src="../img/xbox/game 5.png"
+            alt="Halo Master Chief game"
           />
         </div>
 
-        <div class="catalog-games__items-card6">
-          <p class="catalog-games__edition">FREE GAME</p>
-          <div class="catalog-games__categories">
-            <div class="catalog-games__categories-items">Single Player</div>
-            <div class="catalog-games__categories-items--secondary">
-              Strategy
+        <div class="catalog-games-xbox__items-card6">
+          <p class="catalog-games-xbox__edition">STANDART EDITION</p>
+          <div class="catalog-games-xbox__categories">
+            <div class="catalog-games-xbox__categories-items">Third Person</div>
+            <div class="catalog-games-xbox__categories-items--secondary">
+              Shooter
             </div>
           </div>
+          <div class="catalog-games-xbox__price">12,95 USD</div>
           <img
-            class="catalog-games__images"
-            src="../img/Catalog/TeamFight.png"
-            alt=""
+            class="catalog-games-xbox__images"
+            src="../img/xbox/game 6.png"
+            alt="gears of war 4 game"
           />
         </div>
       </div>
     </section>
 
     <!--Row 2-->
-    <section class="catalog-games">
-      <div class="catalog-games__container">
-        <div class="catalog-games__items-card1">
-          <p class="catalog-games__edition">STANDART EDITION</p>
-          <div class="catalog-games__categories">
-            <div class="catalog-games__categories-items">Single</div>
-            <div class="catalog-games__categories-items--secondary">
-              Simulation
+    <section class="catalog-games-xbox">
+      <div class="catalog-games-xbox__container">
+        <div class="catalog-games-xbox__items-card1">
+          <p class="catalog-games-xbox__edition">STANDART EDITION</p>
+          <div class="catalog-games-xbox__categories">
+            <div class="catalog-games-xbox__categories-items">Third Person</div>
+            <div class="catalog-games-xbox__categories-items--secondary">
+              Arcade
             </div>
           </div>
-          <div class="catalog-games__price">13,76 USD</div>
+          <div class="catalog-games-xbox__price">9,97 USD</div>
           <img
-            class="catalog-games__images-r2 catalog-games__images-r2-mob1"
-            src="../img/Catalog/TrainSimWorld2.png"
-            alt=""
+            class="catalog-games-xbox__images-r2 catalog-games-xbox__images-r2-mob1"
+            src="../img/xbox/game 7.png"
+            alt="gears 5 game"
           />
         </div>
 
-        <div class="catalog-games__items-card2">
-          <p class="catalog-games__edition">FREE GAME</p>
-          <div class="catalog-games__categories">
-            <div class="catalog-games__categories-items">Action</div>
-            <div class="catalog-games__categories-items--secondary">
-              Multiplayer
+        <div class="catalog-games-xbox__items-card2">
+          <p class="catalog-games-xbox__edition">COLLECTOR'S EDITION</p>
+          <div class="catalog-games-xbox__categories">
+            <div class="catalog-games-xbox__categories-items">Sci-Fi</div>
+            <div class="catalog-games-xbox__categories-items--secondary">
+              Shooter
             </div>
           </div>
+          <div class="catalog-games-xbox__price">9,44 USD</div>
           <img
-            class="catalog-games__images-r2 catalog-games__images-r2-mob2"
-            src="../img/Catalog/Century.png"
-            alt=""
+            class="catalog-games-xbox__images-r2 catalog-games-xbox__images-r2-mob2"
+            src="../img/xbox/game 8.png"
+            alt="titanfall game"
           />
         </div>
 
-        <div class="catalog-games__items-card3">
-          <p class="catalog-games__edition">FREE GAME</p>
-          <div class="catalog-games__categories">
-            <div class="catalog-games__categories-items">Card game</div>
-            <div class="catalog-games__categories-items--secondary">
-              Strategy
+        <div class="catalog-games-xbox__items-card3">
+          <p class="catalog-games-xbox__edition">STANDART EDITION</p>
+          <div class="catalog-games-xbox__categories">
+            <div class="catalog-games-xbox__categories-items">Sci-Fi</div>
+            <div class="catalog-games-xbox__categories-items--secondary">
+              Shooter
             </div>
           </div>
+          <div class="catalog-games-xbox__price">7,98 USD</div>
           <img
-            class="catalog-games__images-r2 catalog-games__images-r2-mob3"
-            src="../img/Catalog/LegendsOfRuneterra.png"
-            alt=""
+            class="catalog-games-xbox__images-r2 catalog-games-xbox__images-r2-mob3"
+            src="../img/xbox/game 9.png"
+            alt="Titanfall II game"
           />
         </div>
 
-        <div class="catalog-games__items-card4">
-          <p class="catalog-games__edition">STANDART EDITION</p>
-          <div class="catalog-games__categories">
-            <div class="catalog-games__categories-items">Indie</div>
-            <div class="catalog-games__categories-items--secondary">
-              Simulation
+        <div class="catalog-games-xbox__items-card4">
+          <p class="catalog-games-xbox__edition">STANDART EDITION</p>
+          <div class="catalog-games-xbox__categories">
+            <div class="catalog-games-xbox__categories-items">Action</div>
+            <div class="catalog-games-xbox__categories-items--secondary">
+              Arcade
             </div>
           </div>
-          <div class="catalog-games__price">29,30 USD</div>
+          <div class="catalog-games-xbox__price">18,11 USD</div>
           <img
-            class="catalog-games__images-r2"
-            src="../img/Catalog/BusSimulator21.png"
-            alt=""
+            class="catalog-games-xbox__images-r2"
+            src="../img/xbox/game 10.png"
+            alt="Sunset Overdrive game"
           />
         </div>
 
-        <div class="catalog-games__items-card5">
-          <p class="catalog-games__edition">FREE GAME</p>
-          <div class="catalog-games__categories">
-            <div class="catalog-games__categories-items">Card game</div>
-            <div class="catalog-games__categories-items--secondary">
+        <div class="catalog-games-xbox__items-card5">
+          <p class="catalog-games-xbox__edition">STANDART EDITION</p>
+          <div class="catalog-games-xbox__categories">
+            <div class="catalog-games-xbox__categories-items">Action</div>
+            <div class="catalog-games-xbox__categories-items--secondary">
               Adventure
             </div>
           </div>
-          <div class="catalog-games__price">11,50 USD</div>
+          <div class="catalog-games-xbox__price">28,90 USD</div>
           <img
-            class="catalog-games__images-r2 catalog-games__images-r2-mob3"
-            src="../img/Catalog/AnimationThrowdown.png"
-            alt=""
+            class="catalog-games-xbox__images-r2 catalog-games-xbox__images-r2-mob3"
+            src="../img/xbox/game 11.png"
+            alt="Sea of thieves game"
           />
         </div>
 
-        <div class="catalog-games__items-card6">
-          <p class="catalog-games__edition">FREE GAME</p>
-          <div class="catalog-games__categories">
-            <div class="catalog-games__categories-items">RPG</div>
-            <div class="catalog-games__categories-items--secondary">
-              Adventure
+        <div class="catalog-games-xbox__items-card6">
+          <p class="catalog-games-xbox__edition">STANDART EDITION</p>
+          <div class="catalog-games-xbox__categories">
+            <div class="catalog-games-xbox__categories-items">Action</div>
+            <div class="catalog-games-xbox__categories-items--secondary">
+              Fighting
             </div>
           </div>
+          <div class="catalog-games-xbox__price">18,40 USD</div>
           <img
-            class="catalog-games__images-r2"
-            src="../img/Catalog/GenshinImpact.png"
-            alt=""
+            class="catalog-games-xbox__images-r2"
+            src="../img/xbox/game 12.png"
+            alt="Killer Instinct game"
           />
         </div>
       </div>
     </section>
 
     <!--Row 3-->
-    <section class="catalog-games">
-      <div class="catalog-games__container">
-        <div class="catalog-games__items-card1">
-          <p class="catalog-games__edition">STANDART EDITION</p>
-          <div class="catalog-games__categories">
-            <div class="catalog-games__categories-items">Action</div>
-            <div class="catalog-games__categories-items--secondary">
+    <section class="catalog-games-xbox">
+      <div class="catalog-games-xbox__container">
+        <div class="catalog-games-xbox__items-card1">
+          <p class="catalog-games-xbox__edition">STANDART EDITION</p>
+          <div class="catalog-games-xbox__categories">
+            <div class="catalog-games-xbox__categories-items">Racing</div>
+            <div class="catalog-games-xbox__categories-items--secondary">
+              Simulation
+            </div>
+          </div>
+          <div class="catalog-games-xbox__price">16,99 USD</div>
+          <img
+            class="catalog-games-xbox__images-r3 catalog-games-xbox__images-r3-mob1"
+            src="../img/xbox/game 13.png"
+            alt="Forza Motorsport 7 game"
+          />
+        </div>
+
+        <div class="catalog-games-xbox__items-card2">
+          <p class="catalog-games-xbox__edition">STANDART GAME</p>
+          <div class="catalog-games-xbox__categories">
+            <div class="catalog-games-xbox__categories-items">Action</div>
+            <div class="catalog-games-xbox__categories-items--secondary">
+              Platform
+            </div>
+          </div>
+          <div class="catalog-games-xbox__price">15,92 USD</div>
+          <img
+            class="catalog-games-xbox__images-r3 catalog-games-xbox__images-r3-mob2"
+            src="../img/xbox/game 14.png"
+            alt="Ori the blind forest game"
+          />
+        </div>
+
+        <div class="catalog-games-xbox__items-card3">
+          <p class="catalog-games-xbox__edition">STANDART GAME</p>
+          <div class="catalog-games-xbox__categories">
+            <div class="catalog-games-xbox__categories-items">Action</div>
+            <div class="catalog-games-xbox__categories-items--secondary">
+              Platform
+            </div>
+          </div>
+          <div class="catalog-games-xbox__price">14,88 USD</div>
+          <img
+            class="catalog-games-xbox__images-r3 catalog-games-xbox__images-r3-mob3"
+            src="../img/xbox/game 15.png"
+            alt="Ori will of wisps game"
+          />
+        </div>
+
+        <div class="catalog-games-xbox__items-card4">
+          <p class="catalog-games-xbox__edition">STANDART EDITION</p>
+          <div class="catalog-games-xbox__categories">
+            <div class="catalog-games-xbox__categories-items">Racing</div>
+            <div class="catalog-games-xbox__categories-items--secondary">
+              Simulation
+            </div>
+          </div>
+          <div class="catalog-games-xbox__price">39,21 USD</div>
+          <img
+            class="catalog-games-xbox__images-r3"
+            src="../img/xbox/game 16.png"
+            alt="Froza Horizon 4 game"
+          />
+        </div>
+
+        <div class="catalog-games-xbox__items-card5">
+          <p class="catalog-games-xbox__edition">STANDART EDITION</p>
+          <div class="catalog-games-xbox__categories">
+            <div class="catalog-games-xbox__categories-items">Action</div>
+            <div class="catalog-games-xbox__categories-items--secondary">
               Adventure
             </div>
           </div>
-          <div class="catalog-games__price">44,23 USD</div>
+          <div class="catalog-games-xbox__price">36,06 USD</div>
           <img
-            class="catalog-games__images-r3 catalog-games__images-r3-mob1"
-            src="../img/Catalog/BattlefrontII.png"
-            alt=""
+            class="catalog-games-xbox__images-r3"
+            src="../img/xbox/game 17.png"
+            alt="Starfield game"
           />
         </div>
 
-        <div class="catalog-games__items-card2">
-          <p class="catalog-games__edition">STANDART GAME</p>
-          <div class="catalog-games__categories">
-            <div class="catalog-games__categories-items">Action</div>
-            <div class="catalog-games__categories-items--secondary">
+        <div class="catalog-games-xbox__items-card6">
+          <p class="catalog-games-xbox__edition">STANDART EDITION</p>
+          <div class="catalog-games-xbox__categories">
+            <div class="catalog-games-xbox__categories-items">Action</div>
+            <div class="catalog-games-xbox__categories-items--secondary">
               Adventure
             </div>
           </div>
-          <div class="catalog-games__price">44,25 USD</div>
+          <div class="catalog-games-xbox__price">34,88 USD</div>
           <img
-            class="catalog-games__images-r3 catalog-games__images-r3-mob2"
-            src="../img/Catalog/StarWarsJedi.png"
-            alt=""
-          />
-        </div>
-
-        <div class="catalog-games__items-card3">
-          <p class="catalog-games__edition">STANDART GAME</p>
-          <div class="catalog-games__categories">
-            <div class="catalog-games__categories-items">Action</div>
-            <div class="catalog-games__categories-items--secondary">
-              Adventure
-            </div>
-          </div>
-          <div class="catalog-games__price">45,30 USD</div>
-          <img
-            class="catalog-games__images-r3 catalog-games__images-r3-mob3"
-            src="../img/Catalog/ACValhallaDE.png"
-            alt=""
-          />
-        </div>
-
-        <div class="catalog-games__items-card4">
-          <p class="catalog-games__edition">STANDART EDITION</p>
-          <div class="catalog-games__categories">
-            <div class="catalog-games__categories-items">Action</div>
-            <div class="catalog-games__categories-items--secondary">
-              Shooter
-            </div>
-          </div>
-          <div class="catalog-games__price">44,53 USD</div>
-          <img
-            class="catalog-games__images-r3"
-            src="../img/Catalog/StarWarsSquadrons.png"
-            alt=""
-          />
-        </div>
-
-        <div class="catalog-games__items-card5">
-          <p class="catalog-games__edition">STANDART EDITION</p>
-          <div class="catalog-games__categories">
-            <div class="catalog-games__categories-items">Action</div>
-            <div class="catalog-games__categories-items--secondary">
-              Shooter
-            </div>
-          </div>
-          <div class="catalog-games__price">21,57 USD</div>
-          <img
-            class="catalog-games__images-r3"
-            src="../img/Catalog/Battlefront.png"
-            alt=""
-          />
-        </div>
-
-        <div class="catalog-games__items-card6">
-          <p class="catalog-games__edition">STANDART EDITION</p>
-          <div class="catalog-games__categories">
-            <div class="catalog-games__categories-items">Indie</div>
-            <div class="catalog-games__categories-items--secondary">
-              Fighting
-            </div>
-          </div>
-          <div class="catalog-games__price">15,92 USD</div>
-          <img
-            class="catalog-games__images-r3"
-            src="../img/Catalog/SIFU.png"
-            alt=""
+            class="catalog-games-xbox__images-r3"
+            src="../img/xbox/game 18.png"
+            alt="Everwild game"
           />
         </div>
       </div>
