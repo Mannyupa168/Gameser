@@ -94,8 +94,12 @@ body {
   border-right: 2px solid black;
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .main-nav {
+    height: 100%;
+    width: 80%;
+    margin: 0;
+    position: fixed;
     height: 10vh;
     text-align: center;
   }
@@ -130,10 +134,11 @@ body {
     top: 2px;
     left: 221px;
   }
-  .main-nav__menu {
+
+  .menu__bar {
     position: relative;
   }
-  .main-nav__header-icons--menu {
+  .menu__bar_btn {
     position: absolute;
     width: 22px;
     top: -95px;

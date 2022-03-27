@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
     <meta
       name="description"
       content="Gameser is an online store of games for platforms like playstation, xobox and nintendo, having also games for PC. Here you will find most of the newest games of the year, also if you don't find a game let us know and we will put it in our catalog for you."
@@ -14,11 +17,16 @@
     />
     <meta name="robots" content="index,follow" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="fonts.css" />
     <title>Welcome to Gameser</title>
   </head>
 
   <body>
     <!--Header-->
+    <div class="menu__bar">
+      <a href="#" class="menu-btn"> <span class="icon-menu"></span>Menu</a>
+    </div>
+
     <nav class="main-nav" aria-label="Main">
       <ul class="main-nav__list">
         <li class="main-nav__item">
@@ -72,15 +80,6 @@
             src="./img/icons/profile mobile.png"
             alt="ícono de busqueda"
           />
-        </li>
-        <li>
-          <div class="main-nav__menu">
-            <img
-              class="main-nav__header-icons--menu"
-              src="./img/icons/menu.png"
-              alt="ícono de busqueda"
-            />
-          </div>
         </li>
       </ul>
     </nav>
