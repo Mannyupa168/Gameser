@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index,follow" />
-    <link rel="stylesheet" href="../css/style.css" />
     <meta
       name="description"
       content="At Gameser you will be able to find what you need at competitive costs and keep up to date with all the events and news."
@@ -14,100 +13,100 @@
       name="keywords"
       content="catalog, genres, platforms, games, editions, action, open world, multiplayer, singleplayer"
     />
-    <script
-      src="https://kit.fontawesome.com/cc899e1596.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
     <title>Welcome to Gameser</title>
   </head>
 
   <body>
     <!--Header-->
-    <nav class="main-nav" aria-label="Main">
-      <ul class="main-nav__list">
-        <li class="main-nav__item">
-          <div>
-            <a href="../index.html" class="main-nav__logo">GAMESER</a>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">GAMESER</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Catalog
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Free to play</a></li>
+                  <li><a class="dropdown-item" href="#">Demos</a></li>
+                  <li><a class="dropdown-item" href="#">Early Access</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Special Selections</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
+                  >About Us</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <i class="bi bi-search"></i>
+              <ul>
+                <li><i class="bi bi-person-fill"></i></li>
+                <li><i class="bi bi-heart-fill"></i></li>
+                <li><i class="bi bi-bag-fill"></i></li>
+              </ul>
+            </form>
           </div>
-        </li>
-        <li class="main-nav__item">
-          <a href="../index.html" class="main-nav__link">Menu</a>
-        </li>
-        <li class="main-nav__item">
-          <a href="catalog.html" class="main-nav__link">Catalog</a>
-        </li>
-        <li class="main-nav__item">
-          <a href="news.html" class="main-nav__link">News</a>
-        </li>
-        <li>
-          <div class="main-nav__search">
-            <input type="text" class="main-nav__searchBar" />
-            <img
-              class="main-nav__header-icons--searchIcon"
-              src="/img/icons/search-normal.png"
-              alt="Search icon"
-            />
-          </div>
-        </li>
-        <li class="main-nav__item">
-          <img
-            class="main-nav__header-icons"
-            src="/img/icons/profile.png"
-            alt="Profile icon"
-          />
-        </li>
-        <li class="main-nav__item">
-          <img
-            class="main-nav__header-icons"
-            src="/img/icons/heart-search.png"
-            alt="Wishlist icon"
-          />
-        </li>
-        <li class="main-nav__item">
-          <img
-            class="main-nav__header-icons"
-            src="/img/icons/bag.png"
-            alt="Shopping cart icon"
-          />
-        </li>
-        <li class="main-nav__item">
-          <img
-            class="main-nav__header-icons--profile"
-            src="/img/icons/profile mobile.png"
-            alt="profile icon"
-          />
-        </li>
-        <li>
-          <div class="main-nav__menu">
-            <img
-              class="main-nav__header-icons--menu"
-              src="/img/icons/menu.png"
-              alt="add to cart icon"
-            />
-          </div>
-        </li>
-      </ul>
-    </nav>
-
-    <!-- Brands container -->
+        </div>
+      </nav>
+    </header>
+    <!--Brands Container-->
     <div class="sec-nav">
       <ul class="sec-nav__list">
         <li class="sec-nav__item">
-          <a href="playstation.html">
-            <img
-              src="/img/icons/playstation-logotype.png"
-              alt="Logotipo PLaystation"
-            />
+          <a href="#">
+            <i class="bi bi-playstation"></i>
           </a>
         </li>
         <li class="sec-nav__item--separation">
-          <a href="xbox.html">
-            <img src="/img/icons/xbox-logo.png" alt="Logotipo Xbox" />
+          <a href="#">
+            <i class="bi bi-xbox"></i>
           </a>
         </li>
         <li class="sec-nav__item">
-          <a href="nintendo.html">
-            <img src="/img/icons/nintendo.png" alt="Logotipo Nintendo" />
+          <a href="#">
+            <i class="bi bi-nintendo-switch"></i>
           </a>
         </li>
       </ul>

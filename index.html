@@ -17,92 +17,129 @@
     />
     <meta name="robots" content="index,follow" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="fonts.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
     <title>Welcome to Gameser</title>
   </head>
 
   <body>
-    <!--Header-->
-    <div class="menu__bar">
-      <a href="#" class="menu-btn"> <span class="icon-menu"></span>Menu</a>
-    </div>
-
-    <nav class="main-nav" aria-label="Main">
-      <ul class="main-nav__list">
-        <li class="main-nav__item">
-          <div>
-            <a href="index.html" class="main-nav__logo">GAMESER</a>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand nav-brand-mob" href="index.html">GAMESER</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Menu</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/news.html">News</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link-catlg active"
+                  aria-current="page"
+                  href="pages/catalog.html"
+                  >Catalog</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="pages/catalog.html"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Catalog
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="pages/catalog.html"
+                      >Free to play</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="pages/catalog.html">Demos</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="pages/catalog.html"
+                      >Early Access</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item">Special Selections</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="pages/about.html"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >About Us</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <i class="bi bi-search"></i>
+            </form>
+            <ul class="nav-tools">
+              <li><i class="bi bi-person-fill"></i></li>
+              <li><i class="bi bi-heart-fill"></i></li>
+              <li><i class="bi bi-bag-fill"></i></li>
+            </ul>
+            <div>
+              <ul class="nav-brands">
+                <li><i class="bi bi-playstation"></i></li>
+                <li><i class="bi bi-xbox"></i></li>
+                <li><i class="bi bi-nintendo-switch"></i></li>
+              </ul>
+            </div>
           </div>
-        </li>
-        <li class="main-nav__item">
-          <a href="index.html" class="main-nav__link">Menu</a>
-        </li>
-        <li class="main-nav__item">
-          <a href="pages/catalog.html" class="main-nav__link">Catalog</a>
-        </li>
-        <li class="main-nav__item">
-          <a href="pages/news.html" class="main-nav__link">News</a>
-        </li>
-        <li>
-          <div class="main-nav__search">
-            <input type="text" class="main-nav__searchBar" />
-            <img
-              class="main-nav__header-icons--searchIcon"
-              src="./img/icons/search-normal.png"
-              alt="ícono de busqueda"
-            />
-          </div>
-        </li>
-        <li class="main-nav__item">
-          <img
-            class="main-nav__header-icons"
-            src="./img/icons/profile.png"
-            alt="ícono de busqueda"
-          />
-        </li>
-        <li class="main-nav__item">
-          <img
-            class="main-nav__header-icons"
-            src="./img/icons/heart-search.png"
-            alt="ícono de busqueda"
-          />
-        </li>
-        <li class="main-nav__item">
-          <img
-            class="main-nav__header-icons"
-            src="./img/icons/bag.png"
-            alt="ícono de busqueda"
-          />
-        </li>
-        <li class="main-nav__item">
-          <img
-            class="main-nav__header-icons--profile"
-            src="./img/icons/profile mobile.png"
-            alt="ícono de busqueda"
-          />
-        </li>
-      </ul>
-    </nav>
-
-    <!-- Brands container -->
+        </div>
+      </nav>
+    </header>
+    <!--Brands Container-->
     <div class="sec-nav">
       <ul class="sec-nav__list">
         <li class="sec-nav__item">
-          <a href="pages/playstation.html">
-            <img
-              src="img/icons/playstation-logotype.png"
-              alt="Logotipo PLaystation"
-            />
+          <a href="#">
+            <i class="bi bi-playstation"></i>
           </a>
         </li>
         <li class="sec-nav__item--separation">
-          <a href="pages/xbox.html">
-            <img src="img/icons/xbox-logo.png" alt="Logotipo Xbox" />
+          <a href="#">
+            <i class="bi bi-xbox"></i>
           </a>
         </li>
         <li class="sec-nav__item">
-          <a href="pages/nintendo.html">
-            <img src="img/icons/nintendo.png" alt="Logotipo Nintendo" />
+          <a href="#">
+            <i class="bi bi-nintendo-switch"></i>
           </a>
         </li>
       </ul>
@@ -119,26 +156,26 @@
         </h1>
       </div>
 
-      <div class="container">
-        <img
-          class="container__image-hd"
-          src="img/background_banner-hd.jpg"
-          alt="background image news games"
-        />
+      <div class="background">
+        <div class="background__container-desk">
+          <img
+            class="img-fluid"
+            src="img/background_banner-hd.jpg"
+            alt="background image news games"
+          />
+        </div>
 
-        <img
-          class="bannerBackgroundImage"
-          src="img/background_banner.jpg"
-          alt="background image news games"
-        />
+        <div class="background__container-mob">
+          <img
+            class="img-fluid"
+            src="img/background_banner-mobile.jpg"
+            alt="background image news games mobile"
+          />
+        </div>
 
-        <img
-          class="banner-image-mobile"
-          src="img/background_banner-mobile.jpg"
-          alt="background image news games"
-        />
-
-        <p class="title-banner">Upcoming games to look forward to in 2022</p>
+        <div class="title-banner">
+          Upcoming games to look forward to in 2022
+        </div>
         <div>
           <img class="games-banner" src="img/2022-games.png" alt="" />
         </div>
@@ -388,7 +425,7 @@
     </div>
 
     <!--Newsletter-->
-    <section class="newsletter__image">
+    <section class="newsletter__image img-fluid">
       <div class="newsletter__container">
         <div class="newsletter__title">DISCOVER INTERESTING NEWSLETTER</div>
         <div class="newsletter__text">
@@ -499,5 +536,6 @@
         </div>
       </div>
     </footer>
+    <script src="js/bootstrap.js"></script>
   </body>
 </html>

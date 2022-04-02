@@ -1,12 +1,14 @@
-@import "./utilities/variables";
+@import "utilities/variables";
 
-@import "./base/fonts";
-@import "./base/base";
+@import "../node_modules/bootstrap/scss/bootstrap";
 
-@import "./layout/header";
+@import "base/base";
+@import "base/fonts";
+
+@import "layout/header";
 @import "./layout/footer";
 
-@import "./views/home";
+@import "views/home";
 @import "./views/catalog";
 @import "./views/about";
 @import "./views/news";

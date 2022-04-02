@@ -1,7 +1,5 @@
-.container {
-  &__image-hd {
-    display: none;
-  }
+.background__container-mob {
+  display: none;
 }
 
 .welcome {
@@ -16,7 +14,7 @@
   &-title {
     &__sub--banner {
       position: absolute;
-      top: 940px;
+      top: 920px;
       color: #ffff;
       text-align: center;
       font-family: $font-family-titles;
@@ -47,7 +45,7 @@
 
 .title-banner {
   position: absolute;
-  top: 355px;
+  top: 365px;
   left: 45px;
   text-align: center;
   color: #ffff;
@@ -69,6 +67,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
+    padding-top: 10px;
   }
 }
 
@@ -94,79 +93,79 @@
 
   &__images {
     position: absolute;
-    top: 1372px;
+    top: 1406px;
   }
 
   &__items-card1 {
     background-color: $main-color;
     border-radius: 15px;
     width: 168px;
-    height: 355px;
+    height: 375px;
     transition: height 0.4s;
   }
 
   &__items-card1:hover {
-    height: 410px;
+    height: 450px;
   }
 
   &__items-card2 {
     background-color: $main-color;
     border-radius: 15px;
     width: 168px;
-    height: 355px;
+    height: 375px;
     transition: height 0.4s;
   }
 
   &__items-card2:hover {
-    height: 410px;
+    height: 450px;
   }
 
   &__items-card3 {
     background-color: $main-color;
     border-radius: 15px;
     width: 168px;
-    height: 355px;
+    height: 375px;
     transition: height 0.4s;
   }
 
   &__items-card3:hover {
-    height: 410px;
+    height: 450px;
   }
 
   &__items-card4 {
     background-color: $main-color;
     border-radius: 15px;
     width: 168px;
-    height: 355px;
+    height: 375px;
     transition: height 0.4s;
   }
 
   &__items-card4:hover {
-    height: 410px;
+    height: 450px;
   }
 
   &__items-card5 {
     background-color: $main-color;
     border-radius: 15px;
     width: 168px;
-    height: 355px;
+    height: 375px;
     transition: height 0.4s;
   }
 
   &__items-card5:hover {
-    height: 410px;
+    height: 450px;
   }
 
   &__items-card6 {
     background-color: $main-color;
     border-radius: 15px;
     width: 168px;
-    height: 355px;
+    height: 375px;
     transition: height 0.4s;
   }
 
   &__items-card6:hover {
-    height: 410px;
+    height: 450px;
   }
 
   &__edition {
@@ -403,16 +402,9 @@
 }
 
 //--RESPONSIVE MOBILE--//
-@media (max-width: $sm) {
-  .container__image-hd {
+@media screen and (max-width: $sm) {
+  .background__container-desk {
     display: none;
-  }
-
-  .bannerBackgroundImage {
-    display: none;
-  }
-  .banner-image-mobile {
-    width: 100%;
   }
 
   .welcome {
@@ -433,26 +425,26 @@
     }
   }
 
-  .container {
+  .background {
     position: relative;
   }
 
   .welcome-title {
     &__sub--banner {
       position: absolute;
-      top: 440px;
+      top: 460px;
       color: #ffff;
       text-align: center;
       font-family: $font-family-titles;
       font-size: 1.5rem;
       font-weight: $texts-weight;
-      padding: 0 50px;
+      padding: 0 14px;
     }
   }
 
   .title-banner {
     position: absolute;
-    top: 15px;
+    top: 10px;
     left: 0;
     text-align: center;
     color: #ffff;
@@ -464,7 +456,7 @@
 
   .games-banner {
     position: absolute;
-    top: 130px;
+    top: 150px;
     left: 10px;
     width: 95%;
   }
@@ -476,17 +468,18 @@
       justify-content: space-around;
       align-content: center;
       position: relative;
+      padding-top: 10px;
     }
 
     &__arrow-left {
       position: absolute;
-      top: 70px;
+      top: 85px;
       left: 0;
     }
 
     &__arrow-right {
       position: absolute;
-      top: 70px;
+      top: 85px;
       right: 0;
     }
 
@@ -550,25 +543,25 @@
 
     &__icons-card1 {
       position: absolute;
-      top: 310px;
+      top: 325px;
       left: 56px;
     }
 
     &__icons--bag-card1 {
       position: absolute;
-      top: 310px;
+      top: 325px;
       left: 105px;
     }
 
     &__icons-card2 {
       position: absolute;
-      top: 310px;
+      top: 325px;
       left: 220px;
     }
 
     &__icons--bag-card2 {
       position: absolute;
-      top: 310px;
+      top: 325px;
       left: 273px;
     }
 
@@ -576,7 +569,7 @@
       background-color: $main-color;
       border-radius: 15px;
       width: 144px;
-      height: 355px;
+      height: 365px;
       transition: height 0.4s;
     }
 
@@ -584,7 +577,7 @@
       background-color: $main-color;
       border-radius: 15px;
       width: 144px;
-      height: 355px;
+      height: 365px;
       transition: height 0.4s;
     }
 
@@ -732,8 +725,7 @@
       background-image: url("/img/Newsletter'mobile.png");
       background-size: contain;
       background-repeat: no-repeat;
-      height: 16vh;
-      width: 100%;
+      height: 21vh !important;
     }
 
     &__container {
@@ -766,8 +758,8 @@
 
     &__email {
       position: absolute;
-      top: 130px;
-      left: 4.8%;
+      top: 140px !important;
+      left: 20px;
       font-family: $newsletter-title-font;
       font-weight: 300;
       font-size: 1rem;
@@ -785,13 +777,8 @@
     display: none;
   }
 
-  .bannerBackgroundImage {
-    display: none;
-  }
-
-  .banner-image-mobile {
-    width: 100%;
-    height: 860px;
+  .background {
+    position: relative;
   }
 
   .welcome {
@@ -819,11 +806,11 @@
   .welcome-title {
     &__sub--banner {
       position: absolute;
-      top: 634px;
+      top: 1150px;
       color: #ffff;
       text-align: center;
       font-family: $font-family-titles;
-      font-size: 2rem;
+      font-size: 3rem;
       font-weight: $texts-weight;
       padding: 0 50px;
     }
@@ -837,15 +824,16 @@
     text-align: center;
     color: #ffff;
     font-family: $font-family-titles;
-    font-size: 2.3rem;
+    font-size: 2.8rem;
     font-weight: $titles-weight;
     padding: 5px 115px;
   }
 
   .games-banner {
     position: absolute;
-    top: 170px;
-    left: 135px;
+    top: 426px;
+    left: 100px;
+    width: 80%;
   }
 
   .favorite-games {
@@ -855,18 +843,19 @@
       justify-content: space-around;
       align-content: center;
       position: relative;
+      padding-top: 10px;
     }
 
     &__arrow-left {
       position: absolute;
-      top: 70px;
+      top: 90px;
       left: 0;
     }
 
     &__arrow-right {
       position: absolute;
-      top: 70px;
-      right: 0;
+      top: 90px;
+      right: 10px;
     }
 
     &__arrow-left--popular {
@@ -928,59 +917,59 @@
 
     &__icons-card1 {
       position: absolute;
-      top: 310px;
-      left: 110px;
+      top: 330px;
+      left: 125px;
     }
 
     &__icons--bag-card1 {
       position: absolute;
-      top: 310px;
-      left: 172px;
+      top: 330px;
+      left: 180px;
     }
 
     &__icons-card2 {
       position: absolute;
-      top: 310px;
-      left: 336px;
+      top: 330px;
+      left: 362px;
     }
 
     &__icons--bag-card2 {
       position: absolute;
-      top: 310px;
-      left: 395px;
+      top: 330px;
+      left: 421px;
     }
 
     &__icons-card3 {
       position: absolute;
-      top: 310px;
-      left: 565px;
+      top: 330px;
+      left: 602px;
     }
 
     &__icons--bag-card3 {
       position: absolute;
-      top: 310px;
-      left: 623px;
+      top: 330px;
+      left: 660px;
     }
 
     &__items-card1 {
       background-color: $main-color;
       border-radius: 15px;
       width: 144px;
-      height: 355px;
+      height: 365px;
     }
 
     &__items-card2 {
       background-color: $main-color;
       border-radius: 15px;
       width: 144px;
-      height: 355px;
+      height: 365px;
     }
 
     &__items-card3 {
       background-color: $main-color;
       border-radius: 15px;
       width: 144px;
-      height: 355px;
+      height: 365px;
     }
 
     &__items-card4 {
@@ -1080,7 +1069,9 @@
       font-size: 1.2rem;
       color: #ffff;
       position: absolute;
-      bottom: 160px;
+      bottom: 165px;
+      width: 100%;
+      left: 0;
     }
 
     &__content-body {
@@ -1094,7 +1085,7 @@
       font-size: 1.2rem;
       color: $section-titles-color;
       position: absolute;
-      bottom: 160px;
+      bottom: 135px;
       padding: 0 1px;
     }
 
@@ -1224,14 +1215,7 @@
   }
 }
 
-@media (min-width: $hd) {
-  .container {
-    &__image-hd {
-      display: block;
-      width: 100%;
-    }
-  }
-
+@media screen and (min-width: $hd) {
   .welcome {
     &__title {
       text-align: center;
@@ -1244,7 +1228,7 @@
     &-title {
       &__sub--banner {
         position: absolute;
-        top: 1180px;
+        top: 1155px;
         color: #ffff;
         text-align: center;
         font-family: $font-family-titles;
@@ -1265,7 +1249,7 @@
 
   .title-banner {
     position: absolute;
-    top: 425px;
+    top: 385px;
     left: 0;
     right: 0;
     text-align: center;
@@ -1332,7 +1316,7 @@
 
     &__images {
       position: absolute;
-      top: 1723px;
+      top: 1685px;
     }
 
     &__items-card1 {
@@ -1344,67 +1328,67 @@
     }
 
     &__items-card1:hover {
-      height: 410px;
+      height: 440px;
     }
 
     &__items-card2 {
       background-color: $main-color;
       border-radius: 15px;
       width: 168px;
-      height: 355px;
+      height: 375px;
       transition: height 0.4s;
     }
 
     &__items-card2:hover {
-      height: 410px;
+      height: 440px;
     }
 
     &__items-card3 {
       background-color: $main-color;
       border-radius: 15px;
       width: 168px;
-      height: 355px;
+      height: 375px;
       transition: height 0.4s;
     }
 
     &__items-card3:hover {
-      height: 410px;
+      height: 440px;
     }
 
     &__items-card4 {
       background-color: $main-color;
       border-radius: 15px;
       width: 168px;
-      height: 355px;
+      height: 375px;
       transition: height 0.4s;
     }
 
     &__items-card4:hover {
-      height: 410px;
+      height: 440px;
     }
 
     &__items-card5 {
       background-color: $main-color;
       border-radius: 15px;
       width: 168px;
-      height: 355px;
+      height: 375px;
       transition: height 0.4s;
     }
 
     &__items-card5:hover {
-      height: 410px;
+      height: 440px;
     }
 
     &__items-card6 {
       background-color: $main-color;
       border-radius: 15px;
       width: 168px;
-      height: 355px;
+      height: 375px;
       transition: height 0.4s;
     }
 
     &__items-card6:hover {
-      height: 410px;
+      height: 440px;
     }
 
     &__edition {
@@ -1567,11 +1551,7 @@
 
   .newsletter {
     &__image {
-      background-image: url("/img/Newsletter_Home.png");
-      background-size: contain;
-      background-repeat: no-repeat;
-      height: 20vh;
-      width: 100%;
+      background: url("/img/Newsletter_Home.png") center / cover no-repeat;
       margin-top: 30px;
     }
 

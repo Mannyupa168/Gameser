@@ -6,7 +6,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 22vh;
+    height: 25vh;
   }
 
   &__title {
@@ -102,7 +102,7 @@
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
-      height: 55vh;
+      height: 70vh;
     }
 
     &__title {
@@ -115,7 +115,7 @@
       font-weight: $items-header-weight;
       color: $background-pages;
       padding-top: 10px;
-      padding-right: 50px;
+      padding-right: 15px;
       list-style: none;
       text-decoration: none;
       padding-left: 11px;
@@ -182,7 +182,7 @@
       font-weight: $items-header-weight;
       color: $background-pages;
       padding-top: 10px;
-      padding-right: 50px;
+      padding-right: 150px;
       list-style: none;
       text-decoration: none;
       padding-left: 11px;
@@ -215,7 +215,7 @@
     .social-icons {
       position: relative;
       bottom: 150px;
-      left: 493px;
+      left: 430px;
 
       &__instagram {
         padding-left: 20px;
