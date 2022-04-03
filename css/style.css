@@ -11382,7 +11382,7 @@ body {
     padding: 0 20px;
   }
 
-  .navbar-brand {
+  .navbar-brands {
     padding: 0 30px;
   }
 
@@ -11396,6 +11396,10 @@ body {
 
   .me-2 {
     margin-right: 15rem !important;
+  }
+
+  .navbar-brands {
+    color: #ecf3fe;
   }
 
   .bi-search {
@@ -11699,7 +11703,7 @@ body {
 }
 .welcome-title__sub--banner {
   position: absolute;
-  top: 920px;
+  top: 895px;
   color: white;
   text-align: center;
   font-family: "Open Sans", sans-serif;
@@ -11727,7 +11731,7 @@ body {
 
 .title-banner {
   position: absolute;
-  top: 365px;
+  top: 315px;
   left: 45px;
   text-align: center;
   color: white;
@@ -11739,7 +11743,7 @@ body {
 
 .games-banner {
   position: absolute;
-  top: 515px;
+  top: 490px;
   left: 470px;
 }
 
@@ -11771,7 +11775,7 @@ body {
 }
 .popular-games__images {
   position: absolute;
-  top: 1406px;
+  top: 1347px;
 }
 .popular-games__items-card1 {
   background-color: #151c37;
