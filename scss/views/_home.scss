@@ -356,7 +356,7 @@
     background-image: url("/img/Newsletter_Home.png");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 18vh;
+    height: 15vh!important;
     width: 100%;
     margin-top: 30px;
   }
@@ -403,6 +403,9 @@
 
 //--RESPONSIVE MOBILE--//
 @media screen and (max-width: $sm) {
+  .background__container-mob {
+    display: block;
+  }
   .background__container-desk {
     display: none;
   }
@@ -725,7 +728,7 @@
       background-image: url("/img/Newsletter'mobile.png");
       background-size: contain;
       background-repeat: no-repeat;
-      height: 21vh !important;
+      height: 16vh !important;
     }
 
     &__container {

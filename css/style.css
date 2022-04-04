@@ -11214,7 +11214,7 @@ body {
 .sec-nav {
   background-color: #c4c4c4;
   width: 100%;
-  height: 8vh;
+  height: 7vh;
 }
 .sec-nav__list {
   display: flex;
@@ -11418,7 +11418,7 @@ body {
   }
 
   .sec-nav {
-    height: 8vh;
+    height: 7vh;
   }
 }
 @media (min-width: 1920px) {
@@ -11541,7 +11541,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 70vh;
+    height: 55vh;
   }
   .footer__title {
     display: none;
@@ -11995,7 +11995,7 @@ body {
   background-image: url("/img/Newsletter_Home.png");
   background-size: contain;
   background-repeat: no-repeat;
-  height: 18vh;
+  height: 15vh !important;
   width: 100%;
   margin-top: 30px;
 }
@@ -12036,6 +12036,10 @@ body {
 }
 
 @media screen and (max-width: 576px) {
+  .background__container-mob {
+    display: block;
+  }
+
   .background__container-desk {
     display: none;
   }
@@ -12313,7 +12317,7 @@ body {
     background-image: url("/img/Newsletter'mobile.png");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 21vh !important;
+    height: 16vh !important;
   }
   .newsletter__container {
     display: flex;
@@ -13121,15 +13125,15 @@ body {
 }
 .catalog-games__images {
   position: absolute;
-  top: 425px;
+  top: 445px;
 }
 .catalog-games__images-r2 {
   position: absolute;
-  top: 820px;
+  top: 840px;
 }
 .catalog-games__images-r3 {
   position: absolute;
-  top: 1210px;
+  top: 1235px;
 }
 .catalog-games__items {
   background-color: #151c37;
@@ -14174,57 +14178,57 @@ body {
 }
 .catalog-games-play__images {
   position: absolute;
-  top: 509px;
+  top: 492px;
 }
 .catalog-games-play__images-r2 {
   position: absolute;
-  top: 884px;
+  top: 887px;
 }
 .catalog-games-play__images-r3 {
   position: absolute;
-  top: 1258px;
+  top: 1282px;
 }
 .catalog-games-play__items {
   background-color: #151c37;
   border-radius: 15px;
   width: 168px;
-  height: 355px;
+  height: 375px;
 }
 .catalog-games-play__items-card1 {
   background-color: #151c37;
   border-radius: 15px;
   width: 168px;
-  height: 355px;
+  height: 375px;
 }
 .catalog-games-play__items-card2 {
   background-color: #151c37;
   border-radius: 15px;
   width: 168px;
-  height: 355px;
+  height: 375px;
 }
 .catalog-games-play__items-card3 {
   background-color: #151c37;
   border-radius: 15px;
   width: 168px;
-  height: 355px;
+  height: 375px;
 }
 .catalog-games-play__items-card4 {
   background-color: #151c37;
   border-radius: 15px;
   width: 168px;
-  height: 355px;
+  height: 375px;
 }
 .catalog-games-play__items-card5 {
   background-color: #151c37;
   border-radius: 15px;
   width: 168px;
-  height: 355px;
+  height: 375px;
 }
 .catalog-games-play__items-card6 {
   background-color: #151c37;
   border-radius: 15px;
   width: 168px;
-  height: 355px;
+  height: 375px;
 }
 .catalog-games-play__edition {
   text-align: center;
@@ -14778,15 +14782,15 @@ body {
 }
 .catalog-games-xbox__images {
   position: absolute;
-  top: 460px;
+  top: 445px;
 }
 .catalog-games-xbox__images-r2 {
   position: absolute;
-  top: 836px;
+  top: 840px;
 }
 .catalog-games-xbox__images-r3 {
   position: absolute;
-  top: 1211px;
+  top: 1235px;
 }
 .catalog-games-xbox__items {
   background-color: #151c37;
@@ -14798,37 +14802,37 @@ body {
   background-color: #151c37;
   border-radius: 15px;
   width: 168px;
-  height: 355px;
+  height: 375px;
 }
 .catalog-games-xbox__items-card2 {
   background-color: #151c37;
   border-radius: 15px;
   width: 168px;
-  height: 355px;
+  height: 375px;
 }
 .catalog-games-xbox__items-card3 {
   background-color: #151c37;
   border-radius: 15px;
   width: 168px;
-  height: 355px;
+  height: 375px;
 }
 .catalog-games-xbox__items-card4 {
   background-color: #151c37;
   border-radius: 15px;
   width: 168px;
-  height: 355px;
+  height: 375px;
 }
 .catalog-games-xbox__items-card5 {
   background-color: #151c37;
   border-radius: 15px;
   width: 168px;
-  height: 355px;
+  height: 375px;
 }
 .catalog-games-xbox__items-card6 {
   background-color: #151c37;
   border-radius: 15px;
   width: 168px;
-  height: 355px;
+  height: 375px;
 }
 .catalog-games-xbox__edition {
   text-align: center;
@@ -15382,57 +15386,57 @@ body {
 }
 .catalog-games-nintendo__images {
   position: absolute;
-  top: 460px;
+  top: 445px;
 }
 .catalog-games-nintendo__images-r2 {
   position: absolute;
-  top: 836px;
+  top: 840px;
 }
 .catalog-games-nintendo__images-r3 {
   position: absolute;
-  top: 1211px;
+  top: 1235px;
 }
 .catalog-games-nintendo__items {
   background-color: #151c37;
   border-radius: 15px;
   width: 168px;
-  height: 355px;
+  height: 375px;
 }
 .catalog-games-nintendo__items-card1 {
   background-color: #151c37;
   border-radius: 15px;
   width: 168px;
-  height: 355px;
+  height: 375px;
 }
 .catalog-games-nintendo__items-card2 {
   background-color: #151c37;
   border-radius: 15px;
   width: 168px;
-  height: 355px;
+  height: 375px;
 }
 .catalog-games-nintendo__items-card3 {
   background-color: #151c37;
   border-radius: 15px;
   width: 168px;
-  height: 355px;
+  height: 375px;
 }
 .catalog-games-nintendo__items-card4 {
   background-color: #151c37;
   border-radius: 15px;
   width: 168px;
-  height: 355px;
+  height: 375px;
 }
 .catalog-games-nintendo__items-card5 {
   background-color: #151c37;
   border-radius: 15px;
   width: 168px;
-  height: 355px;
+  height: 375px;
 }
 .catalog-games-nintendo__items-card6 {
   background-color: #151c37;
   border-radius: 15px;
   width: 168px;
-  height: 355px;
+  height: 375px;
 }
 .catalog-games-nintendo__edition {
   text-align: center;
