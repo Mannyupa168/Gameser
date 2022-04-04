@@ -54,7 +54,7 @@
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Roboto, sans-serif;
+  --bs-body-font-family: Play, sans-serif;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -5649,7 +5649,7 @@ textarea.form-control-lg {
   z-index: 1080;
   display: block;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Play", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5751,7 +5751,7 @@ textarea.form-control-lg {
   z-index: 1070;
   display: block;
   max-width: 276px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Play", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -11135,36 +11135,36 @@ body {
   min-height: 100vh;
 }
 
-.navbar {
-  width: 100%;
-}
-
-.nav-link-catlg {
-  display: none;
-}
-
-.nav-brands {
-  display: none;
-}
-
-.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-  position: relative;
-}
-
 .navbar-brand {
   background: radial-gradient(#19d3e8, #af2cff);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
-  font-family: "Roboto", sans-serif;
+  font-family: "Play", sans-serif;
   font-size: 2.5rem;
   font-weight: 900;
   letter-spacing: 2px;
-  padding: 0 80px;
+  padding: 0 25px;
+}
+
+.btn {
+  display: none;
+}
+
+.brands-container {
+  display: none;
+}
+
+.catalog {
+  display: none;
+}
+
+.form-control {
+  position: relative;
 }
 
 .nav-item {
-  font-family: "Roboto", sans-serif;
+  font-family: "Play", sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
   color: #ecf3fe;
@@ -11178,16 +11178,12 @@ body {
   padding: 0.675rem 10rem;
 }
 
-.me-2 {
-  margin-right: 25rem !important;
-}
-
 .bi-search {
   font-size: 1.8rem;
   color: #ecf3fe;
   position: absolute;
   top: 11px;
-  left: 1430px;
+  right: 65px;
 }
 
 .bi-person-fill {
@@ -11245,19 +11241,19 @@ body {
 }
 
 @media screen and (max-width: 576px) {
-  .dropdown {
+  .sec-nav {
     display: none;
   }
 
-  .navbar {
-    width: 100%;
+  .btn {
+    display: none;
   }
 
-  .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-    position: relative;
+  .catalog {
+    display: block;
   }
 
-  .dropdown-menu {
+  .dropdown {
     display: none;
   }
 
@@ -11266,7 +11262,7 @@ body {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
-    font-family: "Roboto", sans-serif;
+    font-family: "Play", sans-serif;
     font-size: 2rem;
     font-weight: 900;
     letter-spacing: 2px;
@@ -11274,7 +11270,7 @@ body {
   }
 
   .nav-item {
-    font-family: "Roboto", sans-serif;
+    font-family: "Play", sans-serif;
     font-size: 1.4rem;
     font-weight: 400;
     color: #ecf3fe;
@@ -11292,25 +11288,17 @@ body {
     display: none;
   }
 
-  .bi-person-fill {
+  .nav-tools {
     display: none;
   }
 
-  .bi-heart-fill {
-    display: none;
-  }
-
-  .bi-bag-fill {
-    display: none;
-  }
-
-  .sec-nav {
-    display: none;
-  }
-
-  .nav-brands {
+  .brands-container {
     display: flex;
     justify-content: space-evenly;
+    padding: 0;
+  }
+
+  .nav-brand {
     color: #ecf3fe;
   }
 
@@ -11319,24 +11307,39 @@ body {
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 992px) {
+  .sec-nav {
+    display: none;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .catalog {
+    display: block;
+  }
+
   .dropdown {
     display: none;
   }
 
-  .navbar {
-    width: 100%;
+  .navbar-brand {
+    background: radial-gradient(#19d3e8, #af2cff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    font-family: "Play", sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding: 0;
   }
 
-  .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-    position: relative;
-  }
-
-  .dropdown-menu {
-    display: none;
-  }
-
-  .background__container-desk {
-    display: none;
+  .nav-item {
+    font-family: "Play", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #ecf3fe;
   }
 
   .nav-link {
@@ -11351,25 +11354,17 @@ body {
     display: none;
   }
 
-  .bi-person-fill {
+  .nav-tools {
     display: none;
   }
 
-  .bi-heart-fill {
-    display: none;
-  }
-
-  .bi-bag-fill {
-    display: none;
-  }
-
-  .sec-nav {
-    display: none;
-  }
-
-  .nav-brands {
+  .brands-container {
     display: flex;
     justify-content: space-evenly;
+    padding: 0;
+  }
+
+  .nav-brand {
     color: #ecf3fe;
   }
 
@@ -11378,24 +11373,12 @@ body {
   }
 }
 @media (min-width: 992px) {
-  .navbar {
-    padding: 0 20px;
-  }
-
-  .navbar-brands {
-    padding: 0 30px;
-  }
-
   .form-control {
     border: 0;
     background-color: rgba(109, 112, 126, 0.7529411765);
     border-radius: 0.25rem;
     border-bottom-left-radius: 15px;
     padding: 0.675rem 3rem;
-  }
-
-  .me-2 {
-    margin-right: 15rem !important;
   }
 
   .navbar-brands {
@@ -11406,35 +11389,43 @@ body {
     font-size: 1.8rem;
     color: #ecf3fe;
     position: absolute;
-    top: 10px;
-    left: 1080px;
+    top: 16px;
+    right: 65px;
   }
 
   .bi-person-fill {
     font-size: 2.5rem;
     color: #ecf3fe;
     position: absolute;
-    top: 2px;
-    right: 180px;
+    top: 8px;
+    right: 590px;
   }
 
   .bi-heart-fill {
     font-size: 2rem;
     color: #ecf3fe;
     position: absolute;
-    top: 10px;
-    right: 90px;
+    top: 12px;
+    right: 500px;
   }
 
   .bi-bag-fill {
     font-size: 1.9rem;
     color: #ecf3fe;
     position: absolute;
-    top: 10px;
-    right: 0px;
+    top: 12px;
+    right: 410px;
+  }
+
+  .sec-nav {
+    height: 8vh;
   }
 }
 @media (min-width: 1920px) {
+  .nav-brand {
+    display: none;
+  }
+
   .main-nav__searchBar {
     background-color: rgba(109, 112, 126, 0.7529411765);
     font-size: 1.5rem;
@@ -11716,7 +11707,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
-  padding: 0 133px 20px;
+  padding: 0 250px 20px;
 }
 .welcome__sub--banner {
   position: absolute;

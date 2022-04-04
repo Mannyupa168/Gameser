@@ -1,19 +1,3 @@
-.navbar {
-  width: 100%;
-}
-
-.nav-link-catlg {
-  display: none;
-}
-
-.nav-brands {
-  display: none;
-}
-
-.container-fluid {
-  position: relative;
-}
-
 .navbar-brand {
   background: radial-gradient(#19d3e8, #af2cff);
   -webkit-text-fill-color: transparent;
@@ -23,7 +7,23 @@
   font-size: 2.5rem;
   font-weight: 900;
   letter-spacing: 2px;
-  padding: 0 80px;
+  padding: 0 25px;
+}
+
+.btn {
+  display: none;
+}
+
+.brands-container {
+  display: none;
+}
+
+.catalog {
+  display: none;
+}
+
+.form-control {
+  position: relative;
 }
 
 .nav-item {
@@ -41,16 +41,12 @@
   padding: 0.675rem 10rem;
 }
 
-.me-2 {
-  margin-right: 25rem !important;
-}
-
 .bi-search {
   font-size: 1.8rem;
   color: #ecf3fe;
   position: absolute;
   top: 11px;
-  left: 1430px;
+  right: 65px;
 }
 
 .bi-person-fill {
@@ -111,19 +107,18 @@
 
 //--RESPONSIVE MOBILE--//
 @media screen and (max-width: $sm) {
-  .dropdown {
+  .sec-nav {
     display: none;
   }
 
-  .navbar {
-    width: 100%;
+  .btn {
+    display: none;
+  }
+  .catalog {
+    display: block;
   }
 
-  .container-fluid {
-    position: relative;
-  }
-
-  .dropdown-menu {
+  .dropdown {
     display: none;
   }
 
@@ -158,25 +153,17 @@
     display: none;
   }
 
-  .bi-person-fill {
+  .nav-tools {
     display: none;
   }
 
-  .bi-heart-fill {
-    display: none;
-  }
-
-  .bi-bag-fill {
-    display: none;
-  }
-
-  .sec-nav {
-    display: none;
-  }
-
-  .nav-brands {
+  .brands-container {
     display: flex;
     justify-content: space-evenly;
+    padding: 0;
+  }
+
+  .nav-brand {
     color: #ecf3fe;
   }
 
@@ -187,24 +174,38 @@
 
 //--RESPONSIVE TABLET--//
 @media only screen and (min-width: $sm) and (max-width: $lg) {
+  .sec-nav {
+    display: none;
+  }
+
+  .btn {
+    display: none;
+  }
+  .catalog {
+    display: block;
+  }
+
   .dropdown {
     display: none;
   }
 
-  .navbar {
-    width: 100%;
+  .navbar-brand {
+    background: radial-gradient(#19d3e8, #af2cff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    font-family: $font-family-base;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding: 0;
   }
 
-  .container-fluid {
-    position: relative;
-  }
-
-  .dropdown-menu {
-    display: none;
-  }
-
-  .background__container-desk {
-    display: none;
+  .nav-item {
+    font-family: $font-family-base;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #ecf3fe;
   }
 
   .nav-link {
@@ -219,25 +220,17 @@
     display: none;
   }
 
-  .bi-person-fill {
+  .nav-tools {
     display: none;
   }
 
-  .bi-heart-fill {
-    display: none;
-  }
-
-  .bi-bag-fill {
-    display: none;
-  }
-
-  .sec-nav {
-    display: none;
-  }
-
-  .nav-brands {
+  .brands-container {
     display: flex;
     justify-content: space-evenly;
+    padding: 0;
+  }
+
+  .nav-brand {
     color: #ecf3fe;
   }
 
@@ -247,24 +240,12 @@
 }
 
 @media (min-width: $lg) {
-  .navbar {
-    padding: 0 20px;
-  }
-
-  .navbar-brands {
-    padding: 0 30px;
-  }
-
   .form-control {
     border: 0;
     background-color: #6d707ec0;
     border-radius: 0.25rem;
     border-bottom-left-radius: 15px;
     padding: 0.675rem 3rem;
-  }
-
-  .me-2 {
-    margin-right: 15rem !important;
   }
 
   .navbar-brands {
@@ -275,36 +256,43 @@
     font-size: 1.8rem;
     color: #ecf3fe;
     position: absolute;
-    top: 10px;
-    left: 1080px;
+    top: 16px;
+    right: 65px;
   }
 
   .bi-person-fill {
     font-size: 2.5rem;
     color: #ecf3fe;
     position: absolute;
-    top: 2px;
-    right: 180px;
+    top: 8px;
+    right: 590px;
   }
 
   .bi-heart-fill {
     font-size: 2rem;
     color: #ecf3fe;
     position: absolute;
-    top: 10px;
-    right: 90px;
+    top: 12px;
+    right: 500px;
   }
 
   .bi-bag-fill {
     font-size: 1.9rem;
     color: #ecf3fe;
     position: absolute;
-    top: 10px;
-    right: 0px;
+    top: 12px;
+    right: 410px;
+  }
+  .sec-nav {
+    height: 8vh;
   }
 }
 
 @media (min-width: $hd) {
+  .nav-brand {
+    display: none;
+  }
+
   .main-nav {
     &__searchBar {
       background-color: #6d707ec0;

@@ -28,7 +28,7 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
-          <a class="navbar-brand nav-brand-mob" href="index.html">GAMESER</a>
+          <a class="navbar-brand" href="index.html">GAMESER</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -43,13 +43,15 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Menu</a>
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Menu</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="pages/news.html">News</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link-catlg active" aria-current="page" href="pages/catalog.html"
+                <a class="nav-link catalog" href="pages/catalog.html"
                   >Catalog</a
                 >
               </li>
@@ -65,19 +67,24 @@
                   Catalog
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="pages/catalog.html">Free to play</a></li>
-                  <li><a class="dropdown-item" href="#">Demos</a></li>
-                  <li><a class="dropdown-item" href="#">Early Access</a></li>
+                  <li>
+                    <a class="dropdown-item" href="pages/catalog.html"
+                      >Free to play</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="pages/catalog.html"
+                      >Early Access</a
+                    >
+                  </li>
                   <li><hr class="dropdown-divider" /></li>
                   <li>
-                    <a class="dropdown-item" >Special Selections</a>
+                    <a class="dropdown-item">Special Selections</a>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"
-                  >About Us</a
-                >
+                <a class="nav-link" href="pages/about.html">About us</a>
               </li>
             </ul>
             <form class="d-flex">
@@ -88,23 +95,33 @@
                 aria-label="Search"
               />
               <i class="bi bi-search"></i>
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
             </form>
-            <ul class="nav-tools">
-              <li><i class="bi bi-person-fill"></i></li>
-              <li><i class="bi bi-heart-fill"></i></li>
-              <li><i class="bi bi-bag-fill"></i></li>
+            <ul class="brands-container">
+              <li>
+                <a class="nav-brand" href="#">
+                  <i class="bi bi-playstation"></i>
+                </a>
+              </li>
+              <li>
+                <a class="nav-brand" href="#">
+                  <i class="bi bi-xbox"></i>
+                </a>
+              </li>
+              <li>
+                <a class="nav-brand" href="#"
+                  ><i class="bi bi-nintendo-switch"></i
+                ></a>
+              </li>
             </ul>
-
-              <ul class="nav-brands">
-                <li>
-                  <a href="pages/playstation.html">
-                    <i class="bi bi-playstation"></i>
-                  </a>
-                </li>
-                <li><a href="pages/xbox.html"> </a><i class="bi bi-xbox"></i></a></li>
-                <li> <a href="pages/nintendo.html"><i class="bi bi-nintendo-switch"></i></a></li>
-              </ul>
           </div>
+          <ul class="nav-tools">
+            <li><i class="bi bi-person-fill"></i></li>
+            <li><i class="bi bi-heart-fill"></i></li>
+            <li><i class="bi bi-bag-fill"></i></li>
+          </ul>
         </div>
       </nav>
     </header>
@@ -112,17 +129,17 @@
     <div class="sec-nav">
       <ul class="sec-nav__list">
         <li class="sec-nav__item">
-          <a href="#">
+          <a href="pages/playstation.html">
             <i class="bi bi-playstation"></i>
           </a>
         </li>
         <li class="sec-nav__item--separation">
-          <a href="#">
+          <a href="pages/xbox.html">
             <i class="bi bi-xbox"></i>
           </a>
         </li>
         <li class="sec-nav__item">
-          <a href="#">
+          <a href="pages/nintendo.html">
             <i class="bi bi-nintendo-switch"></i>
           </a>
         </li>
