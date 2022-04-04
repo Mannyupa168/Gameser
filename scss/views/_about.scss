@@ -88,7 +88,6 @@
   color: $color-titles;
   font-size: 2rem;
   text-align: center;
-  padding: 60px;
 }
 
 .choose-us {
@@ -263,7 +262,7 @@
     -webkit-text-stroke-color: $aboutus-title-color;
     position: absolute;
     left: 110px;
-    bottom: 635px;
+    bottom: 730px;
   }
 
   .subtitle-aboutus {
@@ -273,7 +272,7 @@
     color: $aboutus-title-color;
     position: absolute;
     left: 35px;
-    bottom: 555px;
+    bottom: 640px;
     text-align: center;
     width: 325px;
   }
@@ -323,7 +322,7 @@
     color: $color-titles;
     font-size: 1.4rem;
     text-align: center;
-    padding: 30px;
+    margin-top: 30px;
   }
 
   .choose-us {
@@ -416,7 +415,7 @@
       font-weight: 400;
       font-size: 1.4rem;
       padding-left: 10px;
-      margin-bottom: 20px;
+      margin-bottom: 5px;
     }
 
     &__styles {
@@ -451,6 +450,7 @@
       justify-content: space-evenly;
       align-items: center;
       width: 85%;
+      padding-left: 10px;
     }
 
     &__items-btns {

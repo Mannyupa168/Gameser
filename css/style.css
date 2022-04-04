@@ -13758,7 +13758,6 @@ body {
   color: #6e4aff;
   font-size: 2rem;
   text-align: center;
-  padding: 60px;
 }
 
 .choose-us {
@@ -13918,7 +13917,7 @@ body {
     -webkit-text-stroke-color: #151c37;
     position: absolute;
     left: 110px;
-    bottom: 635px;
+    bottom: 730px;
   }
 
   .subtitle-aboutus {
@@ -13928,7 +13927,7 @@ body {
     color: #151c37;
     position: absolute;
     left: 35px;
-    bottom: 555px;
+    bottom: 640px;
     text-align: center;
     width: 325px;
   }
@@ -13975,7 +13974,7 @@ body {
     color: #6e4aff;
     font-size: 1.4rem;
     text-align: center;
-    padding: 30px;
+    margin-top: 30px;
   }
 
   .choose-us {
@@ -14061,7 +14060,7 @@ body {
     font-weight: 400;
     font-size: 1.4rem;
     padding-left: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
   .form__styles {
     border: 1px solid gray;
@@ -14091,6 +14090,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     width: 85%;
+    padding-left: 10px;
   }
   .form__items-btns {
     font-family: "Play", sans-serif;
