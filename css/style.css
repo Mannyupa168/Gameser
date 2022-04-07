@@ -11905,7 +11905,7 @@ body {
 }
 .hot-news__card1 {
   color: white;
-  background: url("/img/xbox-bethesda 2.png") center/cover no-repeat;
+  background: url("../../img/xbox-bethesda 2.png ") center/cover no-repeat;
   padding: 10rem 1rem 0;
   width: 30%;
   border-radius: 1rem;
@@ -11913,7 +11913,7 @@ body {
 }
 .hot-news__card2 {
   color: white;
-  background: url("/img/News-Pokemon-arceus 1.png") center/cover no-repeat;
+  background: url("../../img/News-Pokemon-arceus 1.png") center/cover no-repeat;
   padding: 10rem 1rem 0;
   width: 30%;
   border-radius: 1rem;
@@ -11921,7 +11921,7 @@ body {
 }
 .hot-news__card3 {
   color: white;
-  background: url("/img/playstation-bungie 1.png") center/cover no-repeat;
+  background: url("../../img/playstation-bungie 1.png") center/cover no-repeat;
   padding: 10rem 1rem 0;
   width: 30%;
   border-radius: 1rem;
@@ -11992,7 +11992,7 @@ body {
 }
 
 .newsletter__image {
-  background-image: url("/img/Newsletter_Home.png");
+  background-image: url("../../img/Newsletter_Home.png");
   background-size: contain;
   background-repeat: no-repeat;
   height: 15vh !important;
@@ -12263,7 +12263,7 @@ body {
 
   .hot-news__card1 {
     color: white;
-    background: url("/img/xbox-bethesda 2.png") center/cover no-repeat;
+    background: url("../../img/xbox-bethesda 2.png") center/cover no-repeat;
     padding: 10rem 1rem 0;
     width: 86%;
     border-radius: 1rem;
@@ -12314,7 +12314,7 @@ body {
   }
 
   .newsletter__image {
-    background-image: url("/img/Newsletter'mobile.png");
+    background-image: url("../../img/Newsletter'mobile.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 16vh !important;
@@ -12597,7 +12597,7 @@ body {
 
   .hot-news__card1 {
     color: white;
-    background: url("/img/xbox-bethesda 2.png") center/cover no-repeat;
+    background: url("../../img/xbox-bethesda 2.png") center/cover no-repeat;
     padding: 10rem 1rem 0;
     width: 30%;
     border-radius: 1rem;
@@ -12657,7 +12657,7 @@ body {
   }
 
   .newsletter__image {
-    background: url("/img/Newsletter_Home.png") center/cover no-repeat;
+    background: url("../../img/Newsletter_Home.png") center/cover no-repeat;
     height: 20vh;
     width: 100%;
     margin-top: 30px;
@@ -12967,7 +12967,7 @@ body {
 
   .hot-news__card1 {
     color: white;
-    background: url("/img/xbox-bethesda 2.png") center/cover no-repeat;
+    background: url("../../img/xbox-bethesda 2.png") center/cover no-repeat;
     padding: 10rem 1rem 0;
     width: 30%;
     border-radius: 1rem;
@@ -13036,7 +13036,7 @@ body {
   }
 
   .newsletter__image {
-    background: url("/img/Newsletter_Home.png") center/cover no-repeat;
+    background: url("../../img/Newsletter_Home.png") center/cover no-repeat;
     margin-top: 30px;
   }
   .newsletter__container {
@@ -13243,7 +13243,7 @@ body {
 }
 
 .newsletter__image {
-  background-image: url("/img/Newsletter_Home.png");
+  background-image: url("../../img/Newsletter_Home.png");
   background-size: contain;
   background-repeat: no-repeat;
   height: 18vh;
@@ -13445,7 +13445,7 @@ body {
   }
 
   .newsletter__image {
-    background-image: url("/img/Newsletter'mobile.png");
+    background-image: url("../../img/Newsletter'mobile.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 19vh;
@@ -13553,7 +13553,7 @@ body {
   }
 
   .newsletter__image {
-    background: url("/img/Newsletter_Home.png") center/cover no-repeat;
+    background: url("../../img/Newsletter_Home.png") center/cover no-repeat;
     height: 20vh;
     width: 100%;
     margin-top: 30px;
@@ -13630,7 +13630,7 @@ body {
   }
 
   .newsletter__image {
-    background-image: url("/img/Newsletter_Home.png");
+    background-image: url("../../img/Newsletter_Home.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 20vh;
@@ -14296,7 +14296,7 @@ body {
 }
 
 .newsletter__image {
-  background-image: url("/img/Newsletter_Home.png");
+  background-image: url("../../img/Newsletter_Home.png");
   background-size: contain;
   background-repeat: no-repeat;
   height: 18vh;
@@ -14516,7 +14516,7 @@ body {
   }
 
   .newsletter__image {
-    background-image: url("/img/Newsletter'mobile.png");
+    background-image: url("../../img/Newsletter'mobile.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 19vh;
@@ -14612,7 +14612,7 @@ body {
   }
 
   .newsletter__image {
-    background: url("/img/Newsletter_Home.png") center/cover no-repeat;
+    background: url("../../img/Newsletter_Home.png") center/cover no-repeat;
     height: 20vh;
     width: 100%;
     margin-top: 30px;
@@ -14689,7 +14689,7 @@ body {
   }
 
   .newsletter__image {
-    background-image: url("/img/Newsletter_Home.png");
+    background-image: url("../../img/Newsletter_Home.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 20vh;
@@ -14900,7 +14900,7 @@ body {
 }
 
 .newsletter__image {
-  background-image: url("/img/Newsletter_Home.png");
+  background-image: url("../../img/Newsletter_Home.png");
   background-size: contain;
   background-repeat: no-repeat;
   height: 18vh;
@@ -15120,7 +15120,7 @@ body {
   }
 
   .newsletter__image {
-    background-image: url("/img/Newsletter'mobile.png");
+    background-image: url("../../img/Newsletter'mobile.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 19vh;
@@ -15216,7 +15216,7 @@ body {
   }
 
   .newsletter__image {
-    background: url("/img/Newsletter_Home.png") center/cover no-repeat;
+    background: url("../../img/Newsletter_Home.png") center/cover no-repeat;
     height: 20vh;
     width: 100%;
     margin-top: 30px;
@@ -15293,7 +15293,7 @@ body {
   }
 
   .newsletter__image {
-    background-image: url("/img/Newsletter_Home.png");
+    background-image: url("../../img/Newsletter_Home.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 20vh;
@@ -15504,7 +15504,7 @@ body {
 }
 
 .newsletter__image {
-  background-image: url("/img/Newsletter_Home.png");
+  background-image: url("../../img/Newsletter_Home.png");
   background-size: contain;
   background-repeat: no-repeat;
   height: 18vh;
@@ -15724,7 +15724,7 @@ body {
   }
 
   .newsletter__image {
-    background-image: url("/img/Newsletter'mobile.png");
+    background-image: url("../../img/Newsletter'mobile.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 19vh;
@@ -15820,7 +15820,7 @@ body {
   }
 
   .newsletter__image {
-    background: url("/img/Newsletter_Home.png") center/cover no-repeat;
+    background: url("../../img/Newsletter_Home.png") center/cover no-repeat;
     height: 20vh;
     width: 100%;
     margin-top: 30px;
@@ -15897,7 +15897,7 @@ body {
   }
 
   .newsletter__image {
-    background-image: url("/img/Newsletter_Home.png");
+    background-image: url("../../img/Newsletter_Home.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 20vh;

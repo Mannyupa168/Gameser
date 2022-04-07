@@ -190,7 +190,7 @@
 
 .newsletter {
   &__image {
-    background-image: url("/img/Newsletter_Home.png");
+    background-image: url("../../img/Newsletter_Home.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 18vh;
@@ -440,7 +440,7 @@
   }
   .newsletter {
     &__image {
-      background-image: url("/img/Newsletter'mobile.png");
+      background-image: url("../../img/Newsletter'mobile.png");
       background-size: contain;
       background-repeat: no-repeat;
       height: 19vh;
@@ -556,7 +556,7 @@
 
   .newsletter {
     &__image {
-      background: url("/img/Newsletter_Home.png") center / cover no-repeat;
+      background: url("../../img/Newsletter_Home.png") center / cover no-repeat;
       height: 20vh;
       width: 100%;
       margin-top: 30px;
@@ -647,7 +647,7 @@
   }
   .newsletter {
     &__image {
-      background-image: url("/img/Newsletter_Home.png");
+      background-image: url("../../img/Newsletter_Home.png");
       background-size: contain;
       background-repeat: no-repeat;
       height: 20vh;
